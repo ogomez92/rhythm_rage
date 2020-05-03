@@ -1,0 +1,62 @@
+eloquence punch up
+misc reaction=150
+music name=g_2b jingle=fs_jingle volume=-1
+play name=g_1 time=810 alias=11
+action alias=12 time=1217 name=g_1hit,g_h2 key=enter
+! 11,12 1615 1
+@ 1 2395
+@ 1 3191
+play alias=31 name=g_3 time=3984
+action key=enter alias=32 time=4375 name=g_3hit1,g_h3
+action key=enter alias=33 time=4750 name=g_3hit2,g_h1
+action key=enter alias=34 time=5130 name=g_3hit3,g_h2
+play alias=21 name=g_2 time=5558
+action alias=22 name=g_2hit,g_h3 key=enter time=5927
+action alias=23 name=g_2hit,g_h3 key=enter time=6131
+@ 1 7118
+! 31,32,33,34 7914 3
+! 21,22,23 9494 2
+@ 1 11060
+@ 3 11830
+@ 1 13368
+@ 1 14187
+@ 2 14998
+@ 2 15794
+@ 2 16568
+@ 1 17364
+@ 3 18160
+@ 1 19748
+@ 1 20544
+@ 3 21322
+@ 1 23113
+@ 3 24080
+@ 2 26012
+@ 1 26812
+@ 3 27608
+@ 1 29180
+@ 1 29976
+@ 2 30766
+@ 1 31562
+@ 1 32356
+@ 1 33128
+@ 3 33924
+@ 1 35512
+@ 1 37076
+@ 2 37850
+@ 1 38646
+@ 1 39432
+@ 3 40227
+@ 1 41819
+@ 2 42620
+@ 3 43398
+@ 1 44968
+@ 1 45763
+@ 2 46563
+@ 1 48134
+@ 3 49708
+@ 1 51275
+@ 3 52860
+@ 2 54817
+@ 2 55570
+@ 1 57168
+@ 2 56360

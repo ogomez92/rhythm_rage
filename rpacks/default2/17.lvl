@@ -1,0 +1,152 @@
+ritmos locos 2
+misc ok=70
+music name=william jingle=3j
+play name=cowbell time=8780
+play name=cowbell time=9130
+play name=cowbell time=9490
+play name=cowbell time=9840
+play name=5coming time=10175 alias=h1
+action name=5hit time=10530 alias=h2 key=space
+! h1,h2 10880 hit
+play name=5three time=11590 alias=h3
+play name=5coming time=11580 alias=h31
+action name=5hit time=11940 key=space alias=h33 
+play name=5coming time=11940 alias=h32
+
+play name=5coming time=12295 alias=h322
+action name=5hit time=12295 key=space alias=h34 
+action name=5bighit time=12640 alias=h35 key=space
+! h3,h31,h32,h322,h33,h34,h35 13015 hit3
+play name=5contra time=14780 alias=c1
+@ hit 15140
+action name=5bulbhit time=15130 alias=c2 key=space
+@ hit3 15830
+@ hit3 17250
+! c1,c2 19015 chit
+@ chit 20260
+@ chit 20610
+@ hit 20775
+@ hit3 21480
+@ hit 22900
+@ chit 23080
+@ hit 23240
+@ chit 23405
+@ hit 23580
+@ hit3 24290
+@ hit 25715
+@ hit 26070
+@ chit 26250
+@ hit 26430
+@ hit 27125
+@ chit 28025
+@ hit 28555
+@ hit 29250
+@ hit3 29940
+@ hit 31365
+@ hit 32790
+@ hit 33490
+@ hit 34200
+@ hit3 34910
+@ hit3 36310
+@ hit 37725
+play name=5wavecoming time=38410 pan=50
+play name=5wavecoming time=38410 pan=-50
+play name=5wavecoming time=38410
+@ hit 38410
+@ hit 38760
+@ hit 39110
+@ hit 39470
+@ hit 39820
+@ hit 40175
+@ hit 40530
+@ hit3 41240
+@ hit3 42660
+@ hit3 44065
+@ hit 45485
+@ chit 46018
+@ hit 46190
+@ hit3 46880
+@ hit3 48295
+@ hit3 49700
+@ hit 51108
+@ chit 51640
+@ hit 51820
+@ chit 51995
+@ hit 52170
+@ hit3 52530
+@ hit 53940
+@ hit 54650
+@ chit 55180
+@ hit 55360
+@ chit 55538
+@ hit 55715
+@ chit 55890
+@ hit 56070
+@ chit 56245
+@ hit 56425
+@ chit 56590
+@ hit 56770
+@ chit 56950
+@ hit 57130
+@ chit 57305
+@ hit 57480
+@ hit3 58170
+@ hit3 59590
+@ hit 61000
+@ hit 61705
+@ hit 61890
+@ hit 62060
+@ hit 62240
+@ hit3 62420
+@ hit3 63835
+@ hit3 64890
+@ hit 66465
+@ hit 66645
+@ hit 66820
+@ hit 67000
+@ hit 67175
+@ hit 67355
+@ hit 67530
+@ hit 67710
+@ hit 67885
+@ hit 68065
+@ hit 68240
+@ hit 68420
+@ hit 68595
+@ hit3 68780
+@ hit 69840
+@ hit3 70550
+play name=5wavecoming time=71950 pan=50
+play name=5wavecoming time=71950 pan=-50
+@ hit 71950
+@ hit 72290
+@ hit 72650
+@ hit 73000
+@ hit 73355
+@ hit 73710
+@ hit 74065
+@ hit 74420
+@ hit 74775
+@ hit 75130
+@ hit 75485
+@ hit 75830
+@ hit 76185
+@ hit3 76540
+@ hit 77945
+@ hit 78300
+@ hit 78465
+@ hit 78630
+@ hit3 79350
+@ hit 81115
+@ hit 81290
+@ hit 81465
+@ hit 81825
+@ hit 82000
+@ hit 82180
+@ hit 82540
+@ hit 82720
+@ hit 82895
+@ hit 83945
+@ hit3 85000
+@ hit 86770
+@ hit3 87480

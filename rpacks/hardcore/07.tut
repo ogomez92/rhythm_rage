@@ -1,0 +1,66 @@
+text are you ready to follow the beat? Do you think you can do it?
+text do you know the song Uptown funk? I'm sure you do.
+text ok. most of the time, you will have to press space one beat after you hear this sound.
+wait 600
+play 5coming
+wait 600
+text let's hear it with music!
+music uptown -2 16710
+play 5coming 18790
+play 5hit 19310
+say space!
+play 5coming 19830
+play 5hit 20350
+say space!
+play 5coming 20870
+play 5hit 21390
+say space!
+wait 500
+fade
+text and so on
+text but there are times, that you need to press space in 3 consecutive beats. like this
+music uptown -2 16710
+play 5three 18790
+play 5coming
+play 5hit 19310
+say space
+play 5hit 19830
+say space...
+play 5bighit 20350
+say space!
+wait 800
+fade
+text also, be careful of the offbeats!
+music uptown -2 16710
+play 5contra 18530
+play 5hit 19050
+say space!
+play 5contra 19570
+play 5coming 19830
+play 5hit 20090
+say space...
+play 5hit 20350
+say space again!
+wait 600
+fade
+text that was a bit more complicated, wasn't it? two in a row!
+text there aren't many of these two in a row hits, but be careful.
+text also, there is a sound that indicates that you need to keep pressing on every beat, continuously until you stop hearing incoming sounds. listen!
+wait 600
+play 5wavecoming
+wait 600
+text let's try!
+music uptown -2 16710
+play 5wavecoming 17750
+play 5coming
+play 5hit 18255
+say space!
+play 5hit 18780
+say space!
+play 5hit 19300
+say space!
+wait 800
+fade
+text ok, now you know everything you need to know!
+text are you ready to play?
+text good luck!

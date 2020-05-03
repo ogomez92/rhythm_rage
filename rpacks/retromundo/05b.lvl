@@ -1,0 +1,48 @@
+el robot de las cajas. Noooo!
+misc ok=60 super=85
+music name=fac_bgm volume=-2 jingle=jingle2
+play pan=-40 name=fac_1 time=3269 alias=2
+action key=2 name=fac_hold ends=fac_ok time=3736 end=4670 alias=2a
+play pan=-40 name=fac_2 time=5137 alias=3
+action key=3 name=fac_hold ends=fac_ok time=5593 end=6994 alias=3a
+! 2,2a 7928 2
+play pan=-40 name=fac_3 time=9329 alias=1
+action key=1 name=fac_hold ends=fac_ok time=9796 end=10263 alias=1a
+! 3,3a 10730 3
+! 1,1a 13065 1
+@ 2 14466
+@ 1 16334
+@ 1 17268
+@ 3 18202
+@ 2 20537
+@ 2 22378
+@ 3 23779
+@ 1 26114
+@ 3 27500
+@ 2 29368
+@ 3 31227
+@ 1 33562
+@ 1 34963
+@ 3 37283
+@ 2 39151
+@ 2 41019
+@ 3 42873
+@ 1 45208
+@ 2 46605
+@ 3 48473
+@ 1 50808
+@ 1 52201
+@ 3 53602
+@ 2 55937
+@ 3 57805
+@ 3 59654
+@ 2 61525
+@ 1 63393
+@ 3 64778
+@ 2 67113
+@ 3 68981
+@ 2 70849
+@ 1 72717
+@ 1 74118
+@ 3 76438
+@ 1 78773

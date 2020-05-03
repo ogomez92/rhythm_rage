@@ -1,0 +1,112 @@
+﻿text Bienvenido a las instalaciones de distribución de cajas. Tenemos un día ocupado hoy.
+text estás a cargo del robot transportacajas, un robot especialmente diseñado para llevar nuestras cajas con productos listos para su entrega.
+text tenemos a uno que se encarga de esto, pero esta mañana le ha fallado el corazón y bueno, ya no puede venir. Como necesitas un trabajo y con eso de que eres mi primo, ya sabes, el enchufe...
+text digamos que sólo te doy el trabajo porque es urgente, que si no se lo daba a otro; tienes cara de patoso. de no hacer las cosas bien.
+text bueno, mejor me callo.
+text bueno, te explico cómo funciona el robot.
+text tenemos dos tipos de cajas. el primero, y las más fáciles, son las cajas grandes.
+text suenan así.
+wait 500
+play 4cominglong
+wait 500
+text cuando suene este sonido, tendrás que esperar a que el encargado termine de etiquetarla y ponerla en el robot. cuando lo haya hecho escucharás este sonido.
+wait 500
+play 4coming
+wait 500
+text este sonido significa que en el siguiente tiempo de la música tendrás una caja que colocar.
+text para colocar una de esas cajas grandes, debes pulsar enter durante 2 tiempos.
+text escucharás el sonido de la caja grande, luego el sonido de que ya está colocada, esperas un tiempo, y pulsas enter durante 2 tiempos. así, mira:
+wait 500
+play 4cominglong
+wait 600
+play 4coming
+wait 600
+play 4long
+wait 1500
+text sí, este último sonido suena cuando consigues coger la caja.
+text veamos con la música.
+music crazyfactory -8
+play 4cominglong 5714
+play 4coming 6285
+play 4long 6857
+say enter!
+play 4oklong 8000
+say suelta!
+fade
+text ves? muy fácil, no?
+text pero las cajas pequeñas son otra historia.
+text las pequeñas pueden venir de la izquierda...
+wait 500
+play 4csl
+wait 500
+text o la derecha!
+wait 500
+play 4csr
+wait 500
+text cuando viene una de estas, tienes que esperar como siempre a que la coloquen con el sonido de antes, y pulsar la flecha derecha o izquierda durante un tiempo, dependiendo de dónde venga.
+text pero lo difícil es que suelen venir en cadena, por ejemplo una a la derecha otra a la izquierda y una grande.
+text lo que significa que tendrás que memorizar toda la cadena y luego esperar a que empiecen a colocarse las cajas e ir cogiéndolas según hayas escuchado y en orden. Si no lo haces, las cajas se perderán y bueno, te voy a despedir.
+
+text te pongo un ejemplo
+wait 500
+play 4csr
+say derecha...
+wait 600
+play 4csl
+say izquierda...
+wait 600
+play 4cominglong
+say grande...
+wait 600
+play 4coming
+say derecha viene...
+wait 600
+play 4short
+say 1 tiempo derecha...
+wait 600
+stop
+play 4okshort
+wait 600
+play 4coming
+say izquierda...
+wait 600
+play 4short
+say izquierda un tiempo...
+wait 600
+play 4okshort
+wait 600
+play 4coming
+say y grande...
+wait 600
+play 4long
+wait 1300
+play 4oklong
+wait 500
+text difícil, no?
+text a ver con la música.
+music crazyfactory -8
+play 4csr 1142
+say derecha...
+play 4csl 1714
+say izquierda...
+play 4cominglong 2285
+say grande...
+play 4coming 2857
+say viene...
+play 4short 3428
+say derecha!
+play 4coming 4000
+say viene...
+play 4short 4570
+say izquierda!
+play 4coming 6285
+say la grande...
+play 4long 6853
+say enter 2 tiempos!
+wait 1600
+fade
+text a que es difícil?
+text bueno, más te vale que estés preparado porque empieza el show!
+text y si no lo haces bien, no te doy el logro del final...
+text dale!
+wait 600

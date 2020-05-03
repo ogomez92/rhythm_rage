@@ -1,0 +1,64 @@
+text hi! I am the penguin
+text see all these flying pests over there? some roosters, crows...
+text they are all happy and singing. but there are no penguins!
+text I am going to hire you to kill all these aerial creatures. I'm going to give you a gun, a baseball bat and a huge kitchen knife. But don't go trying to kill me! Or you will not know what to do in the level!
+text ok, the ducks you need to kill them with the baseball bat. they are the easiest to deal with, given that they only require one hit and you need to wait only one beat, and press enter. here is an example.
+music bs -6 1930
+play bs_duck 2790
+play bs_duckm 3220
+say enter!
+play bs_duckhit
+play bs_duck 3640
+play bs_duckm 4070
+say enter!
+play bs_duckhit
+fade
+text ok? Now you can kill ducks
+text let's do something a bit harder now, the crows!
+text The crows, you have to wait 1 beat just like the ducks but you have to shoot them twice with the gun with the space bar and waiting one beat after each hit.
+text here goes
+music bs -6 1930
+play bs_bird
+play bs_shoot 2360
+say space!
+play bs_birdhurt
+play bs_shoot 2790
+say space!
+play bs_birdgore
+wait 500
+fade
+text again
+music bs -6 1930
+play bs_bird
+play bs_shoot 2360
+say space!
+play bs_birdhurt
+play bs_shoot 2790
+say space!
+play bs_birdgore
+wait 500
+fade
+text now you can kill crows!
+text the last thing we need to learn how to deal with are the roosters
+text they are slightly more complicated. when you first hear them, you wait 2 beats, and then press enter for 2 beats.
+text here.
+music bs -6 48190
+play bs_rooster
+say wait...
+play bs_rooshold 49040
+say hold enter...
+play bs_roosok 49470
+say let go!
+wait 600
+fade
+text again
+music bs -6 48190
+play bs_rooster
+say wait...
+play bs_rooshold 49040
+say hold enter...
+play bs_roosok 49470
+say let go!
+wait 600
+fade
+text ok, now you are ready to start! watch for the multiple ducks, and things that appear one after the other!

@@ -1,0 +1,31 @@
+play cat_evil
+wait 800
+text Hi! I am the devilcat! The evil kittie! The monstercat... the bombercat!
+text you need to help me explode! rage against the humans! The caresser population! Grrrr! OH.... I'm getting a little carried away over here.
+text but the good cats are getting in my way and coming up to people that come to caress cats! And they're being saved! But we need to stop that!
+text you need to make sure that, at least, every time they touch me I explode!
+text and you know what happens? Sometimes people come up to me very quickly and I need to explode many consecutive times! meowahahahhah!
+text OK, lets see how it works. when you hear me meow, you need to press enter on the next beat so I explode! but don't hit enter if you hear another cat that isn't me, ok? come on, I'm not that hard to distinguish. here's how I sound!
+wait 600
+play cat_evil
+wait 600
+text let's hear it with the music
+music cat_bgm -3
+play cat_good1 780
+say not that one!
+play cat_good2 2530
+say this one either!
+play cat_evil 4310
+say this one!
+play cat_fail 4750
+say boom!
+play cat_evil 5190
+say another one!
+play cat_fail 5635
+say enter!
+play cat_good1 6080
+say no!
+wait 600
+fade
+text did you get it?
+text careful when I get caressed many times! You'll need to be quick!

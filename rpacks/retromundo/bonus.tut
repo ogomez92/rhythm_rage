@@ -1,0 +1,49 @@
+text hola! soy un nivel bonus
+text este nivel es en inglés porque no encontré un equivalente al speak & spell en español. El speak and spell era un juguete de los años 80 de deletrear palabras.
+text si no puedes jugarlo, no pasa nada. el sonido de ganar el paquete es el mismo que suena en el pack por defecto y no te pierdes nada.
+text aquí el nivel original en inglés
+wait 80
+play spell_jingle
+wait 800
+text hi! I am speak and spell
+text I am a toy that was very popular in the 80's.
+text and now I am here to make you learn to spell in rhythm!
+text this game has two things you need to know: If I say a letter, like a, b, c, you have to press it one beat after I tell you the letter.
+text but I can also make you spell words, and I will tell you if you were correct or not!
+text to spell words, you wait until I say spell, then press one letter each beat!
+text for example, if I say: Now spell hello! spell, and you will have to press h, e, l, l, o, one letter each beat.
+text let me show you
+wait 600
+music spell -2
+play a
+play spell_good 661
+say A!
+play b 1322
+play spell_good 1983
+say B!
+play c 2644
+play spell_good 3305
+say C!
+play spell_now 5238
+play spell_ready 6560
+play spell_go 7190
+play r 7924
+play spell_good
+say r!
+play e 8585
+play spell_good
+say e!
+play a 9246
+play spell_good
+say A!
+play d 9907
+play spell_good
+say d!
+play y 10568
+play spell_good
+say y!
+wait 800
+fade
+text and so on
+text it's easy, isn't it?
+text it's not that bad. so let's play!

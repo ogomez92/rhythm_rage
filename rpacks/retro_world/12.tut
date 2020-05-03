@@ -1,0 +1,54 @@
+text hey! have you ever played villains from beyond?
+text if not, I suggest you check out my site and play it, it's a real fun shooter made by a friend and me. anyway...
+text anyway, this game is quite fast paced. but I'm sure you'll get the hang of it!
+text you have the air ships, which sound like this:
+wait 600
+play rob_airloop
+wait 600
+text these, you have to shoot with the z key because that's the key used in the game.
+text when you hear them, you want one beat and shoot.
+text the ground bases, which sound like this:
+wait 600
+play rob_base
+wait 600
+text you wait one beat but you shoot them down with the x key
+text the multi hit air ships, which are the same as the air ships but you have to shoot them twice with the z key, once each beat.
+wait 600
+play rob_multi
+wait 500
+play rob_beam
+say shoot
+wait 500
+play rob_beam
+say shoot!
+wait 500
+text and finally the  towers, they are very hard to catch but there are only a few of them, with the same achievement each in case you miss it (that's why the game says there are 6 achievements).
+wait 600
+play rob_toweralarm
+wait 600
+text when you hear this, you need to quickly press x twice, every half a beat!
+text given that this song is very fast, half a beat is a very short time you have to react.
+text let's try
+music rob_bgm -3
+play rob_airloop 1656
+play rob_beam 2072
+say shoot!
+play rob_airloop 2488
+play rob_beam 2904
+say shoot!
+play rob_toweralarm 3320
+play rob_bomb 3528
+say x!
+play rob_bomb 3736
+say x!
+play rob_multi 4984
+play rob_beam 5400
+say shoot!
+play rob_beam 5816
+say shoot!
+wait 800
+fade
+text did you hear how fast that tower was?
+text  you need to be careful!
+text are you ready to play? You can always cancel and listen to the tutorial again.
+text good luck!

@@ -1,0 +1,25 @@
+text Hi! I am the plumber.
+text My job gets quite boring after a while, you know?
+text So I thought I would ask for an assistant. Want to help me out?
+text To make this more interesting, we'll be working on the pipes in rhythm!
+text Here's how it works. We're going to be assembling a new part of the pipe system.
+text I'll find the right pipe for you and set it. When I do, you will hear this sound.
+play pipe_yes
+text And now, you wait one beat and start hammering the pipe with your enter key, once every half a beat until it's set right.
+text After that, though, you'll have to twist the valve on the pipe. To do that, you wait a beat, and hold down one of the arrow keys for another beat.
+text the arrow key you press will always be the next one to the last one you pressed, in clockwise order.
+text So for example, if you twist with the left arrow, the next one will need you to hold the up arrow. then right, down, and left again.
+text It's much easier to understand if you see it in action. Let's take a look!
+music pipe_bgm -1
+play pipe_yes 1017
+play pipe_hammer 1525
+play pipe_hammer 1780
+play pipe_hmcs 2034
+play pipe_slide 2542
+say Hold!
+play pipe_slideok 3051
+say Let go!
+wait 1500
+fade
+text See? It's not that hard... Yet.
+text Alright, time to go. You will have to twist the valve on your first pipe to the left. Let's do this!

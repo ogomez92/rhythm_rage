@@ -1,0 +1,58 @@
+play bsk_whistle
+wait 800
+text hola! preparado para jugar a baloncesto? A básket, o como quieras llamarle?
+text yo por supuesto que sí! quieres jugar conmigo? te aviso que soy el rey cruel del otro nivel, así que cuidadito conmigo que si me ganas... quizá te cortaré la cabeza como al traidor!
+text en este juego tendrás que pulsar el espacio casi en cada tiempo de este ritmo! para que bote bote la pelota, ya sabes.
+text ahora te lo enseño, mira
+music basket -3
+play bsk_whistle 1234
+say preparado?
+play bsk_bounce 2135
+say espacio!
+play bsk_bounce 2628
+say espacio!
+play bsk_bounce 3080
+say espacio!
+play bsk_bounce 3550
+say espacio!
+play bsk_bounce 4020
+say espacio!
+wait 800
+fade
+text y así
+text pero esto no es lo único, qué sería un juego de básket sin poder tirar la pelota?
+text para tirar la pelota y hacer canasta esperas al pitido corto que te lo indica (aún pulsando el espacio) y al siguiente tiempo mantienes pulsado enter durante un tiempo. Después sueltas, y otra vez a pulsar espacio!
+text claro que cuando estás pulsando enter estamos de acuerdo en que estás tirando la pelota, así que durante ese tiempo no tienes que pulsar espacio.
+music basket -3
+play bsk_whistle 1234
+say ready?
+play bsk_bounce 2135
+say espacio!
+play bsk_bounce 2628
+say espacio!
+play bsk_bounce 3080
+say espacio!
+play bsk_bounce 3550
+say espacio!
+play bsk_bounce 4020
+say espacio!
+play bsk_bounce 4494
+say espacio!
+play bsk_throwcue 4494
+play bsk_throw 4945
+say mantienes enter...
+play bsk_basketok 5410
+say sueltas!
+play bsk_bounce 5880
+say espacio...
+wait 800
+fade
+text y también hay otra cosita.
+text a veces, la pelota se te va y tienes que volverla a pillar y eso se te indica con un pitido de indicación a la derecha o a la izquierda.
+wait 600
+play bsk_beep
+wait 500
+text simplemente tienes que pulsar la flecha indicada.
+text así. le das al espacio para botar cuando suena el pitido, esperas un tiempo, le das a la flecha derecha si lo escuchaste de la derecha o la izquierda si vino de la izquierda, y luego vuelves con el espacio.
+text pero estoy seguro de que ya te lo habías imaginado... no?
+text buena suerte colega! *te enseña la pistola antitraidores*

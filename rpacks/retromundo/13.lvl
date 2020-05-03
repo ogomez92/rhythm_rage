@@ -1,0 +1,156 @@
+remix final
+debug mode seek=147000
+misc reaction=160 ok=80 super=90
+music name=final_remix volume=-3 jingle=jingle2
+play name=rob_base time=5180 alias=base1
+action key=x time=5592 fail=rob_bomb name=rob_bomb,rob_basedie alias=base2
+play name=rob_airloop time=6030 alias=air1
+action key=z time=6449 fail=rob_beam name=rob_beam,rob_airdie alias=air2
+play name=rob_multi time=6889 alias=mul1
+action name=rob_multihit,rob_beam key=z time=7317 alias=mul2
+action name=rob_multidie,rob_beam key=z time=7746 alias=mul3
+play name=mem_ins1 time=8600 alias=m1
+action name=mem_user1 time=10375 key=space alias=m2
+play name=mem_ins2 time=9493 alias=h1
+action alias=h2 time=11260 end=11475 name=mem_user2 key=enter ends=mem_hend
+! m1,m2 9075 m
+@ m 12190
+@ m 12413
+@ m 12635
+! h1,h2 13080 h
+@ m 13525
+//rhythm
+@ m 26242
+@ m 26460
+@ m 26678
+@ m 26900
+@ h 27130
+@ m 27566
+@ m 27784
+! air1,air2 29752
+play name=b_coming time=30605 alias=c1
+action time=31046 alias=c2 name=b_hit key=space
+! c1,c2 31495 k1
+play name=b_contra time=32165 alias=c3
+action time=32613 alias=c4 name=b_hitc key=space
+! c1,c2 33285 hit
+! c3,c4 33956 hitc
+! base1,base2 34613
+! air1,air2 35956
+@ hitc 36628
+@ m 37747
+@ m 37971
+@ m 38195
+@ m 38643
+@ m 38867
+@ m 39091
+@ m 41329
+@ h 41777
+@ m 42225
+@ h 42673
+play time=48490 name=evil1 alias=e1
+action time=49372 name=evil1shoot key=space alias=e2
+play name=evil2 time=50270 alias=e3
+action time=50713 end=51614 alias=e4 name=evil2hold ends=evil2ok key=enter
+@ m 52049
+@ m 52507
+@ m 52746
+@ m 52960
+@ h 53389
+@ m 55620
+@ m 55834
+@ m 56078
+@ m 56313
+@ hitc 58431
+play name=w_myattackgo time=62744  alias=my1
+action alias=my2 key=space time=63177 name=w_myattack
+! my1,my2 63623 my
+@ my 64514
+@ my 65407
+play name=w_attack pan=-50 time=71048 alias=attack1
+action time=71497 name=w_shield ends=w_shieldok key=enter end=73278 alias=attack2 fail=w_fail2
+@ hit 75033
+@ hitc 75690
+@ my 76790
+@ my 77666
+@ my 78574
+@ my 79231
+! air1,air2 80354 air
+! base1,base2 81230 base
+play name=rob_multi time=82095 alias=mul1
+action name=rob_multihit,rob_beam key=z time=82544 alias=mul2
+action name=rob_multidie,rob_beam key=z time=82981 alias=mul3
+@ air 82981
+@ m 83857
+@ m 84298
+@ m 84764
+@ m 84983
+@ m 85202
+@ m 87418
+@ m 87856
+@ m 88075
+@ m 88513
+@ m 88730
+play name=jam_1 time=90904 alias=1
+action key=enter time=91330 name=jam_1e alias=1e
+! 1,1e 91787 1
+@ 1 92656
+
+play name=jam_2 time=93538 alias=2
+action key=enter time=93969 name=jam_1e alias=2e
+action key=enter time=94184 name=jam_2e alias=2ee
+! 2,2e,2ee 94410 2
+@ base 95285
+@ air 96150
+@ 1 97030
+@ my 97899
+@ hitc 98995
+@ hit 99638
+@ 2 100512
+@ 1 101384
+@ 1 101816
+@ 2 102250
+@ 1 103105
+! attack1,attack2 104497
+@ 1 118851
+@ 2 119752
+@ 2 120634
+@ 1 121520
+@ 1 122392
+@ base 123278
+@ hit 124158
+@ hitc 124823
+@ hit 125930
+@ hit 126816
+@ 2 127708
+@ 1 128594
+@ 2 129480
+@ 2 129923
+@ 2 130366
+@ air 132129
+@ my 133015
+@ my 133909
+@ base 134825
+@ hit 135743
+@ hitc 136432
+@ hit 137579
+@ my 138497
+! attack1,attack2 139874 attack
+@ attack 143506
+@ air 146686
+@ 1 149424
+@ 2 150322
+@ 1 151240
+@ air 152150
+@ 2 153052
+@ 2 153954
+@ 2 154860
+@ hit 155758
+@ hitc 155988
+@ hit 156217
+@ base 157556
+@ my 158466
+@ my 158925
+
+@ my 160891
+@ attack 161330

@@ -1,0 +1,100 @@
+forsa barsa 2
+//debug seek=65000
+music volume=-7 name=forbar jingle=6j
+play name=6tot time=1643 alias=t1
+play name=6el time=1850 alias=t2
+play name=6camp time=2058 alias=t3
+action time=2470 name=6campa key=space alias=ta1
+action time=2670 name=6campa key=space alias=ta2
+action time=2880 name=6campa key=space alias=ta3
+! t1,t2,t3,ta1,ta2,ta3 3291 tot
+play name=6chuta time=4943 alias=chuta
+action key=enter name=6chutaa time=5335 fail=6chutaf alias=chutaa
+! chuta,chutaa 6570 chm
+@ chm 7392
+@ chm 8214
+@ tot 8214
+@ tot 9863
+@ tot 11500
+@ tot 13150
+@ chm 14794
+@ chm 15616
+@ tot 16438
+@ tot 18082
+@ tot 19725
+//chuta el madrid...
+play name=6chu time=21369 alias=ch1
+play name=6tael time=21651 alias=ch2
+play name=6ma time=21955 alias=ch3
+play name=6drid time=22150 alias=ch4
+action name=6paras ends=6para fail=6parafail key=enter time=22595 end=23007 alias=ch5
+@ chm 23432
+@ chm 24254
+@ tot 24662
+@ tot 28360
+@ tot 31231
+@ tot 32480
+@ chm 34470
+@ chm 35340
+! ch1,ch2,ch3,ch4,ch5 36160 mad
+@ tot 37815
+@ tot 38637
+@ chm 40277
+@ tot 41102
+@ tot 42746
+@ chm 44390
+@ chm 45212
+@ chm 46033
+@ chm 46845
+@ mad 47670
+@ chm 49316
+@ chm 50135
+@ tot 50960
+@ tot 52606
+//offbeats
+@ chm 54454
+@ chm 55273
+@ tot 55890
+@ chm 57739
+@ chm 58561
+@ tot 59180
+@ tot 60825
+@ tot 62470
+@ tot 64114
+@ mad 65757
+@ tot 67401
+@ tot 69050
+@ tot 70689
+@ tot 72744
+@ mad 73982
+@ chm 75626
+@ chm 76448
+@ chm 77270
+@ chm 78092
+@ tot 79736
+@ mad 81403
+@ tot 83016
+@ chm 84665
+@ chm 85485
+@ chm 86307
+@ tot 87129
+@ tot 88773
+@ chm 90417
+@ chm 91235
+! ch1,ch2,ch3,ch4 92062 mae
+action name=6paras ends=6para fail=6parafail key=enter time=93295 end=93705 alias=ace1
+@ mae 93705
+action name=6paras ends=6para fail=6parafail key=enter time=94938 end=95350 alias=ace2
+@ mae 95349
+action name=6paras ends=6para fail=6parafail key=enter time=96582 end=96993 alias=ace3
+@ mae 96993
+action name=6paras ends=6para fail=6parafail key=enter time=98225 end=98636 alias=ace4
+@ mae 98636
+action name=6paras ends=6para fail=6parafail key=enter time=99869 end=100280 alias=ace5
+@ mae 100280
+action name=6paras ends=6para fail=6parafail key=enter time=101513 end=101924 alias=ace6
+ ! t1,t2,t3 101924
+action time=102746 name=6campa key=space alias=ace7
+action time=102945 name=6campa key=space alias=ace8
+action time=103150 name=6campa key=space alias=ace9
+play name=6golazo require=ace1,ace2,ace3,ace4,ace5,ace6,ace7,ace8,ace9 time=103561 ach=forsa barsa: Gracias a tus habilidades, El barsa ha ganado el partido contra el Madrid!

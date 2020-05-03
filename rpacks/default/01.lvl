@@ -1,0 +1,65 @@
+ghost buster
+music name=ghosts jingle=ghostjingle volume=-4
+play name=gd_growl time=15130 alias=11
+action key=enter time=15675 name=gw1,gd_die alias=12
+! 11,12 17220 1
+play name=gg_growl time=18794 alias=21
+action key=space alias=22 time=19571 name=gw2,gg_die
+play name=gc_laugh pan=10 time=20352 alias=r1
+action alias=r2 key=right pan=10 time=20860 name=gw2,gc_kill
+@ 1 21340
+play name=gc_laugh pan=-10 time=22426 alias=l1
+action alias=l2 key=left pan=-10 time=22942 name=gw2,gc_kill
+@ 1 23430
+@ 1 24480
+! 21,22 27101 2
+! l1,l2 28659 l
+@ 1 29650
+! r1,r2 30733 r
+@ 2 32547
+@ l 34374
+@ r 35925
+@ 1 36920
+@ r 38008
+@ l 40083
+@ 1 42120
+@ 2 43714
+@ l 46310
+@ r 46826
+@ l 47342
+@ r 49417
+@ l 49675
+@ 1 50430
+@ 2 52010
+@ 2 53570
+@ 1 54585
+@ r 55657
+@ l 56691
+@ 2 57735
+@ 1 59260
+@ 2 60332
+@ r 61886
+@ 1 63940
+@ l 65783
+@ 2 68631
+@ 2 70180
+@ 1 72240
+@ 1 74300
+@ 2 76947
+@ 2 78751
+@ 1 80555
+@ r 81607
+@ l 82658
+@ 2 85250
+@ l 86803
+@ r 90950
+@ l 91200
+@ r 92528
+@ l 93562
+@ 2 95366
+@ 1 96640
+@ r 97718
+@ l 98740
+@ 2 100311
+@ 2 102370
+@ r 103431

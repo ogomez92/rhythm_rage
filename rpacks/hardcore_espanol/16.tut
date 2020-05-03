@@ -1,0 +1,72 @@
+play m_growl1
+wait 680
+play m_punch1
+play grunt2
+wait 1000
+text Oooh! Te he hecho daño?
+text Me olvidé que el nivel todavía no ha empezado!
+text bien, esto es de matar monstruos. Pero no son monstruos normales! Soy Oriol, el creador de este juego. Sé que quieres matarme, que te frustran los niveles tan difíciles que hago...
+text todas las voces en este nivel, soy yo. yo  yo yo!  yo yo yo yo yo yo yoooo!
+text así que si quieres matarme, hoy tienes tu oportunidad. Y este nivel es bastante difícil también!
+text hay 3 tipos de monstruo y 2 logros escondidos. Vas a tener que descubrirlos! Me refiero a los logros.
+text Vale, el primer monstruo que tienes que aprender es el más fácil. Cuando lo escuches esperas un tiempo y pulsas enter. Es muy fácil!
+text vamos!
+music m_bgm -5 45300
+play m_growl2 46502
+play m_hurt3146935
+play m_punch2
+say enter!
+play m_growl2 47376
+play m_hurt3147813
+play m_punch2
+say enter!
+wait 500
+fade
+text bien! ya puedes matar monstruos fáciles.
+text Pero hay dos más. el segundo es un poco más difícil, ya que esperas un tiempo y pulsas espacio dos veces en cada medio tiempo. eso es 2 durante el segundo tiempo y el tercero justo cuando empieza el tercer tiempo. aquí te lo enseño
+music m_bgm -5 45300
+play m_growl3 45635
+play m_hurt1 46076
+play 1shoot
+say espacio!
+play m_hurt31 46295
+play 1shoot
+say espacio!
+play m_hurt32 46508
+play 1shoot
+say espacio!
+play m_growl3 47378
+play m_hurt1 47817
+play 1shoot
+say espacio!
+play m_hurt31 48036
+play 1shoot
+say espacio!
+play m_hurt32 48240
+play 1shoot
+say espacio!
+wait 800
+fade
+text ok, y el monstruo final!
+text es como el primero pero con el espacio, y 2 veces. esperas un tiempo, le das al espacio, esperas otro tiempo y le vuelves a dar.
+text así que igual que el primero, pero 2 veces y con el espacio. lo hace más difícil, eh?
+music m_bgm -5 45300
+play m_growl1 45645
+play m_hurt31 46072
+play 1shoot 
+say espacio!
+play m_hurt1 46509
+play 1shoot
+say espacio!
+play m_growl1 47374
+play m_hurt31 47811
+play 1shoot 
+say espacio!
+play m_hurt1 48240
+play 1shoot
+say espacio!
+wait 1000
+fade
+text bien, espero que lo recuerdes todo. preparado?
+text eso espero!
+text suerte a ver si me matas! mwajajaj!

@@ -1,0 +1,35 @@
+play feel
+wait 500
+play pain
+wait 500
+play diestab
+wait 1000
+text ha ha! Got you! Oh wait... The fight hasn't started yet.
+text hi, welcome to epic battle 2!
+text this is a fight to the death, maybe
+text are you ready to do what it takes?
+text ok, here are the rules for this battle.
+text when you say die, it means you can attack me! For a successful attack, you wait 2 beats, and hit enter. simple as that
+play die
+wait 800
+play diestab
+wait 1000
+text when I say feel pain, you wait one beat after pain, and press either the left or right arrow key to block my attack.
+text "oh, but how do I know which one to press?" you say
+text easy. I will say feel pain from the left or right, and you have to press the corresponding arrow key.
+text ok, practice time! Let's go!
+interactive eb2 -3 148 13217 8
+intersound die 100 0 1001
+intersound diestab 100 0 1813 key_enter
+intersound die 100 0 1816
+intersound diestab 100 0 2622 key_enter
+intersound feel 100 30 4237
+intersound pain 100 30 4640
+intersound painok 100 30 5042 key_right
+intersound feel 100 -30 6683
+intersound pain 100 -30 7098
+intersound painok 100 -30 7500 key_left
+intersound die 100 0 9950
+intersound diestab 100 0 10784 key_enter
+
+interactive end

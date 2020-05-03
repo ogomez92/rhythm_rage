@@ -1,0 +1,65 @@
+play s_taste
+wait 230
+play s_my
+wait 230
+play s_blade
+wait 350
+play s_pfail
+play s_grunt
+wait 1100
+text vaaaaya, pensé que ya estábamos luchando! Te he hecho daño?
+text bien, esto es la batalla épica!
+text es un nivel un poco rápido y puede que te tome un tiempo acostumbrarte, así que vamos allá!
+text el primer sonido que te encontrarás es, sí, te mataré!
+text cuando escuches te mataré (te mataré toma 2 tiempos de la música) esperas otro tiempo y pulsas la flecha derecha o izquierda, dependiendo de donde venga el sonido!
+text ahí va
+music s_bgm -8
+play s_taste 1710
+play s_my 1910
+play s_blade 2125
+play s_parryl 2520
+say ahora!
+wait 600
+fade
+text bien, espero que hayas entendido lo que hay! y si no... te mataré!
+text pero también puedes atacar! Cuando escuches: wah! esperas un tiempo y le das al enter, así.
+music s_bgm -8
+play s_s3 1720
+play s_die1 2120
+play s_parryl
+say ouch!
+play s_s3 2520
+play s_die1 2920
+play s_parryl
+say ouch!
+play s_s3 3320
+play s_die1 3725
+play s_parryl
+say ouch!
+wait 800
+fade
+text y ahora, lo último que tienes que aprender
+text hay un ataque especial en el que tienes que pulsar enter durante un tiempo. escuchas el sonido, esperas un tiempo, mantienes enter pulsado un tiempo y sueltas. mira
+play s_shold
+wait 350
+play s_woosh
+say pulsa
+wait 350
+play s_sok
+say suelta!
+wait 500
+text vamos a ver con música
+music s_bgm -9
+play s_shold 520
+play s_woosh 925
+say pulsa enter...
+play s_sok 1330
+say suelta!
+play s_shold 1730
+play s_woosh 2130
+say pulsa enter...
+play s_sok 2530
+say suelta!
+fade
+text bien, estás listo?
+text suerte! Bueno no, que si lo haces bien muero yo... buena suerte para mí! Mwajajajaja

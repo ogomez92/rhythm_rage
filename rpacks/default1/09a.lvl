@@ -1,0 +1,70 @@
+crazy factory
+debug mode seek=60000
+music volume=-7 name=crazyfactory jingle=4j
+misc ok=65
+//intro
+play name=4cominglong time=5700 alias=long1
+play name=4coming time=6260 alias=long2
+action name=4long fail=4faillong  alias=long3 time=6850 end=8000 ends=4oklong,4letgo key=enter
+//phrase1
+play name=4comingshort time=9698 alias=srl1 pan=50
+play name=4comingshort time=10270 alias=srl2 pan=-50
+play name=4cominglong time=10840
+play name=4coming time=11410
+action name=4short fail=4failshort time=11990 end=12576 ends=4okshort key=right pan=50
+play name=4coming time=13147 alias=long2
+action name=4short fail=4failshort time=13728 end=14290 ends=4okshort key=left pan=-50
+play name=4coming time=15426 alias=long2
+action name=4long fail=4faillong time=15993 end=17130 ends=4oklong,4letgo key=enter
+//add a cool require
+//macro
+! long1,long2,long3 17137 long
+//2
+play name=4comingshort time=19410 alias=srl1 pan=50 alias=m1
+play name=4comingshort time=19990 alias=srl1 pan=50 alias=m2
+play name=4comingshort time=20570 alias=srl1 pan=-50 alias=m3
+play name=4comingshort time=21140 alias=srl1 pan=50 alias=m4
+play name=4coming time=21714 alias=m5
+action name=4short fail=4failshort time=22285 end=22856 ends=4okshort key=right pan=50 alias=m6
+play name=4coming time=22856 alias=m7
+action name=4short fail=4failshort time=23430 end=24000 ends=4okshort key=right pan=50 alias=m8
+play name=4coming time=25142 alias=m9
+action name=4short fail=4failshort time=25714 end=26285 ends=4okshort key=left pan=-50 alias=m10
+play name=4coming time=26285 alias=m11
+action name=4short fail=4failshort time=26857 end=27428 ends=4okshort key=right pan=50 alias=m12
+play name=4cominglong time=28000 alias=m13
+play name=4coming time=29142 alias=long2 alias=m14
+action name=4long fail=4faillong  alias=long3 time=29714 end=30857 ends=4oklong,4letgo key=enter alias=m15
+//more
+play name=4comingshort time=31427 alias=srl1 pan=-50
+play name=4coming time=31703
+action name=4short fail=4failshort time=31997 end=32568 ends=4okshort key=left pan=-50
+! long1,long2,long3 33142 long
+//end part
+@ long 37680
+@ long 42274
+! m1,m2,m3,m4,m5,m6,m7,m8,m9,m10,m11,m12,m13,m14,m15 45694 supermacro
+
+play name=4comingshort time=61700 alias=esh1 pan=50
+play name=4comingshort time=61980 alias=esh2 pan=-50
+play name=4comingshort time=62280 alias=esh3 pan=50
+play name=4comingshort time=62575 alias=esh2 pan=-50
+play name=4cominglong time=62850 alias=esh2
+//actions
+play name=4coming time=63420 
+action name=4short fail=4failshort time=63993 end=64565 ends=4okshort key=right pan=50 alias=ea1
+play name=4coming time=64565
+action name=4short fail=4failshort time=65136 end=65708 ends=4okshort key=left pan=-50 alias=ea2
+play name=4coming time=65708
+action name=4short fail=4failshort time=66279 end=66850 ends=4okshort key=right pan=50 alias=ea3
+play name=4coming time=66850
+action name=4short fail=4failshort time=67422 end=67993 ends=4okshort key=left pan=-50 alias=ea4
+play name=4coming time=67993
+action name=4short fail=4failshort time=68565 end=69135 ends=4okshort key=right pan=50 alias=ea5
+play name=4coming time=69135
+action name=4short fail=4failshort time=69708 end=70279 ends=4okshort key=left pan=-50 alias=ea6
+play name=4coming time=71430
+action name=4long fail=4faillong  time=72000 end=73145 ends=4oklong,4letgo key=enter alias=ea7 kp=yes 
+play name=4great require=ea1,ea2,ea3,ea4,ea5,ea6,ea7 time=74227 ach=you are a great crate delivery guy! Good for you!
+play name=4comingshort time=61126 alias=esh1 pan=50
+play name=4comingshort time=61413 alias=esh2 pan=-50

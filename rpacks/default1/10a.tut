@@ -1,0 +1,58 @@
+play bsk_whistle
+wait 800
+text hello! Are you ready to play some basketball?
+text I certainly am! Wanna play against me? Just keep something in mind... I am the cruel king! So if you win... I might chop your head!
+text this game wil keep you hitting the space bar over and over. you need to bouncy bounce the ball on almost every beat of this rhythm!
+text here's how it works, I'll show you
+music basket -3
+play bsk_whistle 1234
+say ready?
+play bsk_bounce 2135
+say space!
+play bsk_bounce 2628
+say space!
+play bsk_bounce 3080
+say space!
+play bsk_bounce 3550
+say space!
+play bsk_bounce 4020
+say space!
+wait 800
+fade
+text and so on
+text but that's not the only thing, what would be a basketball game without being able to throw the ball!
+text to throw the ball, you wait for the short whistle (of course while still hitting the space bar to bounce), then you wait one beat, hold enter for another beat and let go!
+text while you do that, you're throwing the ball, so you don't need to hit the space bar on that beat.
+music basket -3
+play bsk_whistle 1234
+say ready?
+play bsk_bounce 2135
+say space!
+play bsk_bounce 2628
+say space!
+play bsk_bounce 3080
+say space!
+play bsk_bounce 3550
+say space!
+play bsk_bounce 4020
+say space!
+play bsk_bounce 4494
+say space!
+play bsk_throwcue 4494
+play bsk_throw 4945
+say hold enter...
+play bsk_basketok 5410
+say let go!
+play bsk_bounce 5880
+say space...
+wait 800
+fade
+text there's another little thing
+text sometimes, the ball will go a bit off to the side which will be indicated by a beeping indication
+wait 600
+play bsk_beep
+wait 500
+text just hit the corresponding arrow key.
+text so, bounce on the beep, and on the next beat, instead of hitting the space bar, you hit the right arrow key if you heard the beep from the right, and the left arrow key if you heard it from the left.
+text but you probably already figured that out on your own...
+text good luck my friend! *pats anti traitor gun*

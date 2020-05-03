@@ -1,0 +1,219 @@
+hard megamix!
+misc reaction=200
+music name=megamix2 jingle=logo volume=-5
+play name=b_coming time=512 alias=h1
+action key=space time=999 name=b_hit alias=h2
+! h1,h2 1476
+! h1,h2 2416
+play name=jam_2 time=3376 alias=j1
+action key=enter time=3864 name=jam_1e alias=j2
+action key=enter time=4097 name=jam_2e alias=j3
+! h1,h2 4338
+! h1,h2 5292
+! j1,j2,j3 6244
+! h1,h2 8147
+! h1,h2 8383
+ h1,h2 8629
+! h1,h2 10050
+! h1,h2 10281
+! j1,j2,j3 11001
+! h1,h2 11950
+! h1,h2 12906
+! h1,h2 14805
+! j1,j2,j3 15754
+! h1,h2 16689
+! j1,j2,j3 17630
+! h1,h2 18816
+! h1,h2 19505
+! j1,j2,j3 20444
+! h1,h2 21384
+! j1,j2,j3 22320
+! h1,h2 23250
+! j1,j2,j3 24200
+! h1,h2 25136
+! h1,h2 26336
+! h1,h2 27931
+! j1,j2,j3 28859
+! j1,j2,j3 29818
+! h1,h2 30761
+! h1,h2 37320
+! h1,h2 38274
+! h1,h2 39240
+! h1,h2 40194
+! j1,j2,j3 41159
+! h1,h2 42116
+! h1,h2 42600
+play name=b_coming time=43084 alias=h1 alias=b1
+action key=space time=43561 name=b_bighit alias=h2 alias=b2
+! h1,h2 44284
+! h1,h2 45480
+! h1,h2 45958
+! h1,h2 46445
+! b1,b2 46918
+! b1,b2 48046
+! h1,h2 48842
+! h1,h2 49798
+! h1,h2 50276
+! h1,h2 50525
+! b1,b2 50761
+! h1,h2 51714
+! h1,h2 52920
+! b1,b2 59390
+! h1,h2 61317
+! b1,b2 62280
+! b1,b2 63204
+! h1,h2 64198
+! h1,h2 65162
+! h1,h2 65633
+! b1,b2 66118
+play name=b_coming time=68913 alias=h21
+action key=space time=69366 name=b_hit alias=h22
+! h21,h22 69833 hit
+@ hit 70755
+@ hit 71681
+@ hit 72608
+@ hit 73519
+@ hit 74458
+@ hit 75378
+@ hit 76300
+@ hit 76770
+@ hit 77232
+@ hit 78141
+@ hit 79071
+! h1,h2 81856
+! h1,h2 82795
+! h1,h2 83739
+! h1,h2 84212
+! h1,h2 84690
+! h1,h2 85630
+! h1,h2 86097
+! b1,b2 86588
+! h1,h2 87536
+! j1,j2,j3 88467
+! j1,j2,j3 89421
+! h1,h2 90372
+! h1,h2 91318
+! h1,h2 92249
+! h1,h2 93206
+! h1,h2 93673
+! b1,b2 94157
+play name=b_coming time=95111 alias=s1
+action key=space time=95563 name=b_hit alias=s2
+play name=b_coming time=96021 alias=bs1
+action key=space time=96480 name=b_bighit alias=bs2
+! s1,s2 96949
+! bs1,bs2 97868
+! s1,s2 98790
+! s1,s2 99718
+! s1,s2 100634
+! s1,s2 100868
+! s1,s2 101096
+! s1,s2 101338
+! bs1,bs2 101561
+! s1,s2 102714
+! bs1,bs2 103405
+! s1,s2 104333
+! bs1,bs2 105248
+! s1,s2 106178
+! s1,s2 107094
+! bs1,bs2 108020
+! s1,s2 108945
+! s1,s2 109184
+! bs1,bs2 109424
+! bs1,bs2 109868
+! s1,s2 110785
+! bs1,bs2 111699
+! bs1,bs2 112902
+! s1,s2 113572
+! s1,s2 114491
+! s1,s2 115412
+! bs1,bs2 116324
+! s1,s2 117252
+! bs1,bs2 118170
+! bs1,bs2 119104
+! bs1,bs2 120015
+! s1,s2 120952
+! s1,s2 121865
+! s1,s2 123682
+@ hit 139448
+@ hit 140374
+@ hit 141318
+@ hit 142250
+@ hit 143199
+@ hit 143433
+@ hit 143653
+play name=b_coming time=145525
+action key=space time=145913 name=b_bighit ach=who came back with me, I still don't know!
+@ hit 146940
+@ hit 147855
+@ hit 148814
+@ hit 149751
+@ hit 150681
+@ hit 151622
+@ hit 152557
+play name=b_coming time=153487 alias=h1
+action key=space time=153981 name=b_bighit
+@ hit 154448
+@ hit 155382
+@ hit 156316
+@ hit 157257
+@ hit 157491
+@ hit 158191
+@ hit 158425
+@ hit 159125
+@ hit 159359
+@ hit 160059
+@ hit 160293
+@ hit 161015
+@ hit 161249
+@ hit 161949
+@ hit 162183
+@ hit 162883
+@ hit 162660
+@ hit 163828
+@ hit 164061
+@ hit 165696
+@ hit 166633
+@ hit 167567
+! j1,j2,j3 168501
+! h1,h2 169415
+@ hit 171270170312
+@ hit 171270
+@ hit 172185
+@ hit 173090
+@ hit 173975
+@ hit 175364
+@ hit 176723
+@ hit 177637
+@ hit 178539
+! b1,b2 179458
+@ hit 180348
+@ hit 181273
+@ hit 182155
+! b1,b2 182620
+@ hit 185850
+@ hit 186740
+@ hit 187670
+@ hit 188540
+@ hit 189460
+@ hit 190330
+! b1,b2 191256
+@ hit 193074
+! b1,b2 193978
+@ hit 196708
+ @ hit 197614
+@ hit 198537
+@ hit 199473
+@ hit 200425
+@ hit 201351
+@ hit 202291
+@ hit 203241
+! b1,b2 204184
+@ hit 205108
+@ hit 206046
+@ hit 206974
+@ hit 207919
+@ hit 208850
+@ hit 209795
+@ hit 210740
+! b1,b2 211670

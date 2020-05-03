@@ -1,0 +1,46 @@
+play z2g
+wait 800
+play zsl
+play z2h
+wait 1200
+stopsounds
+play zsb
+play z1d
+wait 2000
+text die! die! Let me explain the tutorial please!
+play z1g
+wait 500
+stopsounds
+play zsb
+play z2d
+wait 1000
+text die!
+text we don't have much time now, the zombies are coming!
+text here is your gun. now help out, or we will all become unliving brain biters!
+
+text first type of zombie is quite slow, and comes either from the right or the left.
+text for this one, you wait 2 beats, and press either the right or left arrow key, depending on where you hear it.
+play z1g
+wait 1200
+play zsb
+play z1d
+wait 600
+text second zombie, you wait one beat, hold the enter key for 2 beats and let go!
+play z2g
+wait 600
+play zsl
+play z2h
+wait 1200
+stopsounds
+play zsb
+play z2d
+wait 1000
+text let's practice!
+interactive zombies -4 1421 9870 8
+intersound z1g 100 30 3528
+intersound z1d 100 30 4584 key_right
+intersound z1g 100 -30 5638
+intersound z1d 100 -30 6694 key_left
+intersound z2g 100 0 7753
+intersound zsl 100 0 8281 key_enter 9337
+interactive end

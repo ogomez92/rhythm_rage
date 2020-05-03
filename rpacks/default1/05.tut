@@ -1,0 +1,58 @@
+text Hi! I am Jago
+text But I think my spirit might be changing into a goldfish, because I'm losing my memory and I'm starting to forget my combos...
+text can you help me? thank you!
+text you will hear a series of sounds, and you will have to memorize them so that you can then press the right key. But don't worry, I will tell you beforehand how many beats you need to memorize. its not much!
+wait 800
+play 3num1
+wait 600
+text this means you have to memorize one beat
+wait 800
+play 3num2
+wait 600
+text this means you have to memorize two beats
+wait 800
+text let's hear the sounds now.
+wait 800
+play 3smallswing
+wait 400
+text this sound is for the space bar
+wait 800
+play 3bigswing
+wait 400
+text this sound is for the enter key
+wait 800
+text ok, let's see with some cool music!
+music jago -6 24653
+play 3num2 26720
+play 3smallswing 27125
+play 3smallswing 27525
+play 3bigswing 27960
+play 3bigswing 28340
+play 3smallhit 28760
+say space
+play 3smallhit 29160
+say space
+play 3bighit 29560
+say enter
+play 3bighit 30010.5
+say enter
+play 3num1
+play 3bigswing 30410
+play 3bighit 31260
+say enter
+play 3smallswing 32060
+play 3smallswing 32260
+play 3bigswing 32460
+play 3smallhit 32860
+say space!
+play 3smallhit 33060
+say space!
+play 3bighit 33260
+say enter!
+wait 250
+play 3tripplecombo1
+fade
+wait 800
+text oh yes, every time you get the 3 sounds in a series of 3, you get a tripple combo!
+text ok, are you ready?
+text good luck!

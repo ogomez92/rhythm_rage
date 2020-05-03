@@ -1,0 +1,77 @@
+crazy bits 2
+misc reaction=140
+music name=barbie_bgm volume=0 jingle=jingle3
+play name=b_coming time=1534 alias=c1
+action time=1921 alias=c2 name=b_hit key=space
+! c1,c2 2308 k1
+play name=b_contra time=2889 alias=c3
+action time=3276 alias=c4 name=b_hitc key=space
+@ k1 3082
+@ k1 3856
+play name=b_3 time=4630 alias=31
+play name=b_coming time=4630 alias=32
+play name=b_coming time=5017 alias=33
+action time=5017 alias=34 name=b_hit key=space
+action time=5404 alias=36 name=b_hit key=space
+play name=b_coming time=5404 alias=37
+action time=5791 alias=38 name=b_hit3 key=space
+! 31,32,33,34,36,37,38 6178 k3
+! c3,c4 7920 k2
+@ k1 8500
+@ k2 9468
+@ k1 9661
+@ k2 9855
+@ k3 10822
+@ k1 12757
+@ k2 13338
+@ k1 13918
+@ k2 14499
+@ k2 14886
+@ k1 15466
+@ k1 16240
+@ k3 17208
+@ k1 18562
+@ k2 19143
+@ k1 20110
+@ k1 20884
+@ k3 21658
+@ k3 23206
+@ k3 24745
+@ k2 26487
+@ k1 27067
+@ k3 27841
+@ k3 29389
+@ k1 30937
+@ k2 31131
+@ k1 31324
+@ k2 31518
+@ k1 31711
+@ k1 32483
+@ k2 32677
+@ k1 32870
+@ k2 33064
+@ k1 33257
+@ k1 35579
+@ k2 36160
+@ k1 38675
+@ k2 38863
+@ k1 39056
+@ k2 41959
+@ k2 42733
+@ k1 44861
+@ k2 45055
+@ k1 45248
+@ k2 45442
+@ k1 45635
+@ k2 48151
+@ k1 48731
+@ k3 49480
+@ k1 51030
+@ k2 52000
+@ k3 52580
+@ k3 54125
+@ k2 55870
+@ k1 56450
+@ k3 57225
+@ k3 58770
+@ k3 60320

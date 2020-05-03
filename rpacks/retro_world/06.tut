@@ -1,0 +1,16 @@
+play mem_ins1
+wait 600
+play mem_ins2
+wait 600
+text hello! are you better at memorizing?
+text this level might? be kind of similar to memories1.
+text let's hear the sounds again, though you should already be familiar with this game!
+wait 600
+play mem_ins1
+wait 600
+text this sound means, press the space bar.
+wait 600
+play mem_ins2
+wait 600
+text this sound means hold enter for half a beat, and then release!
+text are you ready to play? I know you are!

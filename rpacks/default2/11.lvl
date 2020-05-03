@@ -1,0 +1,99 @@
+ayuda al pingüino
+misc cooldown=300
+music jingle=bsj volume=-2 name=bs
+play name=bs_duck time=1920 alias=d1
+action key=enter name=bs_duckhit,bs_duckm time=2350 fail=bs_miss alias=d2
+! d1,d2 2780 duck
+@ duck 3640
+@ duck 4280
+@ duck 4490
+@ duck 5350
+@ duck 6200
+@ duck 7060
+@ duck 7920
+@ duck 8130
+@ duck 8775
+@ duck 9630
+@ duck 10465
+@ duck 12195
+@ duck 13040
+@ duck 13910
+@ duck 14335
+@ duck 14760
+@ duck 16475
+@ duck 18187
+@ duck 18405
+@ duck 18618
+@ duck 18830
+@ duck 19045
+@ duck 19260
+@ duck 19475
+//birdies
+play name=bs_bird time=22900 alias=b1
+action name=bs_shoot,bs_birdhurt key=space fail=bs_fly miss=bs_shoot time=23320 early=bs_shoot late=bs_shoot alias=b2
+action name=bs_shoot,bs_birdgore key=space fail=bs_fly time=23750  early=bs_shoot late=bs_shoot miss=bs_shoot alias=b3
+! b1,b2,b3 21190 bird
+@ bird 24180
+@ bird 25030
+@ bird 25890
+@ bird 27600
+@ duck 28455
+@ bird 29310
+@ duck 30600
+@ duck 31450
+@ bird 32310
+@ duck 33160
+play name=bs_rooster time=34455 alias=r1
+action name=bs_rooshold time=35300 fail=bs_rooshurt key=enter ends=bs_roosok end=35750 alias=r2
+! r1,r2 36170 roos
+@ roos 37860
+@ bird 39600
+@ duck 40450
+@ duck 41540
+@ duck 42370
+@ duck 43235
+@ bird 44110
+@ duck 45595
+@ bird 46458
+@ roos 48165
+@ roos 49880
+@ roos 51600
+@ roos 53310
+@ duck 55018
+play name=bs_duck time=55940
+action key=enter name=bs_duckhit,bs_duckm time=56410 fail=bs_miss ach=cuac cuac! Ven aquí, patito lento!
+@ bird 61925
+@ duck 62780
+@ roos 63635
+@ duck 65350
+@ bird 65780
+@ bird 67275
+@ roos 68775
+@ bird 70480
+@ duck 71335
+@ bird 72200
+@ duck 73055
+@ duck 73910
+@ duck 74550
+@ duck 74765
+@ roos 75620
+@ bird 77335
+@ duck 78190
+//add
+@ roos 98270
+@ duck 99970
+@ bird 100410
+@ duck 101675
+@ bird 102100
+@ roos 103378
+@ bird 105120
+@ duck 105970
+@ roos 106820
+@ bird 108965
+
+@ duck 110665
+@ duck 111510
+play name=bs_bird time=56980
+action name=bs_shoot,bs_birdhurt key=space fail=bs_fly miss=bs_shoot time=57551 early=bs_shoot late=bs_shoot alias=ab1
+action name=bs_shoot,bs_birdgore key=space fail=bs_fly time=58305  early=bs_shoot late=bs_shoot miss=bs_shoot alias=ab2
+play require=ab1,ab2 time=59386 name=biga ach=pillaste al pajarito lento. bieeen!

@@ -1,0 +1,54 @@
+text  hola! has jugado al villains from beyond?
+text si no, te aconsejo que lo hagas. es un shooter muy bueno que hemos desarrollado un amigo y yo. bueno...
+text este nivel es bastante rápido, pero estoy seguro de que lo conseguirás!
+text tienes las naves aéreas que suenan así.
+wait 600
+play rob_airloop
+wait 600
+text estas tienes que dispararlas con la letra z porque la letra z es también la que se usa en el juego
+text cuando lo escuches, esperas un tiempo y disparas.
+text las bases terrestres, que suenan así
+wait 600
+play rob_base
+wait 600
+text igual, esperas un tiempo pero disparas con la x.
+text las naves aéreas que requieren 2 golpes, iguales pero das 2 veces a la z en 2 tiempos.
+wait 600
+play rob_multi
+wait 500
+play rob_beam
+say z
+wait 500
+play rob_beam
+say z!
+wait 500
+text y por último tienes las torres, que son muy difíciles de destruir pero solo hay unas pocas con el mismo logro (por eso dice que hay 6 logros, pero en realidad solo hay 2).
+wait 600
+play rob_toweralarm
+wait 600
+text cuando escuches esto, tendrás que pulsar x 2 veces muy rápido, cada medio tiempo!
+text dado que medio tiempo es poco y la canción es muy rápida, tienes muy poco tiempo para reaccionar
+text mira
+music rob_bgm -3
+play rob_airloop 1656
+play rob_beam 2072
+say z
+play rob_airloop 2488
+play rob_beam 2904
+say z
+play rob_toweralarm 3320
+play rob_bomb 3528
+say x!
+play rob_bomb 3736
+say x!
+play rob_multi 4984
+play rob_beam 5400
+say z!
+play rob_beam 5816
+say z!
+wait 800
+fade
+text has visto lo rápida que era esa torre?
+text  tienes que tener cuidado!
+text preparado para jugar?
+text suerte!

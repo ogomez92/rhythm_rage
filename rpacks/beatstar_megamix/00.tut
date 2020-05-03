@@ -1,0 +1,9 @@
+text hi!
+text this is a pack that won't give you much of a challenge
+text you have only one sound to worry about
+wait 600
+play b_coming
+wait 600
+text press space one beat after you hear this sound
+text ok ready?
+text have fun!

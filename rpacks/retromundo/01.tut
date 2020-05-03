@@ -1,0 +1,51 @@
+play mem_ins1
+wait 600
+play mem_ins2
+wait 600
+text hola! eres bueno memorizando?
+text este nivel te resultará bastante similar al nivel de la memoria de jago en el pack por defecto, pero en este caso debes memorizar siempre 4 tiempos.
+text vamos a escuchar los sonidos!
+wait 600
+play mem_ins1
+wait 600
+text este sonido significa, pulsa espacio
+wait 600
+play mem_ins2
+wait 600
+text este sonido significa mantén pulsado enter durante medio tiempo y luego suelta.
+text déjame que te lo enseñe
+music mem
+play mem_ins1 5582
+play mem_ins1 6205
+play mem_ins1 6855
+play mem_ins1 7166
+play mem_ins1 7476
+play mem_user1 8097
+say espacio!
+play mem_user1 8718
+say espacio!
+play mem_user1 9339
+say espacio!
+play mem_user1 9650
+say espacio!
+play mem_user1 9960
+say espacio!
+wait 800
+fade
+text ahora te enseñaré cómo funciona si tienes que mantener pulsado enter, recuerda medio tiempo!
+music mem
+play mem_ins1 627
+play mem_ins1 1248
+play mem_ins2 1869
+play mem_user1 3111
+say espacio!
+play mem_user1 3732
+say espacio!
+play mem_user2 4353
+say mantén enter...
+play mem_hend 4664
+say suelta!
+wait 800
+fade
+text bien, espero que lo entiendas!
+text estás preparado? sé que sí.

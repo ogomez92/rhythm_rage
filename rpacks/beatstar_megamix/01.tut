@@ -1,0 +1,16 @@
+text hey!
+text we're adding just one more sound here.
+wait 600
+play jam_2
+wait 600
+text press enter one beat and 1.5 beats after you hear this sound. like this
+wait 600
+play jam_2
+wait 600
+play jam_1e
+say space
+wait 300
+play jam_2e
+say space
+wait 800
+text good luck!

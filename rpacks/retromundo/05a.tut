@@ -1,0 +1,11 @@
+text hola!
+text te acuerdas de ritmos locos?
+text esto es lo mismo, pero en 8 bits, de ahí el nombre!
+text creo que no hace falta que explique este nivel ya que seguro que te acuerdas del pack por defecto. cuando escuches el sonido, pulsas espacio un tiempo después.
+text también hay un sonido que indica que vienen 3! casi me olvido.
+text ahí lo tienes
+wait 600
+play b_3
+wait 600
+text espero que estés preparado!
+text suerte!

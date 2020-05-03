@@ -1,0 +1,53 @@
+text hello! this is keep it tap!
+text can you keep up with this fast song and tap the correct keys at the same time? let's find out!
+text my name is Bob the snob, and I will be your instructor.
+text when I say up, right, down or left, you'll have to tap the corresponding arrow key on the next beat.
+text for example, if I say up, you wait one beat and then you tap the up arrow.
+text like this
+music keepitap -9
+play 3up 750
+play 3dir 1125
+say up!
+play 3down 2250
+play 3dir 2625
+say down!
+play 3down 3750
+play 3dir 4125
+say down!
+fade
+text oh, too easy you say?
+text how about this?
+music keepitap -9
+play 3up 750
+play 3dir 1125
+say up!
+play 3down 1125
+play 3up 1500
+play 3dir 1500
+say down!
+play 3dir 1875
+say up!
+fade
+text well... this is a bit harder isnt it?
+text oh yes indeed. but that's not all...
+text when I say tap! you have to keep tapping the enter key until I say stop, or you have another arrow key to press!
+text look
+music keepitap -9
+play 3tap 1515
+play 3tapok 1891
+say tap
+play 3tapok 2265
+say tap
+play 3tapok 2641
+say tap
+play 3tapok 3015
+say tap
+play 3up
+play 3dir 3390
+say up!
+fade
+text ok, I hope you figured it out.
+text I'm not going to help you any further. You'll have to figure it out on your own.
+text yes, there's right and left too!
+text good luck my friend! *smile*
+text well... let's say I'm feeling nice today and I'm going to give you an easier song... Maybe you'll get this one later... *grin*

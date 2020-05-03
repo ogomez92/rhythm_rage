@@ -1,0 +1,32 @@
+﻿text Welcome to the rhythm test!
+text This game combines music and coordination and, in some levels, your memory.
+text Are you ready to feel the rhythm in your core?
+text We will begin with a little test. You will hear some beeps.
+text And after every three beeps you will hear a higher one. You must follow the rhythm, pressing enter right on the higher beep. As you'll see, it's not easy, but you'll get the hang of it.
+text You'll have to be able to do this to play the next levels, so practice practice practice!
+text I want you to understand what you must do. Pay attention.
+music test
+play 1ok 1574
+say enter!
+play 1ok 3675
+say enter!
+play 1ok 5774
+say enter!
+play 1ok 7872
+say enter!
+fade
+text Understand?
+text Well, try it.
+text You ready? Let's begin!
+text oh, I forgot
+text If you don't do well, you'll hear this sound.
+wait 500
+play 1bad
+wait 500
+text However, if you do well, you'll hear this sound.
+wait 600
+play 1ok
+wait 700
+text Now remember, on the fourth beep, enter.
+text Ready?
+text Let's do it!

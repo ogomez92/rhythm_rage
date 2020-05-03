@@ -1,0 +1,117 @@
+Jago's memory
+music volume=-3 name=jago jingle=remixjingle
+// Note to self: smallswing macros always start 20 ms before what's normal
+play name=3num2 time=26301
+play name=3bigswing time=27123 alias=intros1
+play name=3smallswing time=27719 alias=intros2
+play name=3smallswing time=28336 alias=intros3
+action name=3bighit key=enter time=28767 alias=introa1
+action name=3smallhit key=space time=29383 alias=introa2
+action name=3smallhit key=space time=30000 alias=introa3
+
+! intros1,intros2,intros3,introa1,introa2,introa3 30410
+! intros1,intros2,intros3,introa1,introa2,introa3 33698
+! intros1,intros2,intros3,introa1,introa2,introa3 36986
+
+play name=3num1 time=39863
+
+// throat singing versse 1
+play name=3bigswing time=40273 alias=singlehits
+action name=3bighit key=enter time=41095 alias=singlehita
+
+play name=3smallswing time=41897 alias=twohits1
+play name=3smallswing time=42308 alias=twohits2
+action name=3smallhit key=space time=42739 alias=twohita1
+action name=3smallhit key=space time=43150 alias=twohita2
+
+! twohits1,twohits2,twohita1,twohita2 43541
+! twohits1,twohits2,twohita1,twohita2 45185
+
+! singlehits,singlehita 46849
+! twohits1,twohits2,twohita1,twohita2 48473
+! twohits1,twohits2,twohita1,twohita2 50116
+! twohits1,twohits2,twohita1,twohita2 51760
+
+// throat singing verse 1 end
+! singlehits,singlehita 53424
+
+play name=3smallswing time=55048 alias=twofasts1
+play name=3bigswing time=55273 alias=twofasts2
+action name=3smallhit key=space time=55890 alias=twofasta1
+action name=3bighit key=enter time=56095 alias=twofasta2
+
+! singlehits,singlehita 56712
+! twohits1,twohits2,twohita1,twohita2 58336
+
+! singlehits,singlehita 60000
+! twofasts1,twofasts2,twofasta1,twofasta2 61623 twofast
+! singlehits,singlehita 63287
+
+play name=3smallswing time=64911 alias=threehits1
+play name=3smallswing time=65116 alias=threehits2
+play name=3bigswing time=65341 alias=threehits3
+action name=3smallhit key=space time=65753 alias=threehita1
+action name=3smallhit key=space time=65958 alias=threehita2
+action name=3bighit key=enter time=66164 alias=threehita3
+play name=3tripplecombo1 time=66400 require=threehita1,threehita2,threehita3 alias=threehittc ach=Tripple Combo!: You managed to get all three hits in one of Jago's tripple combos!
+
+! singlehits,singlehita 66579 singlehit
+! twohits1,twohits2,twohita1,twohita2 68202 twohit
+! twohits1,twohits2,twohita1,twohita2 69843
+! twohits1,twohits2,twohita1,twohita2 71486
+
+! singlehits,singlehita 73150
+! twohits1,twohits2,twohita1,twohita2 74774
+! twohits1,twohits2,twohita1,twohita2 76418
+play name=3bigswing time=78082 alias=threeslows1
+play name=3bigswing time=78389 alias=threeslows2
+play name=3bigswing time=78696 alias=threeslows3
+action name=3bighit key=enter time=78904 alias=threeslowa1
+action name=3bighit key=enter time=79211 alias=threeslowa2
+action name=3bighit key=enter time=79518 alias=threeslowa3
+play name=3tripplecombo2 time=79800 require=threeslowa1,threeslowa2,threeslowa3 alias=threeslowtc ach=Tripple Combo!: You managed to get all three hits in one of Jago's tripple combos!
+
+@ twohit 92856
+! threehits1,threehits2,threehits3,threehita1,threehita2,threehita3,threehittc 94500 threehit
+@ twohit 96140
+@ twofast 97788
+@ twohit 99432
+@ threehit 101075
+@ twohit 102719
+@ threehit 104363
+@ threehit 106007
+@ singlehit 107671
+! threeslows1,threeslows2,threeslows3,threeslowa1,threeslowa2,threeslowa3,threeslowtc 109315 threeslow
+@ twohit 110938
+@ threehit 112582
+@ singlehit 114246
+@ threeslow 115890
+@ threehit 117514
+@ singlehit 133972
+@ twofast 135596
+@ twohit 137240
+@ singlehit 140547
+@ twofast 142171
+@ singlehit 143835
+@ twohit 145459
+play name=3num2 time=146712
+
+play name=3bigswing time=147123 alias=fourhits1
+play name=3bigswing time=147534 alias=fourhits2
+play name=3bigswing time=147945 alias=fourhits3
+play name=3bigswing time=148356 alias=fourhits4
+action name=3bighit key=enter time=148767 alias=fourhita1
+action name=3bighit key=enter time=149178 alias=fourhita2
+action name=3bighit key=enter time=149589 alias=fourhita3
+action name=3bighit key=enter time=150000 alias=fourhita4
+play name=3smallswing time=150391 alias=fourcts1
+play name=3smallswing time=151007 alias=fourcts2
+play name=3smallswing time=151418 alias=fourcts3
+play name=3smallswing time=151829 alias=fourcts4
+action name=3smallhit key=space time=152054 alias=fourcta1
+action name=3smallhit key=space time=152671 alias=fourcta2
+action name=3smallhit key=space time=153082 alias=fourcta3
+action name=3smallhit key=space time=153493 alias=fourcta4
+! fourhits1,fourhits2,fourhits3,fourhits4,fourhita1,fourhita2,fourhita3,fourhita4 153698
+ ! fourhits1,fourhits2,fourhits3,fourhits4,fourhita1,fourhita2,fourhita3,fourhita4 156986
+

@@ -1,0 +1,91 @@
+keep it tap
+music volume=-5 name=keepitap1 jingle=keej
+misc ok=60
+play name=3up time=1590 alias=u
+action name=3dir time=1990 key=up fail=3fail alias=ua pitch=105
+play name=3down time=2400 alias=d
+action name=3dir time=2820 key=down fail=3fail alias=da pitch=95
+! u,ua 3225 up
+play name=3right time=4870 alias=r
+action name=3dir time=5310 key=right fail=3fail alias=ra pitch=105
+play name=3left time=6515 alias=l
+action name=3dir time=6930 key=left fail=3fail alias=la pitch=95
+play name=3tap time=7360 alias=t
+action name=3tapok time=7770 key=enter fail=3tapfail alias=ta
+! ta 8180 tap
+! ta 8590
+! ta 9000
+! ta 9410
+! ta 9820
+! ta 10230
+play name=3stop time=10220 alias=stop
+! u,ua 10640 up
+! d,da 12310 down
+! l,la 13130 left
+! t 13530
+action name=3tapok time=13940 key=enter fail=3tapfail ach=tap tap tap: left tap stop! What a tap dance!
+! stop 13940
+@ down 14350
+@ up 15200
+! r,ra 16450 right
+@ left 17280
+@ up 18100
+@ down 18925
+@ right 19750
+@ up 20590
+@ down 21420
+@ left 22250
+@ left 23070
+@ up 24730
+@ up 25550
+@ down 25965
+@ right 26380
+! t,ta 27210
+! ta 28030
+! ta 28450
+! ta 28860
+! ta 29280
+! ta 29700
+! ta 30100
+! stop 30100
+@ up 30520
+@ down 30930
+@ up 31340
+@ up 32170
+@ down 32580
+@ up 33000
+//again
+! t,ta 33820
+! ta 34650
+! ta 35060
+! ta 35470
+! ta 35885
+! ta 36300
+! stop 36710
+@ up 37130
+@ right 37540
+@ up 37950
+@ down 38790
+@ left 39200
+@ up 39620
+@ up 42100
+@ down 43750
+@ right 45400
+@ left 46230
+@ up 47060
+@ down 47890
+@ left 48720
+@ right 49545
+@ right 50380
+@ left 51210
+! t,ta 52030
+! ta 52860
+! ta 53270
+! ta 53685
+! ta 54095
+! ta 54510
+! ta 54920
+! ta 55340
+! ta 55750
+! ta 56165
+! stop 	56150

@@ -1,0 +1,69 @@
+play evil1
+wait 600
+play evil2
+wait 600
+text hi! want to go on an evil monster hunt?
+text get ready because the monsters are coming! you will need good reflexes in this level... So the fail percentage is more permissive
+text so, there are 3 types of monsters.
+text the first one you heard, this one:
+wait 600
+play evil1
+wait 600
+text this one, when you hear it, you wait two beats and press space. real easy huh?
+text look
+music evil_bgm -5
+play evil1 1277
+play evil1shoot 1915
+say space!
+play evil1 2553
+play evil1shoot 3191
+say space!
+play evil1 3830
+play evil1shoot 4468
+say space!
+wait 800
+fade
+text easy huh?
+text another type of monster is this:
+wait 600
+play evil2
+wait 600
+text this scary monster will come up to you and is quite resistant, so you have to take out your awesome plasma gun.
+text you wait one beat, and hold enter for 2 beats and then release!
+text look
+music evil_bgm -5
+play evil2 1277
+play evil2hold 1596
+say hold...
+play evil2ok 2234
+say let go!
+play evil2 3830
+play evil2hold 4149
+say hold...
+play evil2ok 4787
+say let go!
+wait 800
+fade
+text there is one last monster
+text it's a bit resistant as well. and you need to be fast
+text this one, you have to shoot 3 times. It is like the previous one, but instead of holding enter 2 beats, you press space on the next 3 beats.
+text lok
+music evil_bgm -5
+play evil3 1277
+play evil3shoot 1596
+say space!
+play evil3shoot 1915
+say space!
+play evil3kill 2234
+say space!
+play evil3 3830
+play evil3shoot 4149
+say space!
+play evil3shoot 4468
+say space!
+play evil3kill 4787
+say space!
+wait 800
+fade
+text now you should know how to kill those pesky monsters, so good luck!
+text kill them all!

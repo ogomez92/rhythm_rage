@@ -1,0 +1,76 @@
+text hi! I am clocky the clock manager!
+text wow, these characters really do have weird names you think to yourself
+text but ok, this clock work only 12 hours, before i twist handle, and clock work again!
+text you do help me? yes? you help me will!
+text ok, the clock tick 12 times. at 13 time, you need twist the handle. but! you need pay attention to clock speed. because, you need to wait the same time as the last 4 ticks!
+text to twist handle, you hold enter for 1 beat! except, there is a clock that takes very long time! when clock take very long time, you need to press enter for 2 beats! try figure out when, ok? i can help you no more, i know not!
+text let me show you ok
+music c_bgm -3
+play c_tick 400
+say 1
+play c_tick 930
+say 2
+play c_tick 1470
+say 3
+play c_tick 2005
+say 4
+play c_tick 2540
+say 5
+play c_tick 2800
+say 6
+play c_tick 3070
+say 7
+play c_tick 3340
+say 8
+play c_tick 3610
+say 9
+play c_tick 4680
+say 10!
+play c_tick 5750
+say 11!
+play c_tick 6810
+say 12!
+play c_crank 7890
+say hold enter...
+play c_ok 8425
+say let go!
+wait 500
+stopsounds
+wait 300
+fade
+text let do it again!
+music c_bgm -3
+play c_tick 400
+say 1
+play c_tick 930
+say 2
+play c_tick 1470
+say 3
+play c_tick 2005
+say 4
+play c_tick 2540
+say 5
+play c_tick 2800
+say 6
+play c_tick 3070
+say 7
+play c_tick 3340
+say 8
+play c_tick 4670
+say 9
+play c_tick 4940
+say 10
+play c_tick 5208
+say 11
+play c_tick 5475
+say 12
+play c_crank 5740
+say hold...
+play c_ok 6275
+say let go!
+wait 300
+stopsounds
+fade
+wait 500
+text ok... hope you understand!
+text ready to go?

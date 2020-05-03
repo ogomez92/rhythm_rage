@@ -1,0 +1,193 @@
+remix
+music name=remix jingle=fs_jingle volume=-5
+play name=pong1 time=13010 alias=p1 pan=-10
+play name=pong2 time=13380 alias=p2 pan=0
+action key=enter time=13770 name=pong3 fail=pong4 alias=p3 pan=10
+! p1,p2,p3 14560 pslow
+@ pslow 16503
+play name=pong1 time=18048 alias=p4 pan=-10
+play name=pong2 time=18220 alias=p5 pan=0
+action key=enter time=18410 name=pong3 fail=pong4 alias=p6 pan=10
+play name=dogb1 pan=-10 time=19190 alias=db1
+action pan=10 time=20730 key=space name=dogb2 fail=dogw alias=db2
+! db1,db2 19550
+! db1,db2 19950 d
+//bird
+play name=bs_bird time=22250 alias=b1
+action name=bs_shoot,bs_birdhurt key=space fail=bs_fly miss=bs_shoot time=22650 early=bs_shoot late=bs_shoot alias=b2
+action name=bs_shoot,bs_birdgore key=space fail=bs_fly time=23040  early=bs_shoot late=bs_shoot miss=bs_shoot alias=b3
+//hawk
+play name=b2g time=23427 alias=k1
+action name=b2d time=23808 fail=bs_rooshurt key=enter ends=bs_roosok end=24584 alias=k2
+//mosquito
+play name=mosquito alias=m1 time=25380
+action key=enter fail=fallarmosquito name=matarmosquito time=26906 alias=m2
+! m1,m2 25756 m
+@ m 25962
+@ m 26149
+@ m 26514
+//zombie right
+play time=28450 pan=10 name=z1g alias=z11r
+action pan=10 key=right time=29215 name=zsb,z1d fail=zsb alias=z12r
+//zombie hold
+play name=z2g time=29630 alias=z21
+action key=enter time=30004 end=30785 ends=z2d,zss fail=zss name=z2h,zsl alias=z22
+@ d 31570
+@ d 31958
+@ d 32150
+@ d 32540
+@ d 32734
+! b1,b2,b3 34660 bird
+! k1,k2 35820 hawk
+//pain
+play pan=20 name=feel time=37780 alias=pain1
+play pan=20 name=pain alias=pain2 time=38167
+action name=painok key=right time=38537 alias=pain3 fail=painfail
+//ghost offbeat
+play name=gg_growl time=39320 alias=g21
+action key=space alias=g22 time=39910 name=gw2,gg_die
+//ghost right
+play name=gc_laugh pan=10 time=40844 alias=r1
+action alias=r2 key=right pan=10 time=41228 name=gw2,gc_kill
+//ghost left
+play name=gc_laugh pan=-10 time=41999 alias=l1
+action alias=l2 key=left pan=-10 time=42381 name=gw2,gc_kill
+//el1
+play name=g_1 time=43931 alias=11
+action alias=12 time=44318 name=g_1hit,g_h2 key=enter
+! 11,12 44700 el1
+//el3
+play alias=31 name=g_3 time=45486
+action key=enter alias=32 time=45873 name=g_3hit1,g_h3
+action key=enter alias=33 time=46256 name=g_3hit2,g_h1
+action key=enter alias=34 time=46643 name=g_3hit3,g_h2
+@ el1 47043
+@ bird 48580
+@ pslow 50143
+@ pslow 51694
+! p4,p5,p6 52854 pfast
+@ pfast 53628
+@ pslow 54795
+@ hawk 56343
+@ pslow 57882
+! r1,r2 59441 gr
+! l1,l2 60215 gl
+! z21,z22 60600 zhold
+//duck
+play name=bs_duck time=62925 alias=d1
+action key=enter name=bs_duckhit,bs_duckm time=63312 fail=bs_miss alias=d2
+@ bird 64080
+! d1,d2 66006 duck
+@ pfast 67550
+//ball
+play name=d_b1 time=68710 alias=ba1 pan=-10
+action name=d_b1h time=69097 key=enter alias=b1h pan=0
+! ba1,b1h 69478 ball
+@ ball 70254
+@ ball 71043
+@ ball 71811
+@ ball 72585
+@ gr 73746
+@ d 74907
+@ d 75294
+@ d 75870
+@ d 76065
+@ bird 77970
+@ pslow 78769
+@ ball 81088
+@ ball 81862
+@ ball 82632
+@ gl 83406
+@ ball 84181
+@ duck 84955
+@ bird 85732
+! pain1,pain2,pain3 86895 par
+play pan=-20 name=feel time=88851 alias=pain4
+play pan=-20 name=pain alias=pain5 time=89238
+action name=painok key=left time=89623 alias=pain6 fail=painfail
+! pain4,pain5,pain6 90397 pal
+@ gr 91561
+play name=gd_growl time=92332 alias=gdie1
+action key=enter time=92715 name=gw1,gd_die alias=gdie2
+@ zhold 93480
+@ hawk 94640
+@ par 96585
+@ pal 98139
+@ m 99680
+@ m 100069
+@ m 100263
+@ m 100650
+@ m 100843
+@ par 102772
+@ gl 103930
+@ gr 104700
+@ bird 105861
+@ duck 107016
+! gdie1,gdie2 107786 die
+@ d 108947
+@ d 109330
+@ d 109723
+play name=d_b2_1 time=112086 alias=b21 pan=-10
+play name=d_b2_2 alias=b22 time=112370 pan=-10
+action name=d_b2h time=112496 key=enter alias=b2h pan=0
+@ ball 112863
+@ die 113642
+@ bird 114223
+! b21,b22,b2h 115215 ball2
+@ ball 115985
+@ hawk 116740
+@ gr 118288
+@ pal 119058
+! g21,g22 120210 goff
+@ hawk 121360
+@ bird 122910
+@ pslow 124471
+@ pslow 126036
+@ pfast 127778
+@ pslow 128368
+@ pfast 129529
+@ pslow 130674
+@ pslow 132029
+@ pfast 132982
+@ pslow 133754
+@ hawk 134915
+play name=5coming time=137235 alias=scoming
+action name=5hit key=space time=137620 alias=sact
+//three
+play name=5three time=138010 alias=3sc
+play name=5coming time=138010 alias=3s1
+action name=5hit key=space time=138391 alias=3a1
+play name=5coming time=138391 alias=3s2
+action name=5hit key=space time=138774 alias=3a2
+play name=5coming time=138774 alias=3s3
+action name=5bighit key=space time=139161 alias=3a3
+@ ball 139933
+@ ball2 140710
+play name=d_b3 time=141738 play name=d_b3 alias=b31 pan=-10
+play name=d_b3 alias=b32 time=142000 pan=-10
+action key=enter time=142237 alias=b3h name=d_b3h pan=0
+@ ball 143022
+@ ball 143792
+! 3sc,3s1,3a1,3s2,3a2,3s3,3a3 144572 hit3
+
+@ ball2 146122
+@ ball 146890
+! b31,b32,b3h 147932 ball3
+! scoming,sact 149195 hit
+play name=5contra time=149801 alias=contras
+action name=5hit key=space time=150174 alias=contraa
+@ hit 150364
+@ bird 150751
+@ die 152285
+@ pfast 153450
+! contras,contraa 155193 contra
+@ hit 155806
+@ bird 156960
+@ duck 158302
+@ duck 159076
+@ bird 160040
+@ hawk 161582
+@ hit 163513
+@ hit3 164278
+play name=z2g time=165840 alias=z21
+action key=enter time=166268 end=167065 ends=z2d,zss,z1d fail=zss name=z2h,zsl alias=z22 ach=Die zombie, die!

@@ -1,0 +1,31 @@
+play cat_evil
+wait 800
+text hola! soy el gato malvado! el gato maléfico! el gato monstruo... el bombigato!
+text y tienes que ayudarme a engañar a estos humanos que me acarician! quiero explotar! en sus caras!
+text lo que pasa es que los gatos buenos intentan despistar, y claro, se cuelan también y hay algunas personas que se salvan!
+text pero tienes que asegurarten de que explote siempre que me toquen a mi!
+text y a veces, sabes que pasa? que la gente viene muy seguido y tengo que explotar varias veces seguidas!
+text bueno, veamos cómo funciona. cuando me escuches maullar, tienes que pulsar enter al siguiente tiempo para hacerme explotar! pero no pulses enter cuando escuches a otro gato que no sea yo! Venga, que soy fácil de distinguir. yo sueno así.
+wait 600
+play cat_evil
+wait 600
+text vamos a verlo con la música
+music cat_bgm -3
+play cat_good1 780
+say no... este no!
+play cat_good2 2530
+say vaya... tampoco!
+play cat_evil 4310
+say este sí!
+play cat_fail 4750
+say enter!
+play cat_evil 5190
+say otro!
+play cat_fail 5635
+say bum!
+play cat_good1 6080
+say no!
+wait 600
+fade
+text bueno, lo has aprendido?
+text cuidado cuando me acaricien muchas veces! Vas a tener que ser rápido!

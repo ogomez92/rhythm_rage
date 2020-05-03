@@ -1,0 +1,65 @@
+play s_taste
+wait 230
+play s_my
+wait 230
+play s_blade
+wait 350
+play s_pfail
+play s_grunt
+wait 1100
+text oh, sorry, thought we were already fighting! oops... did I hurt you?
+text ok, this is epic battle!
+text this is quite a fast level, and it might take you a bit to get used to, so lets begin!
+text the first sound you will encounter is, oh yes, taste my blade!
+text when you hear taste my blade (taste my blade takes two beats of the song), you wait one beat and hit either the right or left arrow, depending on where the sound came from!
+text here goes.
+music s_bgm -8
+play s_taste 1710
+play s_my 1910
+play s_blade 2125
+play s_parryl 2520
+say now!
+wait 600
+fade
+text ok, I hope you understood what's up! Otherwise you'll end up... tasting my blade!
+text but you can also attack! you will hear yourself saying wah! and you wait one beat, and hit enter. like this
+music s_bgm -8
+play s_s3 1720
+play s_die1 2120
+play s_parryl
+say ouch!
+play s_s3 2520
+play s_die1 2920
+play s_parryl
+say ouch!
+play s_s3 3320
+play s_die1 3725
+play s_parryl
+say ouch!
+wait 800
+fade
+text and now, for the final thing you need to learn
+text there's a special attack for which you need to hold the enter key for 1 beat. you hear the special attack sound, wait one beat, and hold enter key for one beat and then let go. here.
+play s_shold
+wait 350
+play s_woosh
+say hold
+wait 350
+play s_sok
+say let go!
+wait 500
+text lets try with the music!
+music s_bgm -9
+play s_shold 520
+play s_woosh 925
+say hold enter...
+play s_sok 1330
+say let go!
+play s_shold 1730
+play s_woosh 2130
+say hold enter...
+play s_sok 2530
+say let go!
+fade
+text ok, are you ready?
+text good luck! Wait no... if you do well I'll die! Good luck for me! Mwahaha!

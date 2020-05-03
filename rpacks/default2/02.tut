@@ -1,0 +1,66 @@
+text preparado para seguir el ritmo? crees que puedes con todo?
+text conoces la canción uptown funk? seguro que la has escuchado en la radio!
+text venga! Veamos. Casi siempre, tendrás que pulsar espacio cuando escuches este sonido.
+wait 600
+play 5coming
+wait 600
+text pero veamos con la música!
+music uptown -2 16710
+play 5coming 18790
+play 5hit 19310
+say espacio!
+play 5coming 19830
+play 5hit 20350
+say espacio!
+play 5coming 20870
+play 5hit 21390
+say espacio!
+wait 500
+fade
+text y así
+text pero hay veces que tienes que pulsar espacio en 3 tiempos seguidos, mira.
+music uptown -2 16710
+play 5three 18790
+play 5coming
+play 5hit 19310
+say espacio
+play 5hit 19830
+say espacio...
+play 5bighit 20350
+say espacio!
+wait 800
+fade
+text ten cuidado también con los que van a contratiempo!
+music uptown -2 16710
+play 5contra 18530
+play 5hit 19050
+say espacio!
+play 5contra 19570
+play 5coming 19830
+play 5hit 20090
+say espacio...
+play 5hit 20350
+say espacio again!
+wait 600
+fade
+text un poco más complicado, no? 2 casi a la vez!
+text no hay  muchos casos que vayan tan seguidos, pero cuidado.
+text también hay un sonido que indica que tienes que seguir pulsando espacio a cada tiempo hasta que dejes de escuchar el sonido normal para darle al espacio. escucha!
+wait 600
+play 5wavecoming
+wait 600
+text vamos a intentarlo!
+music uptown -2 16710
+play 5wavecoming 17750
+play 5coming
+play 5hit 18255
+say espacio!
+play 5hit 18780
+say espacio!
+play 5hit 19300
+say espacio!
+wait 800
+fade
+text vale, ahora ya lo sabes todo!
+text estás preparado para jugar?
+text suerte!

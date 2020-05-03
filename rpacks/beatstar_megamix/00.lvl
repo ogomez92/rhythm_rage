@@ -1,0 +1,189 @@
+easy megamix
+misc reaction=200
+music name=megamix3 jingle=logo volume=-5
+play name=b_coming time=5 alias=h1
+action key=space name=b_hit time=528 alias=h2
+! h1,h2 1060
+! h1,h2 2094
+! h1,h2 3137
+! h1,h2 3663
+! h1,h2 4184
+! h1,h2 5232
+! h1,h2 6278 hit
+play name=b_coming time=7317 alias=b1
+action key=space name=b_bighit time=7836 alias=b2
+@ hit 8368
+@ hit 9403
+@ hit 10448
+@ hit 11486
+@ hit 12536
+@ hit 13575
+@ hit 14626
+@ hit 15666
+play name=b_coming time=18310 alias=j1
+action key=space name=b_hit time=18769 alias=j2
+! j1,j2 19228
+! j1,j2 20100
+! j1,j2 20950
+! j1,j2 21750
+! j1,j2 22826
+! j1,j2 23716
+! j1,j2 24586
+! j1,j2 25503
+! j1,j2 26406
+! j1,j2 27298
+! j1,j2 28216
+! j1,j2 29124
+! j1,j2 30028
+! j1,j2 30934
+play name=b_coming time=31860
+action key=space name=b_bighit time=32274 ach=julia, julia, julia, where did you go!
+! j1,j2 32726
+! j1,j2 33638
+! j1,j2 3452434524
+! j1,j2 35424
+! j1,j2 36342
+! j1,j2 37246
+play name=b_coming time=51420 alias=he1
+action key=space name=b_hit time=51980 alias=he2
+! he1,he2 52534
+! he1,he2 53626
+! he1,he2 54720
+! he1,he2 55836
+play name=b_coming time=56938 alias=heb1
+action key=space name=b_bighit time=57492 alias=heb2
+! he1,he2 58306
+! he1,he2 59117
+! he1,he2 60225
+! heb1,heb2 61330
+! heb1,heb2 62438
+! he1,he2 63534
+! he1,he2 64642
+! he1,he2 65726
+! he1,he2 66834
+! he1,he2 67942
+! he1,he2 69050
+! he1,he2 70146
+! he1,he2 71244
+! he1,he2 71798
+! heb1,heb2 72352
+! he1,he2 73442
+! he1,he2 74550
+! he1,he2 75644
+! heb1,heb2 76752
+play name=b_coming time=80070 alias=m1
+action key=space name=b_hit time=80712 alias=m2
+! m1,m2 81356
+! m1,m2 82640
+! m1,m2 83929
+! m1,m2 84250
+play name=b_coming time=84587 alias=mb1
+action key=space name=b_bighit time=85231 alias=mb2
+! m1,m2 86511
+! m1,m2 87801
+! mb1,mb2 89115
+! m1,m2 90422
+! m1,m2 91701
+! m1,m2 92950
+! mb1,mb2 94264
+! m1,m2 95558
+! m1,m2 96842
+! m1,m2 97163
+! m1,m2 98126
+! mb1,mb2 99410
+! m1,m2 100706
+! m1,m2 101027
+! mb1,mb2 101348
+! m1,m2 104558
+play name=b_coming time=107178 alias=mt1
+action key=space name=b_bighit time=107846 alias=mt2
+! mt1,mt2 109847 t
+@ t 111181
+@ t 112518
+@ t 113848
+@ t 115178
+@ t 116508
+@ t 117855
+@ t 119186
+@ t 120516
+@ t 121846
+@ t 123183
+@ t 124513
+@ t 125843
+@ t 127173
+@ t 128519
+@ t 131184
+@ t 132514
+@ t 133844
+@ t 135192
+@ t 136522
+@ t 137852
+@ t 139184
+@ t 141179
+play name=b_coming time=142401 alias=mg1
+action key=space name=b_hit time=142916 alias=mg2
+! mg1,mg2 143440
+! mg1,mg2 144503
+! mg1,mg2 145560
+! mg1,mg2 146608
+play name=b_coming time=147653 alias=mgb1
+action key=space name=b_bighit time=148177 alias=mgb2
+! mg1,mg2 148716
+! mgb1,mgb2 149767
+! mg1,mg2 150815
+! mg1,mg2 151863
+! mg1,mg2 152928
+! mg1,mg2 153983
+! mgb1,mgb2 155031
+! mg1,mg2 156079
+! mgb1,mgb2 157127
+! mg1,mg2 158171
+! mg1,mg2 159232
+! mg1,mg2 160280
+! mg1,mg2 161349
+! mg1,mg2 162397
+! mg1,mg2 163445
+! mg1,mg2 164486
+! mg1,mg2 165555
+! mgb1,mgb2 166603
+! mg1,mg2 167651
+! mg1,mg2 168699
+! mg1,mg2 169770
+! mg1,mg2 170818
+! mg1,mg2 171884
+! mg1,mg2 172932
+! mgb1,mgb2 173980
+play name=b_coming time=175000 alias=hi1
+action key=space name=b_bighit time=175494 alias=hi2
+! hi1,hi2 176970
+! hi1,hi2 177976
+! hi1,hi2 178972
+! hi1,hi2 179942
+! hi1,hi2 180926
+! hi1,hi2 181956
+! hi1,hi2 182191
+! hi1,hi2 182999
+! hi1,hi2 183952
+! hi1,hi2 184932
+! hi1,hi2 185928
+! hi1,hi2 186177
+! hi1,hi2 186426
+! hi1,hi2 187422
+! hi1,hi2 188419
+! hi1,hi2 190932
+! hi1,hi2 191944
+! hi1,hi2 193183
+! hi1,hi2 193432
+! hi1,hi2 194947
+! hi1,hi2 195943
+! hi1,hi2 196933
+! hi1,hi2 197948
+! hi1,hi2 198197
+! hi1,hi2 198446
+! hi1,hi2 198936
+! hi1,hi2 199932
+! hi1,hi2 200928
+! hi1,hi2 201924
+! hi1,hi2 202930
+! hi1,hi2 203931
+! hi1,hi2 204927

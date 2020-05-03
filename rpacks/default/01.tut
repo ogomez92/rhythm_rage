@@ -1,0 +1,58 @@
+text welcome to a new rhythm rage pack!
+text ready to bust some ghosts?
+text it's quite easy, really, no big deal. Just use your super antighost weapon on those bumbers!
+text there are a couple different types of ghosts.
+text first one, real easy. When you hear die! You wait one beat, and press enter.
+play gd_growl
+wait 700
+play gd_die
+say ouch ouch ouch!
+wait 900
+text let's try with some music, and the new rhythm rage tutorials. just listen to the music. When you hear die, wait one beat, and press enter. You'll be told if you were too early, too late, or you did right. Once you've done well enough, the music will stop and the tutorial will continue.
+text ready?
+interactive ghosts -3 13080 21380 4
+intersound gd_growl 100 0 15140
+intersound gd_die 100 0 15676 key_enter
+intersound gd_growl 100 0 16170
+intersound gd_die 100 0 16708 key_enter
+intersound gd_growl 100 0 17220
+intersound gd_die 100 0 17748 key_enter
+intersound gd_growl 100 0 19290
+intersound gd_die 100 0 19832 key_enter
+interactive end
+text hey, you did it!
+text not bad, huh?
+text another type of ghost, these are slightly trickier... and you'll need to react quickly!
+text these ghosts have left the boundaries of crazy party, and now roam rhythm rage land. Isn't that cool?
+text when you hear ghost laughter, wait one beat and press either the left or right arrow key, depending on where you hear them.
+wait 500
+play gc_laugh
+wait 500
+text try it, come on.
+
+interactive ghosts -3 13080 21380 3
+intersound gc_laugh 100 30 15140
+intersound gc_kill 100 0 15676 key_right
+intersound gc_laugh 100 -30 17220
+intersound gc_kill 100 0 17748 key_left
+intersound gc_laugh 100 30 19290
+intersound gc_kill 100 0 19832 key_right
+interactive end
+text and now for the last type fo ghosts... Real pesky creatures these ghosts because, for these you need to wait 1.5 beats, not 1.
+text this time, you have to press space, and not enter. Because it's a different gun and all that...
+wait 500
+play gg_growl
+wait 900
+play gg_die
+text ready?
+interactive ghosts -3 13080 21380 3
+intersound gg_growl 100 0 15140
+intersound gg_die 100 0 15934 key_space
+intersound gg_growl 100 0 17224
+intersound gg_die 100 0 17998 key_space
+intersound gg_growl 100 0 19293
+intersound gg_die 100 0 20077 key_space
+interactive end
+text ok ok, you did quite well!
+text you are ready to kill those pesky ghosts now!
+jump

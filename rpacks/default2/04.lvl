@@ -1,0 +1,47 @@
+forsa barsa
+music name=6chipslow jingle=6j
+play name=6tot time=1840 alias=t1
+play name=6el time=2070 alias=t2
+play name=6camp time=2300 alias=t3
+action name=6campa key=space alias=t4 time=2730
+action name=6campa key=space alias=t5 time=2960
+action name=6campa key=space alias=t6 time=3190
+play name=6chu time=3680 alias=cm1
+play name=6tael time=4010 alias=cm2
+play name=6ma alias=cm3 time=4370
+play name=6drid alias=cm4 time=4605
+action name=6paras ends=6para fail=6parafail key=enter time=5050 end=5520 alias=cm5
+! t1,t2,t3,t4,t5,t6 7370 tot
+@ tot 9220
+@ tot 11070
+@ tot 12920
+@ tot 14760
+play name=6chuta time=16610 alias=chu
+action key=enter name=6chutaa time=17060 fail=6chutaf alias=chua
+! chu,chua 17530 chuta
+@ tot 18450
+@ tot 20290
+@ tot 22120
+@ tot 23960
+! cm1,cm2,cm3,cm4,cm5 26725 madrid
+@ tot 29495
+@ tot 31800
+@ chuta 33650
+@ chuta 34575
+@ tot 35940
+@ chuta 37790
+@ tot 38700
+@ chuta 41480
+@ tot 43325
+@ chuta 45165
+@ chuta 46330
+@ chuta 47250
+@ tot 47920
+@ tot 50690
+@ madrid 53450
+@ madrid 55300
+@ madrid 57140
+@ madrid 58990
+@ madrid 60830
+@ madrid 62680
+@ tot 64525

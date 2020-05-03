@@ -1,0 +1,15 @@
+rhythm test
+music name=test jingle=1j
+action key=enter name=1ok time=1568 alias=a1 fail=1bad
+action key=enter name=1ok time=3673 alias=a2 fail=1bad
+action key=enter name=1ok time=5774 alias=a3 fail=1bad
+action key=enter name=1ok time=7870 alias=a4 fail=1bad
+action key=enter name=1ok time=9970 alias=a5 fail=1bad
+action key=enter name=1ok time=12069 alias=a6 fail=1bad
+action key=enter name=1ok time=14170 alias=a7 fail=1bad
+action key=enter name=1ok time=16266 alias=a8 fail=1bad
+action key=enter name=1ok time=18365 alias=a9 fail=1bad
+action key=enter name=1ok time=20466 alias=a10 fail=1bad
+action key=enter name=1ok time=22567 alias=a11 fail=1bad
+action key=enter name=1ok time=24671 alias=a12 fail=1bad
+play name=1ok require=a1,a2,a3,a4,a5,a6,a7,a8,a9,a10,a11,a12 time=25990 ach=very good. You completed the rhythm test without mistakes!

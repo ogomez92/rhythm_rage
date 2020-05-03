@@ -1,0 +1,61 @@
+pipes
+music name=pipe_bgm volume=-1 jingle=pipe_jingle
+play name=pipe_yes time=6100 alias=hmcue
+action name=pipe_hammer key=enter fail=pipe_no time=6610 alias=hma1
+action name=pipe_hammer key=enter fail=pipe_no time=6860 alias=hma2
+action name=pipe_hmcs key=enter fail=pipe_no time=7115 alias=hma3
+action name=pipe_slide key=left fail=pipe_slidefail ends=pipe_slideok time=7627 end=8135
+! hmcue,hma1,hma2,hma3 8644 hm
+action name=pipe_slide key=up fail=pipe_slidefail ends=pipe_slideok time=10169 end=10677
+@ hm 11694
+action name=pipe_slide key=right fail=pipe_slidefail ends=pipe_slideok time=13220 end=13728
+@ hm 14237
+action name=pipe_slide key=down fail=pipe_slidefail ends=pipe_slideok time=15762 end=16271
+@ hm 18305
+action name=pipe_slide key=left fail=pipe_slidefail ends=pipe_slideok time=19830 end=20338
+
+//4
+play name=pipe_yes time=21101 alias=hm4cue
+action name=pipe_hammer key=enter fail=pipe_no time=21610 alias=hm4a1
+action name=pipe_hammer key=enter fail=pipe_no time=21864 alias=hm4a2
+action name=pipe_hammer key=enter fail=pipe_no time=22118 alias=hm4a3
+action name=pipe_hmcs key=enter fail=pipe_no time=22372 alias=hm4a4
+
+action name=pipe_slide key=up fail=pipe_slidefail ends=pipe_slideok time=22881 end=23389
+
+@ hm 23898
+action name=pipe_slide key=right fail=pipe_slidefail ends=pipe_slideok time=25423  end=25932
+
+! hm4cue,hm4a1,hm4a2,hm4a3,hm4a4 26186 hm4
+action name=pipe_slide key=down fail=pipe_slidefail ends=pipe_slideok time=27966 end=28474
+
+@ hm 29491
+action name=pipe_slide key=left fail=pipe_slidefail ends=pipe_slideok time=31017 end=31525
+
+@ hm 32288
+action name=pipe_slide key=up fail=pipe_slidefail ends=pipe_slideok time=33813 end=34322
+
+@ hm 34576
+action name=pipe_slide key=right fail=pipe_slidefail ends=pipe_slideok time=36101 end=36610
+
+@ hm 36610
+action name=pipe_slide key=down fail=pipe_slidefail ends=pipe_slideok time=38135 end=38644
+
+@ hm4 40424
+action name=pipe_slide key=left fail=pipe_slidefail ends=pipe_slideok time=42222 end=42730
+
+@ hm 44746
+action name=pipe_slide key=up fail=pipe_slidefail ends=pipe_slideok time=46271 end=46779
+
+play name=pipe_yes time=49830 alias=hm6cue
+action name=pipe_hammer key=enter fail=pipe_no time=50339 alias=hm6a1
+action name=pipe_hammer key=enter fail=pipe_no time=50593 alias=hm6a2
+action name=pipe_hammer key=enter fail=pipe_no time=50847 alias=hm6a3
+action name=pipe_hammer key=enter fail=pipe_no time=51108 alias=hm6a4
+action name=pipe_hammer key=enter fail=pipe_no time=51362 alias=hm6a5
+action name=pipe_hmcs key=enter fail=pipe_no time=51616 alias=hm6a6
+
+action name=pipe_slide key=right fail=pipe_slidefail ends=pipe_slideok time=52379 end=52887
+
+@ hm 53904
+action name=pipe_slide key=down fail=pipe_slidefail ends=pipe_slideok time=55430 end=55938

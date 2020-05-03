@@ -1,0 +1,35 @@
+text hi! time to follow the beat!
+text do you think you can do it? it's very easy
+text you will hear this sound
+wait 600
+play jam_1
+wait 600
+text when you hear it, you have to wait one beat and press enter on the next
+text and then, when you hear this sound
+wait 600
+play jam_2
+wait 600
+text you wait one beat, but press enter twice, every half beat!
+text look
+music jam1 0
+play jam_1 2134
+play jam_1e 2663
+say enter!
+play jam_1 3192
+play jam_1e 3727
+say enter!
+play jam_2 4258
+play jam_1e 4786
+say enter!
+play jam_2e 5060
+say enter!
+play jam_2 5328
+play jam_1e 5857
+say enter!
+play jam_2e 6121
+say enter!
+
+wait 800
+fade
+text are you ready to play?
+text good luck my friend!

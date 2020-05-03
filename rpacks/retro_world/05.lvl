@@ -1,0 +1,76 @@
+rhythm & spell
+debug mode
+music name=spell volume=0 jingle=spell_jingle
+play name=a time=1
+action key=a name=spell_good time=661 fail=spell_wrong 
+play name=b time=1322
+action key=b name=spell_good time=1983 fail=spell_wrong 
+play name=c time=2630
+play name=d time=3290
+action key=c name=spell_good time=3305 fail=spell_wrong
+action name=spell_good fail=spell_wrong key=d time=3966
+play name=e time=3966
+action name=spell_good fail=spell_wrong key=e time=4627
+play name=p time=5275
+play name=o time=5930
+action name=spell_good fail=spell_wrong key=p time=5949 alias=p
+action name=spell_good fail=spell_wrong key=o time=6610 alias=o
+play name=k time=6590
+action name=spell_good fail=spell_wrong key=k time=7271 alias=k
+play name=e time=7260
+action name=spell_good fail=spell_wrong key=e time=7932 alias=e
+play name=m time=7920
+action name=spell_good fail=spell_wrong key=m time=8593 alias=m
+play name=o time=8580
+action name=spell_good fail=spell_wrong key=o time=9254 alias=o2
+play name=n time=9245
+action name=spell_good fail=spell_wrong key=n time=9915 alias=n
+play fail=spell_incorrect require=p,o,k,e,m,o2,n time=10576 name=spell_correct ach=pokemon pokemon pokemon! Yes, you can spell pokemon, even though your synthesizer probably can't pronounce it. you win!
+play name=spell_now time=13220
+play name=spell_word1 time=14400
+play name=spell_go time=15000
+action time=15864 name=r,spell_good alias=l1 key=r fail=spell_wrong
+action time=16525 name=h,spell_good alias=l2 key=h fail=spell_wrong
+action time=17186 name=y,spell_good alias=l3 key=y fail=spell_wrong 
+action time=17847 name=t,spell_good alias=l4 key=t fail=spell_wrong 
+action time=18508 name=h,spell_good alias=l5 key=h fail=spell_wrong 
+action time=19169 name=m,spell_good alias=l6 key=m fail=spell_wrong
+play require=l1,l2,l3,l4,l5,l6 time=19830 name=spell_right fail=spell_incorrect ach=rhythm, rhythm, rhythm. What a complicated word.
+play name=spell_next time=20990
+play name=spell_ready time=22400
+play name=spell_go time=22950
+//ready
+action time=23771 name=r,spell_good alias=l1 key=r fail=spell_wrong
+action time=24432 name=e,spell_good alias=l2 key=e fail=spell_wrong
+action time=25093 name=a,spell_good alias=l3 key=a fail=spell_wrong 
+action time=25754 name=d,spell_good alias=l4 key=d fail=spell_wrong 
+action time=26415 name=y,spell_good alias=l5 key=y fail=spell_wrong 
+play require=l1,l2,l3,l4,l5 time=27075 name=spell_right fail=spell_incorrect ach=ready, ready for rhythm!
+
+play name=f time=29058
+play name=u time=29719
+action key=f name=spell_good time=29719 fail=spell_wrong alias=ff
+play name=c time=30380
+action key=u name=spell_good time=30380 fail=spell_wrong alias=fu
+play name=k time=31041
+action key=c name=spell_good time=31041 fail=spell_wrong alias=fc
+
+play name=y time=31702
+action key=k name=spell_good time=31702 fail=spell_wrong alias=fk
+play name=o time=32363
+action key=y name=spell_good time=32363 fail=spell_wrong alias=fy
+play name=u time=33024
+action key=o name=spell_good time=33024 fail=spell_wrong alias=fo
+action key=u name=spell_good time=33685 fail=spell_wrong alias=fu2
+play time=34346 require=ff,fu,fc,fk,fy,fo,fu2 name=spell_noise fail=spell_fuckno ach=oy! fuck you too, rhythm and spell!
+play name=a time=37651
+action key=a name=spell_good time=38312 fail=spell_wrong 
+play name=b time=39634
+action key=b name=spell_good time=40295 fail=spell_wrong 
+play name=b time=42590
+action key=b name=spell_good time=43270 fail=spell_wrong 
+play name=a time=43931
+action key=a name=spell_good time=44592 fail=spell_wrong 
+play name=spell_supernoise time=44922
+play name=spell_youwin time=58142
+play name=spell_goodbye time=58803

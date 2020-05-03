@@ -1,0 +1,40 @@
+text why! Why crazy factory! I hate this level!
+text calm down, this one is not as hard or complicated as the other one. No crate memorizing! Yay yay!
+text this one's a bit different and I'm sure you will enjoy it. :)
+text get your hands on the number row, because the number row are the only keys you wil be using in this level.
+text and by the number row I mean the row of numbers above the letters qwertyuiop and not the number pad!
+text but don't worry you'll only need 1 2 and 3
+text so let's see what this level is about shall we?
+text you have 3 types of crates!
+text and each crate is assigned to number 1, 2 or 3. number 1 you hold one beat and then release, number 2 2 beats, number 3 3 beats. very easy
+text each crate makes its own sound
+text here is crate number 1:
+wait 600
+play fac_3
+wait 600
+text here is crate number 2:
+wait 600
+play fac_1
+wait 600
+text here is crate number 3:
+wait 600
+play fac_2
+wait 600
+text I will show you with a bit of music. but I won't show you all the crates, just use logic and you will be alright.
+music fac_bgm -2
+play fac_1 3280
+play fac_hold 3746
+say hold number 2...
+play fac_ok 4674
+say let go!
+play fac_3 5598
+play fac_hold 6065
+say hold 1...
+play fac_ok 6532
+stopsounds
+say let go!
+wait 800
+fade
+text ok... and number 3 is the same but 3 beats!
+text you'll figure it out in time
+text good luck!

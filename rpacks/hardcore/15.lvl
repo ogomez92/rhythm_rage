@@ -1,0 +1,118 @@
+keep it tap 2
+misc ok=65
+music volume=-8 name=keepitap jingle=keej
+play name=3up time=750 alias=u
+action name=3dir time=1125 key=up fail=3fail alias=ua pitch=105
+play name=3down time=2250 alias=d
+action name=3dir time=2625 key=down fail=3fail alias=da
+! u,ua 3750
+! u,ua 4500
+! d,da 4875
+play name=3right time=5250 alias=r
+action name=3dir time=5625 key=right fail=3fail alias=ra pitch=110
+! u,ua 6375
+! d,da 6750
+! u,ua 7125
+! d,da 7500
+! r,ra 8250
+! u,ua 9375
+! u,ua 10125
+! d,da 10500
+! r,ra 10875
+play name=3left time=11225 alias=l
+action name=3dir time=11615 key=left fail=3fail alias=la pitch=95
+! d,da 11975
+! u,ua 12365
+! u,ua 12742
+! d,da 13490
+! u,ua 13865
+! u,ua 14242
+! d,da 14984
+! r,ra 15360
+! l,la 15740
+! r,ra 16480
+! l,la 16855
+! l,la 17230
+! u,ua 17605
+! u,ua 18355
+! d,da 18730
+! d,da 19110
+! r,ra 19480
+! u,ua 19860
+! u,ua 20230
+! u,ua 20985
+! d,da 21740
+! r,ra 22485
+! l,la 23235
+play name=3tap time=23985 alias=t
+action name=3tapok time=24370 key=enter fail=3tapfail alias=ta
+! ta 24745
+! ta 25120
+! ta 25490
+! ta 25870
+! ta 26245
+! ta 26620
+! ta 27000
+! d,da 27000
+! u,ua 27385
+! u,ua 27760
+! u,ua 28510
+! d,da 28865
+! r,ra 29235
+! t,ta 29985
+! ta 30740
+! ta 31115
+! ta 31490
+! ta 31865
+! ta 32245
+! ta 32630
+! d,da 32990
+! ta 32990
+! r,ra 33365
+! l,la 33740
+! l,la 34490
+! u,ua 34865
+! u,ua 35240
+! t 35990
+! ta 36365
+! ta 36750
+! ta 37135
+! ta 37510
+! ta 37885
+! ta 38260
+! ta 38635
+! ta 39010
+! ta 39385
+! ta 39760
+! ta 40135
+! ta 40510
+! ta 40885
+! ta 41262
+play name=3stop time=41210 alias=stop
+! d,da 42385
+! u,ua 43135
+! r,ra 43885
+! r,ra 44260
+! u,ua 45375
+! d,da 45750
+! d,da 46125
+! u,ua 46500
+! u,ua 46870
+! t,ta 47250
+! u,ua 48000
+! d,da 48750
+! r,ra 49500
+! l,la 50250
+! t,ta 51000
+! ta 51750
+! ta 52125
+! ta 52500
+! ta 52875
+! ta 53250
+! ta 53625
+! ta 54010
+! d,da 54011
+! u,ua 54385
+! u,ua 54760
+! d,da 55510
+! u,ua 56260

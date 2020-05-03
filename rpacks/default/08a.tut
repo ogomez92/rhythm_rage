@@ -1,0 +1,105 @@
+text hey! Time to squish some more birds for the penguin! remember?
+text this level combines all the previous birds from the first pack (ducks, roosters, and crows) along with 3 new ones.
+text let's review
+text ducks: Wait one beat, and press the enter key.
+text crows: wait one beat, and space twice, on the next 2 beats
+text roosters: Wait 2 beats, hold enter for 1 beat, and let go.
+text review time over, time to practice!
+text wait...
+text ducks sound like this:
+wait 600
+play bs_duck
+wait 600
+text crows sound like this
+wait 600
+play bs_bird
+wait 600
+text roosters sound like this:
+wait 600
+play bs_rooster
+wait 600
+text ok! time to practice!
+wait 600
+interactive birds -4 30992 38886 10
+intersound bs_duck 100 0 31225
+intersound bs_duckhit 100 0 31718 key_enter
+intersound bs_duck 100 0 32211
+intersound bs_duckhit 100 0 32704 key_enter
+intersound bs_bird 100 0 33197
+intersound bs_birdhurt 100 0 33690 key_space
+intersound bs_birdgore 100 0 34183 key_space
+intersound bs_bird 100 0 35662
+intersound bs_birdhurt 100 0 36155 key_space
+intersound bs_birdgore 100 0 36648 key_space
+intersound bs_rooster 100 0 37090
+intersound bs_rooshold 100 0 38112 key_enter 38605
+interactive end
+text ok, now that you know all the old birdies, let's go add some new ones shall we?
+text hawks
+wait 600
+play b2g
+wait 600
+text wait one beat, hold enter for 2 beats, and let go. very bloody... watch
+play b2g
+wait 500
+play b2d
+wait 1000
+stopsounds
+play b2ok
+wait 600
+text there's another bird, god knows what its name is, because I totally forgot. No birds like that where I come from, but anyway...
+wait 600
+play b1g
+wait 600
+text when you hear this bird call, wwait one beat, and press enter on the next two beats. Just like the crows, but enter instead of space bar.
+text and the last one, and possibly the most difficult, is an enraged... something
+wait 600
+play b3g
+wait 600
+text for this one, you wait one beat, and then press space 3 times, every half beat.
+wait 600
+play b3g
+wait 500
+play bs_shoot
+play b3h
+wait 250
+play bs_shoot
+play b3h
+wait 250
+play bs_shoot
+play b3d
+wait 1000
+text again
+wait 600
+play b3g
+wait 500
+
+play bs_shoot
+play b3h
+wait 250
+play bs_shoot
+play b3h
+wait 250
+play bs_shoot
+play b3d
+
+text time, for you, to practice!
+wait 1000
+interactive birds -4 30992 38886 10
+intersound b1g 100 0 31220
+intersound b1h 100 0 31718 key_enter
+intersound b1d 100 0 32211 key_enter
+intersound b2g 100 0 33190
+intersound b2d 100 0 33683 key_enter 34669
+intersound b1g 100 0 35162
+intersound b1h 100 0 35650 key_enter
+intersound b1d 100 0 36143 key_enter
+
+intersound b3g 100 0 37125
+intersound b3h 100 0 37618 key_space
+intersound b3h 100 0 37865 key_space
+intersound b3d 100 0 38111 key_space
+
+interactive end
+
+text time to kill!

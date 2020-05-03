@@ -1,0 +1,56 @@
+memories
+music name=mem jingle=jingle1 volume=0
+play name=mem_ins1 time=10617 alias=m1
+action name=mem_user1 time=13109 key=space alias=m2
+! m1,m2 11246
+! m1,m2 11867
+! m1,m2 12488 mem1
+@ mem1 15606
+@ mem1 16227
+@ mem1 16382
+@ mem1 16538
+@ mem1 16693
+@ mem1 16848
+@ mem1 17469
+@ mem1 20604
+@ mem1 20915
+@ mem1 21225
+@ mem1 22477
+play name=mem_ins2 time=21856 alias=h1
+action alias=h2 time=24340 end=24651 name=mem_user2 key=enter ends=mem_hend
+@ mem1 25916
+@ mem1 26537
+@ mem1 26847
+! h1,h2 27468 mem2
+| mem1 30585
+@ mem1 30896
+@ mem1 31517
+@ mem1 32138
+@ mem2 32471
+@ mem2 35580
+@ mem2 36201
+@ mem1 36822
+@ mem2 37133
+@ mem1 40593
+@ mem1 40904
+@ mem1 41525
+@ mem1 41835
+@ mem1 42456
+@ mem1 42767
+
+@ mem1 45584
+@ mem1 45739
+@ mem1 45895
+@ mem1 46050
+@ mem2 46205
+@ mem1 46826
+@ mem1 46981
+@ mem1 47137
+@ mem1 47292
+@ mem1 47447
+@ mem1 50572
+@ mem1 51193
+@ mem1 51814
+@ mem1 52435
+play name=mem_ins1 time=57104
+action name=mem_user1 time=59588 key=space alias=m2 ach=hard to catch: you caught the last bit at memories in retro world.

@@ -1,0 +1,51 @@
+play mem_ins1
+wait 600
+play mem_ins2
+wait 600
+text hello! are you good at memorizing?
+text this level might be kind of similar to the jago's memory level you played in the default pack, but in this case you must always memorize 4 beats.
+text let's hear the sounds!
+wait 600
+play mem_ins1
+wait 600
+text this sound means, press the space bar.
+wait 600
+play mem_ins2
+wait 600
+text this sound means hold enter for half a beat, and then release!
+text let me show you how this works
+music mem
+play mem_ins1 5582
+play mem_ins1 6205
+play mem_ins1 6855
+play mem_ins1 7166
+play mem_ins1 7476
+play mem_user1 8097
+say space!
+play mem_user1 8718
+say space!
+play mem_user1 9339
+say space!
+play mem_user1 9650
+say space!
+play mem_user1 9960
+say space!
+wait 800
+fade
+text let me show you how it works if you have to hold the enter key, remember, half a beat!
+music mem
+play mem_ins1 627
+play mem_ins1 1248
+play mem_ins2 1869
+play mem_user1 3111
+say space!
+play mem_user1 3732
+say space!
+play mem_user2 4353
+say hold enter...
+play mem_hend 4664
+say let go!
+wait 800
+fade
+text ok, I hope you understand now how to do it!
+text are you ready to play? I know you are.

@@ -1,0 +1,59 @@
+clock
+misc ok=80 super=99
+music name=c_bgm jingle=c_jingle volume=-1
+play name=c_tick time=380 alias=t1
+play name=c_tick time=920 alias=t2
+play name=c_tick time=1450 alias=t3
+play name=c_tick time=1985 alias=t4
+! t1,t2,t3,t4 2520 tick1
+play name=c_tick time=4660 alias=t5
+play name=c_tick time=4930 alias=t6
+play name=c_tick time=5200 alias=t7
+play name=c_tick time=5470 alias=t8
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=5730 end=6260 alias=ta1
+! t5,t6,t7,t8 6790 tickh
+@ tickh 7860
+! t5,t6,t7,t8 8930
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=10000 end=10540 alias=ta1
+@ tick1 11070
+@ tickh 13210
+@ tickh 14285
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=15350 end=15880 alias=ta1
+play name=c_tick time=17490 alias=t9
+play name=c_tick time=17620 alias=t10
+play name=c_tick time=17760 alias=t11
+play name=c_tick time=17890 alias=t12
+! t9,t10,t11,t12 18020 ts
+@ ts 18560
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=19090 end=19630 alias=ta1
+@ ts 19630
+@ tick1 20160
+@ tickh 22300
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=23370 end=23905 alias=ta1
+@ ts 23905 
+@ tick1 24440
+@ tickh 26580
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=27650 end=28180 alias=ta1
+@ tickh 28720
+@ tickh 29790
+@ tickh 30860
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=31930 end=32462 alias=ta1
+@ tickh 32462
+@ tick1 33530
+@ tickh 35670
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=36740 end=37270 alias=ta1
+play name=c_tick time=37810 alias=t13
+play name=c_tick time=38880 alias=t14
+play name=c_tick time=39950 alias=t15
+play name=c_tick time=41020 alias=t16
+! t13,t14,t15,t16 42090 tick2
+@ tick2 46370
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=50650 end=51700 alias=ta1 ach=exhausted clock: Oh yes, you saved an exhausted clock!
+@ tickh 51700
+@ tickh 52775
+@ tickh 53843
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=54920 end=55440 alias=ta1
+@ tickh 55448
+@ tickh 56520
+@ tickh 57590
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=58660 end=59190 alias=ta1

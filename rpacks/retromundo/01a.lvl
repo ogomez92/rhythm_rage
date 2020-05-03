@@ -1,0 +1,71 @@
+sigue el ritmo
+music name=jam1 jingle=jingle1 volume=-2
+play name=jam_1 time=2136 alias=1
+action key=enter time=2660 name=jam_1e alias=1e
+! 1,1e 3194 1
+@ 1 4258
+play name=jam_2 time=5320 alias=2
+action key=enter time=5855 name=jam_1e alias=2e
+action key=enter time=6120 name=jam_2e alias=2ee
+@ 1 6384
+! 2,2e,2ee 7452 2
+@ 2 8520
+@ 2 9049
+@ 2 9587
+@ 1 10645
+@ 1 11709
+@ 1 12767
+@ 2 13842
+@ 1 14900
+@ 2 15969
+@ 1 17040
+@ 1 18098
+@ 2 19171
+@ 1 20229
+@ 1 21290
+@ 2 22348
+@ 2 23435
+@ 2 24493
+@ 2 25572
+@ 1 26630
+@ 1 27688
+@ 2 28761
+@ 1 29819
+@ 1 30877
+@ 2 31960
+@ 2 33018
+@ 1 34085
+@ 2 35143
+@ 1 36221
+@ 2 37279
+@ 1 38355
+@ 1 39413
+@ 2 40478
+@ 2 41536
+@ 2 42599
+@ 1 43670
+@ 1 44736
+@ 1 45800
+@ 1 46858
+@ 2 47916
+@ 2 48985
+@ 1 50058
+@ 1 51122
+@ 1 52186
+@ 2 53254
+@ 2 54312
+@ 2 55386
+@ 2 56448
+@ 1 57508
+@ 1 58575
+@ 1 59636
+@ 1 60694
+@ 1 61774
+@ 2 62832
+@ 1 63902
+@ 2 64966
+@ 1 66292
+play name=jam_2 time=67359 alias=ac1
+action key=enter time=67891 name=jam_1e alias=ac2
+action key=enter time=68165 name=jam_2e alias=ac3
+play name=spell_good require=ac2,ac3 time=68694 fail=epicfail ach=bueno con los contratiempos. te salen bien estos ritmos a contratiempo, eh?

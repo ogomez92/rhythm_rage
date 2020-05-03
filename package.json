@@ -1,0 +1,42 @@
+{
+  "name": "RhythmRage",
+  "version": "1.0.3",
+  "description": "Rhythm Rage JS",
+  "main": "./client/index.js",
+  "scripts": {
+    "git": "git add . && git commit -m 'npm auto commit' && npm version patch && git push",
+    "minor": "git add . && git commit -m 'npm next minor version' && npm version minor && git push",
+    "release": "git add . && git commit -m 'npm release' && npm version major && git push",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "parcel watch ./client/js/main.js -d ./client --target=electron --no-hmr",
+    "build": "parcel build ./client/js/main.js -d ./client --target=electron",
+    "start": "electron ./client",
+    "run": "npm run build && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://oriolgomez.com:9900/ogomez92/rrage"
+  },
+  "author": "Oriol Gomez",
+  "license": "GPL",
+  "dependencies": {
+    "52-deck": "^1.1.0",
+    "babel-polyfill": "^6.26.0",
+    "base-64": "^0.1.0",
+    "copy-to-clipboard": "^3.3.1",
+    "download-file-sync": "^1.0.4",
+    "fs-walk": "0.0.2",
+    "hammerjs": "^2.0.8",
+    "howler": "^2.1.3",
+    "humanize-duration": "^3.22.0",
+    "s": "^0.1.1",
+    "sono": "^2.1.6",
+    "speak-tts": "^2.0.8",
+    "tone": "^13.8.25",
+    "unique-random": "^2.1.0"
+  },
+  "devDependencies": {
+    "electron": "^8.1.1",
+    "parcel-bundler": "^1.12.4"
+  }
+}

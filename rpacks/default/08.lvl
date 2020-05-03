@@ -1,0 +1,82 @@
+crazy beats pong
+misc reaction=120
+music name=crb2 jingle=fs_jingle volume=0
+play name=fs_done time=1606
+play name=fs_done time=1946
+play name=fs_done time=2284
+play name=fs_done time=2625
+
+play name=5coming time=2951 alias=scoming
+action name=5hit key=space time=3291 alias=sact
+! scoming,sact 3631 n
+play name=5three time=4310 alias=3sc
+play name=5coming time=4310 alias=3s1
+action name=5hit key=space time=4650 alias=3a1
+play name=5coming time=4650 alias=3s2
+action name=5hit key=space time=4985 alias=3a2
+play name=5coming time=4985 alias=3s3
+action name=5bighit key=space time=5320 alias=3a3
+@ n 6010
+! 3sc,3s1,3a1,3s2,3a2,3s3,3a3 7018 3
+@ n 8372
+@ n 9046
+play name=5contra time=9896 alias=contras
+action name=5hit key=space time=10236 alias=contraa
+@ n 10406
+@ n 11089
+! contras,contraa 11620 c
+@ n 15162
+@ n 15842
+@ c 16692
+@ n 17223
+@ 3 17903
+@ 3 19259
+@ n 20598
+@ n 21278
+@ c 22128
+@ n 22638
+@ 3 23318
+@ n 24678
+@ n 26053
+@ n 26733
+play name=pong1 time=27395 alias=p1 pan=-10
+play name=pong2 time=27735 alias=p2 pan=0
+action key=enter time=28080 name=pong3 fail=pong4 alias=p3 pan=10
+play pitch=110 name=pong1 time=29481 alias=p4 pan=-10
+play pitch=110 name=pong2 time=29720 alias=p5 pan=0
+action key=enter time=29829 name=pong3 fail=pong4 alias=p6 pan=10
+! p1,p2,p3 30173 p
+@ p 31193
+! p4,p5,p6 32200 pp
+@ n 32891
+@ n 33571
+@ 3 34240
+@ pp 35940
+@ pp 36620
+@ p 36960
+@ p 38320
+@ n 39000
+@ 3 39680
+@ pp 41045
+play name=d_b3 time=42653 play name=d_b3 alias=b31 pan=-10
+play name=d_b3 alias=b32 time=42898 pan=-10
+action key=enter time=43127 alias=b3h name=d_b3h pan=0
+@ p 44147
+@ pp 45507
+@ n 47154
+@ 3 47849
+@ n 49240
+@ c 49750
+@ p 50600
+@ p 51280
+@ pp 51946
+@ pp 52626
+@ p 53640
+@ n 54642
+@ n 55322
+@ n 56002
+@ n 56682
+@ n 57362
+@ n 58042
+@ pp 59062
+@ p 14146

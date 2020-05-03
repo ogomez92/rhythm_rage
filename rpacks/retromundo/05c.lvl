@@ -1,0 +1,59 @@
+monstruos malos
+misc reaction=140 ok=50 super=75
+music name=evil_bgm volume=-5 jingle=jingle1
+play time=1 name=evil1 alias=e1
+action time=638 name=evil1shoot key=space alias=e2
+! e1,e2 1277
+play name=evil2 time=2530 alias=e3
+action time=2830 end=3500 alias=e4 name=evil2hold ends=evil2ok key=enter
+play name=evil3 time=3821 alias=e5
+action alias=e6 name=evil3shoot time=4143 key=space
+action alias=e7 name=evil3shoot time=4462 key=space 
+action alias=e8 name=evil3kill time=4781 key=space
+! e1,e2 5420 evil1
+! e5,e6,e7,e8 6059 evil3
+! e3,e4 7654 evil2
+@ evil3 9888
+@ evil1 11141
+@ evil1 12418
+@ evil3 13694
+@ evil2 14958
+@ evil1 16235
+@ evil1 17512
+@ evil2 18793
+@ evil3 20072
+@ evil1 21355
+@ evil2 22631
+@ evil1 23908
+@ evil3 25185
+@ evil1 26479
+@ evil3 27756
+@ evil1 29352
+@ evil2 30318
+@ evil1 33197
+@ evil1 34159
+@ evil3 35435
+@ evil1 36716
+@ evil2 37993
+@ evil3 39269
+@ evil2 40546
+@ evil1 41841
+@ evil1 43118
+@ evil2 44395
+@ evil3 45683
+@ evil1 46960
+@ evil1 48236
+@ evil2 49518
+@ evil3 50800
+@ evil1 52084
+@ evil1 53361
+@ evil1 54637
+@ evil2 55914
+@ evil3 57209
+@ evil2 58486
+@ evil1 59763
+@ evil1 61039
+@ evil1 62316
+@ evil3 63603
+@ evil2 64880
+@ evil1 66157

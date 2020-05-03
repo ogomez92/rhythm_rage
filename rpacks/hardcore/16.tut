@@ -1,0 +1,72 @@
+play m_growl1
+wait 680
+play m_punch1
+play grunt2
+wait 1000
+text oooops! Did I hurt you?
+text I forgot the level hasn't started yet!
+text OK, this is about killing monsters. but we're not normal monsters! I am Oriol, the creator of this game! I know you want to kill me because I make oh so hard levels...
+text all the voices in this level, are me. Me me me me! Me me me! Meeee!
+text so if you want to kill me, now's your chance. And this level is pretty hard too!
+text ok, there are three types of monsters, + 2 hidden achievements. Oh yeah! You'll have to figure out where and what they are. The achievements, that is.
+text ok, the first monster, and the easiest, is a simple monster that you just wait one beat and press enter. I made this one with a burp. No just kidding.
+text lets go!
+music m_bgm -5 45300
+play m_growl2 46502
+play m_hurt31 46935
+play m_punch2
+say enter!
+play m_growl2 47376
+play m_hurt31 47813
+play m_punch2
+say enter!
+wait 500
+fade
+text yay! now you can kill the easy monsters
+text but there are two more. the second one is a bit harder, as you wait one beat, and press space 3 times in half beat intervals. that is, 2 during the second beat and the third one right where the third beat starts. Here, I'll show you.
+music m_bgm -5 45300
+play m_growl3 45635
+play m_hurt1 46076
+play 1shoot
+say space!
+play m_hurt31 46295
+play 1shoot
+say space!
+play m_hurt32 46508
+play 1shoot
+say space!
+play m_growl3 47378
+play m_hurt1 47817
+play 1shoot
+say space!
+play m_hurt31 48036
+play 1shoot
+say space!
+play m_hurt32 48240
+play 1shoot
+say space!
+wait 800
+fade
+text ok, and for the final monster!
+text it's like the first one, but you press space twice. wait one beat, press space, wait one beat, and space again.
+text so, same as the first one, but twice, and space instead of enter. makes it harder huh?
+music m_bgm -5 45300
+play m_growl1 45645
+play m_hurt31 46072
+play 1shoot 
+say space!
+play m_hurt1 46509
+play 1shoot
+say space!
+play m_growl1 47374
+play m_hurt31 47811
+play 1shoot 
+say space!
+play m_hurt1 48240
+play 1shoot
+say space!
+wait 1000
+fade
+text ok... I hope you remember it all are you ready?
+text I hope so!
+text good luck killing me! Mwahahaha

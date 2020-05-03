@@ -1,0 +1,123 @@
+basketball with the king
+debug mode
+misc ok=92
+music name=basket volume=-3 jingle=bsj
+play name=bsk_whistle time=1230
+action name=bsk_bounce time=2159 key=space alias=b
+! b 2622
+! b 3085
+! b 3548
+! b 4011
+! b 4474
+! b 4937
+! b 5400
+! b 5863
+! b 6326
+! b 6789
+! b 7252
+! b 7715
+! b 8178
+
+play name=bsk_throwcue time=8178 alias=thc
+action name=bsk_throw key=enter time=8641 end=9104 ends=bsk_basketok efail=bsk_basketfail alias=tha
+! b 9600
+! b 10030
+! b 10493
+! b 10956
+! b 11419
+! b 11882
+! b 12345
+! b 12808
+! b 13334
+! b 13796
+! b 14257
+! b 14719
+! b 15180
+! thc,tha 15180
+! b 16570
+play name=bsk_beep pan=50 time=17035 alias=br1
+action name=bsk_bounce time=17035 key=space alias=br2
+action name=bsk_catchrebound time=17505 key=right alias=br3 pan=50
+! b 17970
+! b 18440
+play name=bsk_beep pan=-50 time=18908 alias=bl1
+action name=bsk_bounce time=18908 key=space alias=bl2
+action name=bsk_catchrebound time=19375 key=left alias=bl3 pan=-50
+! b 19845
+! b 20305
+! b 20770
+! b 21240
+! b 21710
+! b 22160
+! b 22629
+! b 23090
+! thc,tha 23090
+! br1,br2,br3 24480 right
+! b 25424
+! b 25880
+! bl1,bl2,bl3 26356 left
+! b 27290
+! b 27739
+! b 28205
+! b 28660
+! b 29130
+! b 29600
+! b 30056
+! b 30525
+! thc,tha 30525 throw
+! b 31932
+! b 32401
+! b 32870
+! b 33339
+! b 33798
+! b 34267
+! b 34736
+! b 35205
+! b 35674
+! b 36143
+! b 36596
+! b 37065
+! b 37534
+! b 37990
+! b 38459
+! b 38928
+! b 39397
+! b 39846
+! b 40292
+! b 40761
+! b 41226
+! b 41695
+@ throw 41695
+! b 43080
+! b 43549
+! b 44018
+! b 44478
+! b 44947
+! b 45406
+! b 45875
+! b 46344
+@ left 46798
+! b 47730
+! b 48199
+! b 48668
+! b 49137
+@ right 49594
+! b 50524
+! b 50993
+! b 51453
+! b 51920
+! b 52380
+! b 52845
+@ throw 52845
+! b 54254
+! b 54723
+! b 55192
+! b 55656
+! b 56125
+! b 56594
+! b 57063
+! b 57532
+! b 58001
+! b 58470
+! b 58939
+action name=bsk_bounce time=59408 key=space alias=b ach=bounce till the end: Bounce, bounce, bounce!

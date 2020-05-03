@@ -1,0 +1,129 @@
+remix 1
+music name=mix1 jingle=remixjingle volume=-2
+play name=s_taste time=3450 pan=50 alias=r1
+play name=s_my time=3565 pan=50 alias=r2
+play time=3750 name=s_blade pan=50 alias=r3
+action name=s_parryr,s_grunt pan=50 time=4050 fail=s_pfail key=right alias=r4
+//heil
+play name=1heil time=4620 alias=rh1
+play name=1hey time=4900 alias=rh2
+action name=1shoot fail=1early time=5200 alias=rh3 key=enter
+! rh1,rh2,rh3 5810 hitler
+@ hitler 6100
+@ hitler 6980
+play name=3num1 time=7850
+play name=3smallswing time=8150
+play name=3smallswing time=8280
+play name=3bigswing time=8400
+action name=3smallhit key=space time=8730
+action name=3smallhit key=space time=8870
+action name=3bighit key=enter time=9015
+//factory
+play name=4comingshort pan=50 time=9320
+play name=4coming time=9880
+action name=4short key=right time=10480 ends=4okshort end=11050
+//another
+play name=4comingshort pan=-50 time=11640
+play name=4coming time=12220
+action name=4short key=left time=12810 ends=4okshort end=13390
+@ hitler 14250
+@ hitler 15130
+//test
+play name=mixt1 time=16300 alias=t1
+play name=mixt1 time=16590 alias=t2
+play name=mixt1 time=16885 alias=t3
+action name=mixt2 key=enter alias=t4 fail=1bad time=17170
+! t1,t2,t3,t4 17465 test
+! r1,r2,r3,r4 18560 taste
+play name=s_taste time=18880 pan=-50 alias=l1
+play name=s_my time=19000 pan=-50 alias=l2
+play time=19180 name=s_blade pan=-50 alias=l3
+action name=s_parryl,grunt3 pan=-50 time=19450 fail=s_pfail key=left alias=l4
+@ test 19800
+play name=5coming time=20960 alias=f1
+action name=5hit key=space alias=f2 time=21250
+! f1,f2 21540 ff
+play name=5three time=22130
+@ ff 22130
+@ ff 22420
+! f1 22705
+action name=5bighit key=space alias=fb time=22990
+play name=3up time=23290 alias=d1
+action name=3dir key=up alias=d2 fail=3fail time=23580
+play name=3down time=23870 alias=d3
+action name=3dir key=down alias=d4 fail=3fail time=24160
+play name=3right time=24450 alias=d5
+action name=3dir key=right alias=d6 fail=3fail time=24750
+play name=3left time=25000 alias=d7
+action name=3dir key=left alias=d8 fail=3fail time=25330
+//three
+play name=5three time=25620
+@ ff 25620
+@ ff 25910
+! f1 26210
+! fb 26480
+@ ff 26780
+play name=5contra time=27230 alias=fo1
+action name=5hit key=space time=27520 alias=fo2
+@ ff 27955
+! fo1,fo2 28390 fo
+@ fo 28830
+@ fo 29260
+play name=4comingshort pan=50 time=29700
+play name=4coming time=30000
+action name=4short key=right time=30285 ends=4okshort end=30870
+play name=4comingshort pan=-50 time=30870
+play name=4coming time=31160
+action name=4short key=left time=31450 ends=4okshort end=32030
+
+@ ff 32030
+play name=3tap time=32615
+action key=enter fail=3tapfail name=3tapok time=32910
+action key=enter fail=3tapfail name=3tapok time=33200
+action key=enter fail=3tapfail name=3tapok time=33490
+action key=enter fail=3tapfail name=3tapok time=33780
+action key=enter fail=3tapfail name=3tapok time=34075
+action key=enter fail=3tapfail name=3tapok time=34360
+action key=enter fail=3tapfail name=3tapok time=34660
+action key=enter fail=3tapfail name=3tapok time=34950
+action key=enter fail=3tapfail name=3tapok time=35240
+action key=enter fail=3tapfail name=3tapok time=35530
+action key=enter fail=3tapfail name=3tapok time=35795
+action key=enter fail=3tapfail name=3tapok time=36100
+play name=3stop time=36000
+play name=6tot time=37250 alias=tot1
+play name=6el time=37400 alias=tot2
+play name=6camp time=37550 alias=tot3
+action name=6campa time=37820 key=space alias=tot4
+action name=6campa key=space time=37960 alias=tot5
+action name=6campa key=space time=38100 alias=tot6
+! tot1,tot2,tot3,tot4,tot5,tot6 38420 totelcamp
+@ totelcamp 39590
+play name=6chu time=40740 alias=mad1
+play name=6tael time=40960 alias=mad2
+play name=6ma time=41160 alias=mad3
+play name=6drid time=41320 alias=mad4
+action name=6paras time=41600 ends=6para fail=6parafail key=enter end=41930 alias=mad5
+@ totelcamp 41920
+@ totelcamp 43100
+! mad1,mad2,mad3,mad4,mad5 44260 mad
+@ mad 45420
+play name=3num2 time=46280
+play name=3smallswing time=46600 alias=sw1
+play name=3bigswing time=46870 alias=sw2
+play name=3smallswing time=47170 alias=sw3
+play name=3bigswing time=47455 alias=sw4
+action name=3smallhit key=space time=47750 alias=sw5
+action name=3bighit key=enter time=48050 alias=sw6
+action name=3smallhit key=space time=48340 alias=sw7
+action name=3bighit key=enter time=48630 alias=sw8
+! sw1,sw2,sw3,sw4,sw5,sw6,sw7,sw8 48920 twoswings
+@ totelcamp 51240
+@ totelcamp 52410
+! r1,r2,r3,r4 53540
+! l1,l2,l3,l4 54700
+@ mad 55900
+@ mad 57060
+play name=4cominglong time=58230
+play name=4coming time=58830
+action name=4long fail=4faillong time=59390 key=enter ends=4oklong end=60570 ach=silent rhythms: You can follow the rhythm without music, and the end of remix1 proves it!

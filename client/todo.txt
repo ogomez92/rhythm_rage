@@ -1,0 +1,1 @@
+test 05.lvl rhythm and spell with aliases and multi requires

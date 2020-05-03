@@ -1,0 +1,111 @@
+﻿text Hello, we are at camp Nou
+text The soccer team Barcelona is about to play Madrid!
+text The crowd is on their feet and the game is about to start!
+text We must get those Barsa fans cheering! And if you're from madrid, well, fuck you.
+text You will hear a crazy dude shout: tot el camp! (tot el camp is part of the FC Barcelona anthem)
+text When you hear tot el camp, you must wait 1 beat then press the space bar thrice, in the same rhythm as tot el camp
+text The spectators will give three cheers
+text Listen up, I will show you how it's done
+play 6tot
+wait 200
+play  6el
+wait 200
+play 6camp
+wait 400
+play 6campa
+wait 200
+play 6campa
+wait 200
+play 6campa
+wait 400
+play 6tot
+wait 200
+play  6el
+wait 200
+play 6camp
+wait 400
+play 6campa
+wait 200
+play 6campa
+wait 200
+play 6campa
+wait 600
+text see?
+text Let's try it out with the game music
+wait 600
+music forbar -5
+play 6tot 1643
+play 6el 1849
+play 6camp 2054
+play 6campa 2466
+play 6campa 2671
+play 6campa 2876
+play 6tot 3287
+play 6el 3493
+play 6camp 3698
+play 6campa 4118
+play 6campa 4315
+play 6campa 4520
+wait 500
+fade
+text You see? It's not that hard. Well... yeah it is
+text Now let's see how to score a goal.
+text You will hear the same crazy dude say: chuta!
+text When you hear chuta, wait one beat, then press enter
+text Like this:
+play 6chuta
+wait 400
+play 6chutaa
+wait 400
+play 6chuta
+wait 400
+play 6chutaa
+wait 400
+wait 700
+text You see? This one really wasn't so hard
+text OK, Let's try it out with some music:
+music forbar -5
+play 6chuta 1647
+play 6chutaa 2058
+play 6chuta 2469
+play 6chutaa 2880
+play 6tot 3287
+play 6el 3493
+play 6camp 3698
+play 6campa 4118
+play 6campa 4315
+play 6campa 4520
+play 6chuta 4930
+play 6chutaa 5345
+wait 500
+fade
+text Great! Now you know how to score! I think.
+text But what happens if Madrid goes for goal?
+text Well, you have to block it, eh?
+text Even though I've heard through the grapevine that the Barsa goalkeeper ain't that great...
+text Well, let's see how to block those goals
+text when you hear the words chuta el madrid (which in Spanish means that Madrid is going for goal), you will notice that it lasts 3 beats.
+text At the fourth beat, you have to hold the enter key down until the fifth beat
+text Let me show you with music
+music forbar -5
+play 6chu 3287
+play 6tael 3595
+play 6ma 3904
+play 6drid 4114
+play 6paras 4521
+play 6para 4932
+wait 600
+fade
+text again
+music forbar -5
+play 6chu 3287
+play 6tael 3595
+play 6ma 3904
+play 6drid 4114
+play 6paras 4521
+play 6para 4932
+wait 600
+fade
+text Great, now you know how to play.
+text Let the game begin!
+text wait! wait... maybe the song is too fast... I better give you a slower song first, or I can already see Madrid winning this match. Good luck!

@@ -1,0 +1,92 @@
+cruel kings and dying men
+music volume=-9 name=hitler jingle=hitlerj
+play name=1hey time=3090
+play name=1heil time=4680 alias=heil
+play name=1hey time=5200 alias=hitler
+play name=1heil time=6760
+play name=1hey time=7280
+play name=1heil time=8840
+play name=1hey time=9375
+play name=1heil time=10410
+play name=1hey time=10945
+play name=1heil time=13020
+play name=1hey time=13540
+action name=1shoot time=5740 fail=1fail early=1early late=1late key=enter alias=a1
+play name=fall1,grunt2 require=a1 time=6300
+action name=1shoot time=7819 fail=1fail early=1early late=1late key=enter alias=a2
+play name=fall2,grunt1 require=a2 time=8500
+action name=1shoot time=9908 fail=1fail early=1early late=1late key=enter alias=a3
+play name=grunt3,fall3 require=a3 time=10300
+action name=1shoot time=11475 fail=1fail early=1early late=1late key=enter alias=a4
+action name=1shoot time=14070 fail=1fail early=1early late=1late key=enter alias=a5
+play name=1heil time=15100
+play name=1hey time=15620
+play name=1heil time=15620
+action name=1shoot time=16140 fail=1fail early=1early late=1late key=enter alias=a6
+play name=1hey time=16140
+action name=1shoot,grunt2 time=16684 fail=1fail early=1early late=1late key=enter alias=a7
+//macros
+! heil,hitler,a1 17206
+! heil,hitler,a1 18782
+! heil,hitler,a1 20839
+! heil,hitler,a1 22930
+! heil,hitler,a1 25010
+! heil,hitler,a1 27100
+! heil,hitler,a1 28100
+! heil,hitler,a1 29200
+! heil,hitler,a1 30240
+! heil,hitler,a1 31300
+! heil,hitler,a1 33360
+! heil,hitler,a1 35450
+! heil,hitler,a1 35990
+! heil,hitler,a1 38060
+! heil,hitler,a1 39110
+! heil,hitler,a1 40163
+! heil,hitler,a1 41200
+! heil,hitler,a1 42240
+! heil,hitler,a1 44320
+! heil,hitler,a1 45360
+! heil,hitler,a1 46910
+! heil,hitler,a1 47970
+! heil,hitler,a1 49020
+! heil,hitler,a1 50050
+! heil,hitler,a1 52150
+! heil,hitler,a1 53195
+! heil,hitler,a1 54230
+! heil,hitler,a1 54750
+! heil,hitler,a1 56315
+! heil,hitler,a1 57350
+! heil,hitler,a1 58405
+! heil,hitler,a1 59440
+! heil,hitler,a1 60490
+! heil,hitler,a1 62054
+! heil,hitler,a1 62570
+! heil,hitler,a1 63080
+! heil,hitler,a1 64650
+! heil,hitler,a1 65700
+! heil,hitler,a1 66750
+! heil,hitler,a1 69360
+play name=big1 alias=b1 time=73010
+play name=big2 alias=b2 time=73540
+play name=big3 time=74060 alias=b3
+action name=biga alias=ba time=74610 fail=bfail early=bearly late=blate key=enter 
+! b1,b2,b3,ba 75115
+! b1,b2,b3,ba 77205
+! heil,hitler,a1 79280
+! heil,hitler,a1 81870
+! heil,hitler,a1 83960
+! heil,hitler,a1 86050
+! heil,hitler,a1 87640
+! heil,hitler,a1 90210
+! heil,hitler,a1 92310
+! heil,hitler,a1 94400
+! heil,hitler,a1 95970
+! b1,b2,b3,ba 98060 fuhrer
+play name=big1 time=100150
+play name=big2 time=100580
+play name=big3 time=100946
+action name=biga time=101370 kp=yes fail=bfail early=bearly late=blate key=enter  alias=end ach=head chop: His head got chopped off, all right.
+play time=102200 require=end name=1finalc
+@ fuhrer 1000
+! heil,hitler,a1 71209
+! heil,hitler,a1 71460

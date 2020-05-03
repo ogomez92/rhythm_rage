@@ -1,0 +1,112 @@
+text welcome to the crate delivery facilities. We have a busy day ahead.
+text you are in charge of the crate lifter, a new robot especially designed to lift and transport crates.
+text the person who is usually in charge of this is on medical absence today, so he couldn't come to work. I figured since you need a job so badly and you're my cousin and all...
+text Yes, I'm only taking you because we're in need, otherwise I probably wouldn't since you look so clumsy anyway.
+text oh well, I probably shouldn't say this.
+text anyway, here's how this machine works.
+text We have 2 types of crates. The first one, and the easiest, are the big crates.
+text these big crates sound like this.
+wait 500
+play 4cominglong
+wait 500
+text when you hear this sound, you'll need to wait for the operator over there to place it in the lift. You'll hear when he does because you'll hear this sound.
+wait 500
+play 4coming
+wait 500
+text this sound means that, on the next beat, you'll have a crate to lift.
+text to lift a big crate, you have to hold the enter key for 2 beats.
+text so, you hear the big crate, you hear the incoming sound, you wait a beat, and you hold enter for 2 beats. like this
+wait 500
+play 4cominglong
+wait 600
+play 4coming
+wait 600
+play 4long
+wait 1500
+text yes, that last sound was that of you lifting the crate
+text let's try with the music
+music crazyfactory -8
+play 4cominglong 5714
+play 4coming 6285
+play 4long 6857
+say enter!
+play 4oklong 8000
+say stop!
+fade
+text see? that was very simple
+text the small crates however, are another story
+text small crates can come from the left...
+wait 500
+play 4csl
+wait 500
+text or from the right!
+wait 500
+play 4csr
+wait 500
+text when one of these comes, you have to hold the left or right arrow for one beat, depending on where they come. If they come from the right you hit the right arrow, and if they come from the left you have to hit the left arrow.
+text the thing is, they usually come in sequences, for example you might get one right, one left, and a big one.
+text which means you'll have to memorize the whole sequence and then the operator will start filling crates, and if you press the wrong key or wait the wrong number of beats, that crate will be lost and I will fire you pretty fast.
+
+text I'll show you what I mean by memorizing
+wait 500
+play 4csr
+say small right...
+wait 600
+play 4csl
+say small left
+wait 600
+play 4cominglong
+say big
+wait 600
+play 4coming
+say small right coming...
+wait 600
+play 4short
+say right one beat...
+wait 600
+stop
+play 4okshort
+wait 600
+play 4coming
+say small left coming remember?
+wait 600
+play 4short
+say left one beat...
+wait 600
+play 4okshort
+wait 600
+play 4coming
+say there's a big one too...
+wait 600
+play 4long
+wait 1300
+play 4oklong
+wait 500
+text sounds hard doesn't it?
+text let me show you with the music
+music crazyfactory -8
+play 4csr 1142
+say right...
+play 4csl 1714
+say left...
+play 4cominglong 2285
+say big...
+play 4coming 2857
+say coming...
+play 4short 3428
+say right one beat!
+play 4coming 4000
+say coming...
+play 4short 4570
+say left!
+play 4coming 6285
+say that big one...
+play 4long 6853
+say enter 2 beats!
+wait 1600
+fade
+text really hard... isn't it?
+text well, you better be ready cuz the real thing is upon you.
+text and if you don't do a good job, I'm not giving you that achievement...
+text ready?
+wait 600

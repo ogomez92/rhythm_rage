@@ -1,0 +1,68 @@
+text hey! Ready for some balls?
+text you are in a field, and many balls are coming at you at different speeds. You need to return those balls with the enter key.
+text there are 3 types of balls.
+text for the first kind, you just have to press the enter key on the next beat.
+wait 600
+play d_b1
+wait 700
+play d_b1h
+wait 800
+text just try it, hit enter on the next beat.
+interactive d_bgm -3 0 5900 4
+intersound d_b1 100 0 695
+intersound d_b1h 100 0 1432 key_enter
+intersound d_b1 100 0 2154
+intersound d_b1h 100 0 2895 key_enter
+intersound d_b1 100 0 3620
+intersound d_b1h 100 0 4383 key_enter
+interactive end
+text ok, the next ball is almost the same. You still have to wait one beat before you return it, but the ball makes 2 sounds. listen
+wait 800
+play d_b2_1
+wait 600
+play d_b2_2
+wait 200
+play d_b2h
+say enter!
+wait 800
+text ok, try it with the music. Real easy stuff. for now!
+wait 600
+
+interactive d_bgm -3 0 5900 4
+intersound d_b2_1 100 0 680
+intersound d_b2_2 100 0 1230
+intersound d_b2h 100 0 1432 key_enter
+intersound d_b2_1 100 0 3640
+intersound d_b2_2 100 0 4195
+intersound d_b2h 100 0 4384 key_enter
+interactive end
+wait 600
+text ok perfect!
+text the next and last kind of balls are a bit hard... These are musical tripplets, and you have to hit on the 3.
+text I will have to show you this with music before you can try
+text here
+wait 600
+music d_bgm
+play d_b3 1061
+play d_b3 1617
+play d_b3h 2172
+say now!
+play d_b3 4024
+play d_b3 4580
+play d_b3h 5135
+say now!
+fade
+wait 600
+text ok, now you try. I'm sure you'll do fine.
+interactive d_bgm -3 0 5900 4
+intersound d_b3 100 0 1061
+intersound d_b3 100 0 1617
+intersound d_b3h 100 0 2170 key_enter
+
+intersound d_b3 100 0 4020
+intersound d_b3 100 0 4580
+intersound d_b3h 100 0 5130 key_enter
+interactive end
+text you made it!
+text ready to play?
+text good luck!

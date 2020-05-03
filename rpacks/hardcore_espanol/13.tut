@@ -1,0 +1,76 @@
+text Hola! soy relojito el relojero
+text madre mía, que nombres más raros tiene la gente --piensas
+text pero, este reloj solo funciona 12 horas! luego hay que dar cuerda. y ya funciona otra vez!
+text tu me ayudas, sí? síi!
+text bien, el reloj hace tic 12 veces! al 13, tienes que dar cuerda. pero! tienes que estar atento a la velocidad del reloj! porque tienes que esperar el mismo tiempo que los últimos 4 ticks!
+text para dar cuerda, pulsa enter durante 2 tiempos. pero, hay un reloj en la canción que va muuuuy lento y tienes que pulsar enter 2 tiempos, pero no te puedo ayudar más, no sé cuándo será, yo creo que eres capaz de descubrirlo!
+text ahora te enseño ok
+music c_bgm -3
+play c_tick 400
+say 1
+play c_tick 930
+say 2
+play c_tick 1470
+say 3
+play c_tick 2005
+say 4
+play c_tick 2540
+say 5
+play c_tick 2800
+say 6
+play c_tick 3070
+say 7
+play c_tick 3340
+say 8
+play c_tick 3610
+say 9
+play c_tick 4680
+say 10!
+play c_tick 5750
+say 11!
+play c_tick 6810
+say 12!
+play c_crank 7890
+say pulsa enter...
+play c_ok 8425
+say suelta!
+wait 500
+stopsounds
+wait 300
+fade
+text otra vez!
+music c_bgm -3
+play c_tick 400
+say 1
+play c_tick 930
+say 2
+play c_tick 1470
+say 3
+play c_tick 2005
+say 4
+play c_tick 2540
+say 5
+play c_tick 2800
+say 6
+play c_tick 3070
+say 7
+play c_tick 3340
+say 8
+play c_tick 4670
+say 9
+play c_tick 4940
+say 10
+play c_tick 5208
+say 11
+play c_tick 5475
+say 12
+play c_crank 5740
+say pulsa...
+play c_ok 6275
+say suelta!
+wait 300
+stopsounds
+fade
+wait 500
+text bien espero que lo entiendas!
+text preparado?

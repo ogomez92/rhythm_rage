@@ -1,0 +1,14 @@
+text hi! time to follow the beat again!
+text do you think you can do it? it's not very easy
+text you will hear this sound
+wait 600
+play jam_1
+wait 600
+text when you hear it, you have to wait one beat and press enter on the next
+text and then, when you hear this sound
+wait 600
+play jam_2
+wait 600
+text you wait one beat, but press enter twice, every half beat!
+text are you ready to play?
+text good luck my friend!

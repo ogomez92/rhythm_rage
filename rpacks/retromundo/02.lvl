@@ -1,0 +1,66 @@
+muerte al enemigo
+misc reaction=150
+music name=w_bgm volume=0 jingle=jingle3
+play name=w_myattackgo time=1607 alias=my1
+action alias=my2 key=space time=2133 name=w_myattack
+! my1,my2 2659 my
+@ my 3732
+@ my 4784
+@ my 6385
+@ my 7437
+@ my 8518
+play name=w_attack pan=-50 time=10130 alias=attack1
+action time=10643 name=w_shield ends=w_shieldok key=enter end=12776 alias=attack2 fail=w_fail2
+@ my 13846
+! attack1,attack2 14376 attack
+@ my 17571
+@ attack 18637
+@ my 21826
+@ attack 22893
+@ my 25547
+@ my 26622
+@ my 29038
+@ my 29838
+@ my 30632
+@ my 31954
+@ attack 32483
+@ my 36233
+@ my 37291
+@ my 39143
+@ my 40483
+@ attack 41012
+@ my 44727
+@ my 45805
+@ my 46872
+
+@ attack 48459
+@ my 52205
+@ my 53792
+@ my 54860
+@ my 55920
+@ attack 56978
+@ attack 61250
+@ my 65500
+@ my 66558
+@ my 67624
+@ my 68685
+@ attack 69758
+@ my 72439
+@ my 73491
+@ my 74562
+@ my 75622
+@ my 76426
+@ attack 78283
+@ my 80928
+@ my 81467
+@ my 81996
+@ my 82537
+@ my 83067
+@ my 83605
+@ my 84134
+@ my 84666
+@ my 85210
+@ my 85742
+@ my 86271
+@ my 86808
+play name=w_hugeexplo time=87340 pan=-50

@@ -1,0 +1,111 @@
+﻿text hola, estamos en el camp nou
+text el barsa está a punto de jugar contra el madrid
+text la afición está preparada y el árbitro acaba de pitar para que empiece el partido
+text hay que animar al barsa! si eres del madrid, bueno, mala suerte
+text vas a escuchar un loco que dice: tot el camp!
+text cuando escuches tot el camp, tienes que esperarte 1 tiempo y luego darle 3 veces al espacio, al mismo ritmo que el loco que grita tot el camp
+text eso hace que los espectadores den 3 palmadas
+text mira como se hace, te lo voy a enseñar
+play 6tot
+wait 200
+play  6el
+wait 200
+play 6camp
+wait 400
+play 6campa
+wait 200
+play 6campa
+wait 200
+play 6campa
+wait 400
+play 6tot
+wait 200
+play  6el
+wait 200
+play 6camp
+wait 400
+play 6campa
+wait 200
+play 6campa
+wait 200
+play 6campa
+wait 600
+text has visto?
+text vamos a probar con la música del juego
+wait 600
+music forbar -5
+play 6tot 1643
+play 6el 1849
+play 6camp 2054
+play 6campa 2466
+play 6campa 2671
+play 6campa 2876
+play 6tot 3287
+play 6el 3493
+play 6camp 3698
+play 6campa 4118
+play 6campa 4315
+play 6campa 4520
+wait 500
+fade
+text has visto? no es tan difícil. bueno, si
+text ahora vamos a ver cómo se chuta
+text escucharás a uno que dice: chuta!
+text cuando escuches chuta, esperas un tiempo y le das al enter
+text así:
+play 6chuta
+wait 400
+play 6chutaa
+wait 400
+play 6chuta
+wait 400
+play 6chutaa
+wait 400
+wait 700
+text ves? este sí que no era tan difícil
+text bueno, vamos a ver con la música:
+music forbar -5
+play 6chuta 1647
+play 6chutaa 2058
+play 6chuta 2469
+play 6chutaa 2880
+play 6tot 3287
+play 6el 3493
+play 6camp 3698
+play 6campa 4118
+play 6campa 4315
+play 6campa 4520
+play 6chuta 4930
+play 6chutaa 5345
+wait 500
+fade
+text bueno, ahora ya sabes chutar, creo
+text pero qué pasa si chuta el madrid?
+text bueno, habrá que parar, no?
+text aunque me han dicho por ahí que el portero del barsa no es muy bueno...
+text en fin, a ver cómo se paran los chutes del madrid
+text cuando escuches: chuta el madrid, verás que dura 3 tiempos de la música.
+text al cuarto tiempo, tienes que mantener la tecla enter pulsada hasta el quinto tiempo
+text te lo enseñaré con la música
+music forbar -5
+play 6chu 3287
+play 6tael 3595
+play 6ma 3904
+play 6drid 4114
+play 6paras 4521
+play 6para 4932
+wait 600
+fade
+text otra vez
+music forbar -5
+play 6chu 3287
+play 6tael 3595
+play 6ma 3904
+play 6drid 4114
+play 6paras 4521
+play 6para 4932
+wait 600
+fade
+text bueno, ahora ya sabes jugar.
+text que empiece el partido!
+text espera... la música que suena es muy rápida... voy a ser bueno, voy a poner una canción un poco más lenta... que si no, ya veo al madrid ganando. suerte!

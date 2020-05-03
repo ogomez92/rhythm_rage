@@ -1,0 +1,35 @@
+text hola! es hora de seguir el ritmo!
+text crees que puedes hacerlo? es muy fácil
+text escucharás este sonido
+wait 600
+play jam_1
+wait 600
+text cuando lo oigas, mantén pulsado enter durante un tiempo y lo sueltas al siguiente
+text y después cuando oigas este sonido
+wait 600
+play jam_2
+wait 600
+text esperas un tiempo y pulsas enter 2 veces, una vez cada medio tiempo.
+text mira
+music jam1 0
+play jam_1 2134
+play jam_1e 2663
+say enter!
+play jam_1 3192
+play jam_1e 3727
+say enter!
+play jam_2 4258
+play jam_1e 4786
+say enter!
+play jam_2e 5060
+say enter!
+play jam_2 5328
+play jam_1e 5857
+say enter!
+play jam_2e 6121
+say enter!
+
+wait 800
+fade
+text preparado?
+text suerte amigo!

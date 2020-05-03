@@ -1,0 +1,77 @@
+Monster Murder!
+misc ok=75
+music name=m_bgm jingle=m_growl1 volume=-4
+play name=m_growl2 time=1280 alias=m1
+action key=enter name=m_hurt2,m_punch2 time=1710 alias=m1a fail=cat_swing
+! m1,m1a 3025 mon1
+@ mon1 3905
+@ mon1 4780
+play name=m_growl3 time=5640 alias=m2
+action name=1shoot,m_hurt31 time=6080 alias=m2a1 key=space
+action name=1shoot,m_hurt31 time=6300 alias=m2a2 key=space
+action name=1shoot,m_hurt32 time=6520 alias=m2a3 key=space
+@ mon1 6520
+@ mon1 6965
+! m2,m2a1,m2a2,m2a3 7390 mon2
+@ mon2 8700
+@ mon1 9975
+play name=m_growl1 time=10850 alias=mg1
+action name=bs_shoot,m_hurt31 fail=1early key=space alias=mg2 time=11285
+action name=bs_shoot,m_hurt1 fail=1early key=space alias=mg3 time=11720
+@ mon2 12590
+@ mon1 13460
+@ mon1 14540
+@ mon1 14975
+@ mon1 15410
+@ mon1 15850
+play name=m_growl1 time=16065 alias=ma1
+action name=bs_shoot,m_hurt31 fail=1early key=space alias=ma2 time=16500
+action name=bs_shoot,m_hurt1 fail=1early key=space alias=ma3 time=16930
+play name=m_growl2 time=16930 alias=m1
+action key=enter name=m_hurt2,m_punch2 time=17365 alias=ma4 fail=cat_swing
+play name=biga time=17800 require=ma2,ma3,ma4 ach=monster murder! die! die! die! My name is inigo montoya! Prepare to die! Mwahahahhahahahahaha!
+@ mon2 18240
+! mg1,mg2,mg3 19545 mon3
+@ mon1 20420
+@ mon2 21275
+@ mon1 22150
+@ mon2 22585
+@ mon3 23455
+@ mon1 24765
+@ mon1 25635
+@ mon2 26070
+@ mon1 28250
+@ mon1 28690
+@ mon1 29125
+@ mon1 29560
+@ mon1 29995
+@ mon1 30415
+@ mon1 30850
+@ mon1 31285
+@ mon1 31720
+@ mon1 32155
+@ mon1 32595
+@ mon1 33020
+@ mon3 34330
+@ mon2 35200
+@ mon1 36075
+@ mon1 36945
+@ mon1 37810
+@ mon2 38680
+@ mon3 39555
+@ mon2 40415
+@ mon2 43910
+@ mon1 44765
+@ mon2 47360
+@ mon3 49110
+@ mon1 49980
+play name=cat_evil time=50850
+action key=enter name=cat_fail fail=blate time=51280  alias=cat ach=Monster kitty: Yes, that kitty is a monstercat!
+play time=51720 require=cat name=biga
+@ mon2 52590
+@ mon1 53460
+@ mon3 54325
+@ mon1 56060
+@ mon1 56930
+@ mon2 57810
+@ mon1 58680

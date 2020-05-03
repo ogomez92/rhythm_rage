@@ -1,0 +1,188 @@
+final remix
+music name=final_remix jingle=remixjingle volume=-6
+play name=mixt1 time=25 alias=t1
+play name=mixt1 time=490 alias=t2
+play name=mixt1 time=960 alias=t3
+action name=mixt2 key=enter alias=t4 fail=1bad time=1430
+! t1,t2,t3,t4 1900 test
+@ test 3775
+@ test 5650
+//heil
+play name=1heil time=7520 alias=rh1
+play name=1hey time=7980 alias=rh2
+action name=1shoot fail=1early time=8460 alias=rh3 key=enter
+//duck
+play name=bs_duck time=9400 alias=d1
+action key=enter name=bs_duckhit,bs_duckm time=9870 fail=bs_miss alias=d2
+//monster
+play name=m_growl2 time=10340 alias=m1
+action key=enter name=m_hurt2,m_punch2 time=10810 alias=m1a fail=cat_swing
+//madrid
+play name=6chu time=11270 alias=cm1
+play name=6tael time=11620 alias=cm2
+play name=6ma alias=cm3 time=11970
+play name=6drid alias=cm4 time=12205
+action name=6paras ends=6para fail=6parafail key=enter time=12650 end=13140 alias=cm5
+//birdy
+play name=bs_bird time=13615 alias=b1
+action name=bs_shoot,bs_birdhurt key=space fail=bs_fly miss=bs_shoot time=14085 early=bs_shoot late=bs_shoot alias=b2
+action name=bs_shoot,bs_birdgore key=space fail=bs_fly time=14555  early=bs_shoot late=bs_shoot miss=bs_shoot alias=b3
+//monster2
+play name=m_growl3 time=15025 alias=m2
+action name=1shoot,m_hurt31 time=15490 alias=m2a1 key=space
+action name=1shoot,m_hurt31 time=15725 alias=m2a2 key=space
+action name=1shoot,m_hurt32 time=15960 alias=m2a3 key=space
+! rh1,rh2,rh3 16895 heil
+@ heil 17365
+play name=c_tick time=18768 alias=t5
+play name=c_tick time=18885 alias=t6
+play name=c_tick time=19000 alias=t7
+play name=c_tick time=19120 alias=t8
+! t5,t6,t7,t8 19237
+play name=c_tick time=19706 alias=t5
+play name=c_tick time=19941 alias=t6
+play name=c_tick time=20175 alias=t7
+play name=c_tick time=20410 alias=t8
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=20644 end=21113 alias=ta1
+! d1,d2 21580 duck
+! cm1,cm2,cm3,cm4,cm5 22515
+! cm1,cm2,cm3,cm4,cm5 24390 madrid
+! b1,b2,b3 26264 bird
+! m2,m2a1,m2a2,m2a3 28140 mon2
+play name=bsk_throwcue time=30500 alias=thc
+action name=bsk_throw key=enter time=30975 end=31440 ends=bsk_basketok efail=bsk_basketfail alias=tha
+play name=s_taste time=31892 pan=50 alias=r1
+play name=s_my time=32127 pan=50 alias=r2
+play time=32361 name=s_blade pan=50 alias=r3
+action name=s_parryr,s_a1 pan=50 time=32830 fail=s_pfail key=right alias=r4
+@ madrid 33768
+play name=cat_evil time=35645 alias=cb
+action name=cat_fail fail=cat_swing time=36114 alias=cba key=enter alias=cba
+! cb,cba 36583 cat
+@ mon2 37521
+@ heil 39397
+@ duck 40335
+@ heil 41273
+@ duck 42211
+@ heil 43149
+@ heil 44087
+@ heil 45025
+@ heil 45960
+! b1,b2,b3 46890
+play name=3up time=48768 alias=u
+action name=3dir time=49237 key=up fail=3fail alias=ua pitch=105
+play name=3down time=49706 alias=d
+action name=3dir time=50175 key=down fail=3fail alias=da pitch=95
+! u,ua 50644 up
+! d,da 51582 down
+play name=5coming time=52520 alias=hit1
+action name=5hit key=space time=52989 alias=hit2
+play name=5contra time=53693 alias=c1
+action name=5hit key=space time=54162 alias=c2
+//3
+play name=5three time=54396 alias=h3
+play name=5coming time=54396 alias=h31
+action name=5hit time=54865 key=space alias=h33 
+play name=5coming time=54865 alias=h32
+play name=5coming time=55334
+action name=5hit time=55334 key=space alias=h34 
+action name=5bighit time=55794 alias=h35 key=space
+! hit1,hit2 56265 hit
+! c1,c2 56500 chit
+@ hit 56734
+play name=bs_rooster time=58131 alias=r1
+action name=bs_rooshold time=59069 fail=bs_rooshurt key=enter ends=bs_roosok end=59538 alias=r2
+@ bird 60018
+@ cat 62355
+@ madrid 63766
+@ madrid 65640
+@ madrid 67518
+play name=6tot time=69386 alias=t1
+play name=6el time=69621 alias=t2
+play name=6camp time=69855 alias=t3
+action name=6campa key=space alias=t4 time=70324
+action name=6campa key=space alias=t5 time=70559
+action name=6campa key=space alias=t6 time=70793
+@ mon2 71262
+@ mon2 73138
+@ mon2 75014
+! m1,m1a 76890 mon1
+@ mon1 77828
+@ hit 78768
+@ chit 79003
+@ hit 79237
+@ hit 80644
+@ chit 80879
+@ hit 81113
+! h3,h31,h32,h33,h34,h35 82520 hit3
+@ hit3 84396
+
+@ hit 86272
+@ chit 86507
+@ hit 86741
+@ chit 86976
+@ hit 87210
+
+@ hit 88148
+@ chit 88383
+@ hit 88617
+@ chit 88852
+@ hit 89086
+@ hit3 90024
+@ hit3 91431
+@ hit3 93776
+! r1,r2,r3,r4 95640 blade
+@ blade 97520
+@ heil 99639
+@ heil 99873
+@ duck 101500
+@ mon2 102677
+@ mon1 103615
+@ heil 105022
+@ hit 105960
+@ duck 106898
+@ duck 107836
+@ hit 108305
+play name=4cominglong time=108774 alias=long1
+play name=4coming time=109243 alias=long2
+action name=4long fail=4faillong  alias=long3 time=109712 end=110650 ends=4oklong,4letgo key=enter alias=fincrate
+play require=fincrate name=4great time=110988 ach=Gracias por la caja! A ese ritmo te contrataremos!
+@ mon2 112526
+@ mon2 114402
+@ heil 116274
+@ heil 116743
+@ heil 117212
+@ bird 118150
+@ hit 120022
+@ chit 120257
+@ hit 120491
+@ chit 120726
+@ hit 120960
+@ bird 121898
+@ cat 123774
+@ cat 124712
+@ bird 125650
+@ up 127522
+@ up 128460
+@ up 129398
+@ down 130336
+play name=c_tick time=131274 alias=t11
+play name=c_tick time=131509 alias=t22
+play name=c_tick time=131743 alias=t33
+play name=c_tick time=131978 alias=t44
+! t11,t22,t33,t44 132212 tickf
+@ tickf 133150
+action name=c_crank fail=c_fail ends=c_ok  key=enter time=134088 end=134557 alias=ta1
+@ hit 135022
+@ chit 135257
+@ hit 135491
+@ chit 135726
+@ hit 135960
+@ chit 136195
+@ hit 136429
+@ chit 136664
+@ hit3 136898
+@ bird 138774
+@ mon2 140650
+play name=cat_evil time=144399
+action name=cat_fail,biga fail=cat_swing time=144868 alias=cba key=enter ach=muy atento, sí señor!

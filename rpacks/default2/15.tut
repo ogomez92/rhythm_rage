@@ -1,0 +1,54 @@
+﻿text Hola! Esto es dale don dale
+text puedes ir al ritmo de la música y darle a las teclas correctas? lo dudo
+text me llamo juanito el del corto pito, y seré tu instructor.
+text cuando diga 1, 2, 3 o 4 tendrás que pulsar una de las flechas después de un tiempo de la música.
+text 1 es flecha arriba, 2 es abajo, 3 es derecha y 4 izquierda.
+text por ejemplo, si digo uno, esperas un tiempo y le das a la flecha arriba.
+text mira, así.
+music keepitap -9
+play 3up 750
+play 3dir 1125
+say arriba!
+play 3down 2250
+play 3dir 2625
+say abajo!
+play 3down 3750
+play 3dir 4125
+say abajo!
+fade
+text que es muy fácil dices?
+text a ver así.
+music keepitap -9
+play 3up 750
+play 3dir 1125
+say arriba!
+play 3down 1125
+play 3up 1500
+play 3dir 1500
+say abajo!
+play 3dir 1875
+say arriba!
+fade
+text bueno... un poco más difícil. no?
+text sí, ya ves. pero esto no es todo...
+text cuando diga: dale! Tendrás que pulsar la tecla enter durante todos los tiempos siguientes hasta que diga para o tengas otra flecha que pulsar!
+text mira
+music keepitap -9
+play 3tap 1515
+play 3tapok 1891
+say dale
+play 3tapok 2265
+say dale
+play 3tapok 2641
+say dale
+play 3tapok 3015
+say dale
+play 3up
+play 3dir 3390
+say arriba!
+fade
+text bien, espero que ahora ya lo entiendas.
+text yo ya no te ayudo más. vas a tener que averiguarlo.
+text y no te olvides de que el 3 es derecha y 4 izquierda...
+text buena suerte amigo! *sonrisa*
+text bueno... digamos que me siento benevolente hoy, voy a darte una música más fácil... que si no, ya te veo fallando todo. si es que... bueno, buena suerte.

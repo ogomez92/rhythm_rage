@@ -1,0 +1,58 @@
+batalla épica
+music name=s_bgm jingle=s_jingle volume=-8
+play name=s_taste time=3280 pan=50 alias=r1
+play name=s_my time=3475 pan=50 alias=r2
+play time=3680 name=s_blade pan=50 alias=r3
+action name=s_parryr,s_a1 pan=50 time=4120 fail=s_pfail key=right alias=r4
+//left
+play name=s_taste time=4520 pan=-50 alias=l1
+play name=s_my time=4700 pan=-50 alias=l2
+play time=4925 name=s_blade pan=-50 alias=l3
+action name=s_parryl,s_a2 pan=-50 time=5325 fail=s_pfail key=left alias=l4
+play name=s_shold time=5710 alias=h1
+ action name=s_woosh fail=s_parryl time=6100 end=6500 ends=s_sok,s_grunt key=enter alias=h2
+! r1,r2,r3,r4 7310 right
+! l1,l2,l3,l4 7710 left
+! h1,h2 8510 hold
+@ right 9310
+@ hold 10518
+@ left 11320
+play name=s_s3 time=14520 alias=y11
+action fail=s_woosh name=s_pfail,s_die1 time=14925 alias=y12 key=enter
+play name=s_s3 time=15330 alias=y21
+action fail=s_woosh name=s_pfail,s_die2 time=15725 alias=y22 key=enter
+! y11,y12 16130 y1
+play name=s_s3 time=16930 alias=y31
+action fail=s_woosh name=s_pfail,s_die3 time=17330 alias=y32 key=enter
+! y31,y32 17730 y3
+! y21,y22 18530 y2
+@ right 19320
+@ y1 20935
+@ y3 21735
+@ y2 22540
+@ y1 23340
+@ right 24145
+@ hold 25745
+@ y3 28340
+@ y1 30540
+@ y3 30945
+@ y2 31345
+@ hold 32145
+@ y3 33350
+@ right 34130
+@ left 35320
+@ y3 36910
+@ y2 37710
+@ hold 38510
+@ y1 40115
+@ y2 40920
+@ y3 41722
+@ y2 42510
+@ left 43310
+@ right 44910
+@ y1 46520
+@ y2 47322
+@ y3 48120
+@ y2 48920
+@ right 49720
+@ left 51320

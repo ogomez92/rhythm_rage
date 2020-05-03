@@ -1,0 +1,40 @@
+text por quéeee! por qué el robot de las cajas? odio ese nivel!
+text bueno, no te preocupes, este nivel no es tan complicado como el otro. no tienes que memorizar las cajas! y es más fácil.
+text este es diferente y estoy seguro de que lo vas a disfrutar.
+text eso sí, pon las manos en la fila de números porque son las únicas teclas que vas a utilizar en este nivel.
+text y por la fila de números me refiero a los números arriba de las letras qwertyuiop y no el bloque numérico!
+text pero no te preocupes, solo necesitas 1 2 y 3.
+text así que vamos a ver cómo va este nivel!
+text tienes 3 tipos de cajas
+text y cada caja tiene su número y su sonido. la caja del número 1, mantienes 1 pulsado un tiempo, el 2 2 tiempos y el 3 3 tiempos. que es fácil?
+text cada caja tiene su sonido
+text aquí la caja 1
+wait 600
+play fac_3
+wait 600
+text aquí la caja 2
+wait 600
+play fac_1
+wait 600
+text aquí la caja 3
+wait 600
+play fac_2
+wait 600
+text vamos a ver con un poco de música. pero no te voy a enseñar todas las cajas, seguro que tú lo sabes hacer mejor que yo
+music fac_bgm -2
+play fac_1 3280
+play fac_hold 3746
+say mantienes el 22...
+play fac_ok 4674
+say suelta!
+play fac_3 5598
+play fac_hold 6065
+say mantienes 1
+play fac_ok 6532
+stopsounds
+say suelta!
+wait 800
+fade
+text bien y el 3 es lo mismo pero con 3 tiempos!
+text seguro que lo acabas averiguando.
+text suerte!

@@ -1,0 +1,54 @@
+play w_myattack
+wait 150
+play w_myattack
+wait 200
+play w_myattack
+wait 280
+text muere! muere! muere!
+text vaya... te he hecho daño?
+text bien, es hora de luchar en las bases!
+text en este nivel, debes defender tu base frente al ataque enemigo
+text este nivel es muy fácil. sólo debes recordar 2 teclas, enter y espacio.
+text cuando escuches este sonido
+wait 800
+play w_myattackgo
+wait 800
+text esperas un tiempo y pulsas espacio para atacar!
+music w_bgm 0
+play w_myattackgo 1614
+play w_myattack 2140
+say espacio!
+play w_myattackgo 3194
+play w_myattack 3730
+say espacio!
+play w_myattackgo 4263
+play w_myattack 4793
+say espacio!
+wait 800
+fade
+text y así
+text ^pero cuando te ataque debes defensar la base y es un poco más complicado.
+text cuando escuches este sonido desde la izquierda,
+wait 800
+play w_attack
+wait 800
+text esperas un tiempo y luego mantienes enter pulsado 4 tiempos! 4 tiempos es mucho.
+text ahora te lo enseño y luego a luchar luchar luchar!
+music w_bgm 0
+play w_attack 1632
+play w_shield 2134
+say mantienes enter...
+play w_shieldok 4263
+say suelta!
+wait 800
+fade
+text vamos a ver otra vez
+music w_bgm 0
+play w_attack 1632
+play w_shield 2134
+say mantienes enter...
+play w_shieldok 4263
+say suelta!
+wait 800
+fade
+text bien, ahora ya estás preparado para luchar luchar luchar, hasta que tu base explote a pedacitos!

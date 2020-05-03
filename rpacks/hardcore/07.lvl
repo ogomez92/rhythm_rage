@@ -1,0 +1,165 @@
+crazy beats
+music jingle=3j name=uptown
+play name=cowbell time=12521
+play name=cowbell time=13565
+play name=cowbell time=14608
+play name=cowbell time=15130
+play name=cowbell time=15652
+play name=cowbell time=16173
+
+play name=5coming time=16695 alias=scoming
+action name=5hit key=space time=17217 alias=sact
+! scoming,sact 17739 single
+@ single 18782
+@ single 19826
+@ single 20869
+@ single 21913
+@ single 22956
+@ single 24000
+@ single 25043
+@ single 26086
+@ single 27130
+@ single 28173
+@ single 29217
+@ single 30260
+play name=5three time=31304 alias=3sc
+play name=5coming time=31304 alias=3s1
+action name=5hit key=space time=31826 alias=3a1
+play name=5coming time=31826 alias=3s2
+action name=5hit key=space time=32347 alias=3a2
+play name=5coming time=32347 alias=3s3
+action name=5bighit key=space time=32869 alias=3a3
+
+@ single 33391
+@ single 34434
+! 3sc,3s1,3a1,3s2,3a2,3s3,3a3 35478 hit3
+@ single 37565
+@ single 38608
+@ hit3 39652
+@ single 41739
+@ single 42782
+@ hit3 43826
+@ single 45913
+@ single 46956
+@ hit3 48000
+@ hit3 50086
+@ hit3 52173
+@ hit3 54260
+@ hit3 56347
+play name=5wavecoming time=58434 alias=wave
+@ single 58434
+@ single 58956
+@ single 59478
+@ single 60000
+@ single 60521
+@ single 61043
+@ single 61565
+@ single 62086
+@ single 62608
+@ single 63130
+@ single 63652
+@ single 64173
+play name=5coming time=65739 alias=bhs
+action name=5bighit key=space time=66260 alias=bha
+
+@ single 66782
+@ single 67826
+@ single 68869
+@ single 69913
+@ single 70956
+@ single 72000
+@ hit3 73043
+@ single 75130
+@ single 76179
+@ hit3 77217
+@ single 79304
+@ single 80347
+@ hit3 81391
+@ hit3 83478
+@ hit3 85565
+play name=5wavecoming time=87652
+@ single 87652
+@ single 88173
+@ single 88695
+@ single 89217
+@ single 89739
+@ single 90260
+! bhs,bha 90782 bh
+// Stop! Wait a minute...
+
+@ single 93913
+play name=5contra time=94700 alias=contras
+action name=5hit key=space time=95222 alias=contraa
+@ single 96000
+@ single 97043
+! contras,contraa 98352 contra
+@ single 99130
+@ contra 99396
+@ single 100173
+@ single 101217
+@ single 102260
+@ single 103304
+@ single 104347
+@ single 105391
+@ single 106434
+@ contra 107222
+@ single 107478
+
+@ single 108521
+@ single 109565
+@ hit3 110608
+@ single 112695
+@ single 113739
+@ hit3 114782
+@ single 116869
+@ single 117913
+@ hit3 118956
+@ single 121043
+@ single 122086
+@ hit3 123130
+@ hit3 125217
+@ hit3 127304
+@ hit3 129391
+@ hit3 131478
+@ single 133565
+play name=5wavecoming time=133565
+@ single 134086
+@ single 134608
+@ single 135130
+@ single 135652
+@ single 136173
+@ single 136695
+@ single 137217
+@ contra 137483
+@ single 137739
+@ contra 138009
+@ single 138260
+@ contra 138530
+@ single 138782
+@ bh 140869
+@ single 141913
+@ single 142956
+@ contra 144266
+@ contra 145309
+@ single 146086
+@ single 147130
+@ hit3 148173
+@  single 150260
+@ single 151304
+@ contra 152613
+@ contra 153657
+@ single 154434
+@ single 155478
+@ hit3 156521
+@ hit3 158608
+@ hit3 160695
+@ single 162782
+@ single 163304
+@ single 163826
+@ single 164347
+@ contra 164613
+@ single 164869
+@ contra 165139
+@ single 165391
+@ contra 165661
+@ bh 165913

@@ -1,0 +1,32 @@
+text bienvenido a prueba tu ritmo!
+text este juego combina la música con la coordinación y, en algunos niveles, tu memoria.
+text estás preparado para sentir el ritmo en tus venas?
+text vamos a empezar con una pequeña prueba. vas a escuchar unos pitidos.
+text y cada 3 pitidos escucharás uno más agudo. tienes que seguir el ritmo, pulsando la tecla enter justo cuando suena el pitido agudo. ya verás que no es fácil, pero te acostumbrarás.
+text tienes que hacer bien esto para poder seguir con los demás niveles, así que ponte a practicar!
+text quiero que veas lo que debes hacer. escucha con atención
+music test
+play 1ok 1574
+say enter!
+play 1ok 3675
+say enter!
+play 1ok 5774
+say enter!
+play 1ok 7872
+say enter!
+fade
+text lo has entendido?
+text que te cuesta? bueno, inténtalo.
+text estás preparado? que empezamos ya!
+text oh, me olvidaba
+text si lo haces mal, escucharás este sonido.
+wait 500
+play 1bad
+wait 500
+text sin embargo, si lo haces bien, escucharás esto.
+wait 600
+play 1ok
+wait 700
+text ahora sí. recuerda, al cuarto pitido, enter.
+text preparado?
+text dale!

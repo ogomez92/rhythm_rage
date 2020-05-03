@@ -1,0 +1,119 @@
+ritmarcianos
+misc reaction=160 ok=60 super=80
+music name=rob_bgm volume=0 jingle=rob_jingle
+play name=rob_airloop time=1651 alias=air1
+action key=z time=2067 fail=rob_beam name=rob_beam,rob_airdie alias=air2
+! air1,air2 2483 air
+@ air 3315
+@ air 4147
+play name=rob_base time=4979 alias=base1
+action key=x time=5395 fail=rob_bomb name=rob_bomb,rob_basedie alias=base2
+! base1,base2 5811 base
+@ air 6851
+@ base 7683
+@ air 8515
+@ base 8723
+@ air 9139
+@ air 9971
+@ base 10803
+@ air 11635
+@ base 12051
+@ base 12467
+play name=rob_toweralarm time=13299 alias=tower0
+action key=x name=rob_toweron,rob_bomb,rob_towerloop time=13507 alias=tower1
+action alias=tower2 key=x time=13715 name=rob_towerhit1,rob_bomb
+play time=14131 name=rob_life require=tower1,tower2 fail=epicfail alias=tower3 ach=bieeen! has destruido una torre de los ritmarcianos!
+play name=rob_multi time=14963 alias=mul1
+action name=rob_multihit,rob_beam key=z time=15379 alias=mul2
+action name=rob_multidie,rob_beam key=z time=15795 alias=mul3
+! mul1,mul2,mul3 16627 multi
+@ multi 18291
+@ base 18499
+
+@ air 19123
+! tower0,tower1,tower2,tower3 19955 tower
+@ base 21619
+@ air 22451
+@ air 23283
+@ air 24323
+@ base 24947
+@ air 25779
+@ base 26613
+@ air 27445
+@ air 28277
+@ air 29109
+@ multi 29941
+@ multi 31605
+@ multi 33279
+@ multi 34111
+@ air 34943
+@ multi 35359
+@ multi 36191
+@ air 37023
+@ multi 37439
+@ air 38271
+@ multi 38687
+play name=rob_base time=39519 alias=ach1
+action key=x time=39935 fail=rob_bomb name=rob_bomb,rob_basedie alias=ach2 ach=en guardia: estás bien en alerta contra los ritmarcianos! zzzzzzz... x!
+play require=ach2 name=rob_life time=40351
+@ multi 41599
+@ air 42431
+@ air 43263
+@ air 44106
+@ base 45354
+@ tower 46602
+@ air 48682
+@ air 49930
+@ base 50762
+@ multi 51594
+@ air 52426
+@ base 53258
+@ air 54090
+@ multi 54922
+@ air 56586
+@ air 57418
+@ tower 58250
+@ base 59925
+@ base 60757
+@ base 61589
+@ air 62421
+@ multi 63253
+@ air 64501
+@ air 65333
+@ air 66165
+@ air 66997
+@ base 67621
+@ air 68245
+@ air 69077
+@ multi 69923
+@ multi 71587
+@ air 73251
+@ air 73667
+@ air 74083
+@ multi 74915
+@ base 76579
+@ base 76995
+@ base 77411
+@ base 77827
+@ base 78243
+@ base 78659
+@ base 79075
+@ base 79491
+@ base 79907
+@ base 80323
+@ base 80739
+@ base 81155
+@ base 81571
+@ base 81987
+@ base 82403
+@ base 82819
+@ tower 83235
+@ multi 84899
+@ air 85731
+@ air 86563
+@ base 87603
+@ air 88227
+@ air 89059
+@ air 89891
+@ base 91555
+@ base 91971

@@ -1,0 +1,67 @@
+﻿text hola. soy un rey malo y cruel!
+text hay unos traidores sueltos por mi reino, y deben morir.
+text pero esta pistola que me he encontrado en el cadáber de un tío solo funciona cuando disparo a un ritmo determinado...
+text bien, necesito que me ayudes a matar a estos traidores. Cuando oigas a mi ayudante gritar jay, jey! dispararé y el traidor morirá.
+text atento, que tendrás que hacerlo tú muy pronto!
+text normalmente no funcionaría porque no hay música, pero he hecho trampa y le he puesto unos auriculares a la pistola. si es que mira que soy listo...
+text venga, vamos allá.
+play 1heil
+wait 400
+play 1hey
+wait 400
+play 1shoot
+wait 1200
+text has visto qué fácil?
+text vamos a probar con la música.
+text la música sonará, y mi ayudante dirá jai, jey! y dispararé después de un tiempo con la música.
+music hitler -6
+play 1heil 2064
+play 1hey 2590
+play 1shoot 3100
+play grunt3
+play fall1
+say enter!
+fade
+text muerte a los traidores!
+text otra vez.
+music hitler -6
+play 1heil 2064
+play 1hey 2590
+play 1shoot 3100
+say enter!
+play 1heil 3100
+play 1hey 3650
+play 1shoot 4170
+say enter bum!
+play 1heil 4170
+play 1hey 4680
+play 1shoot 5210
+say enter!
+fade
+text 3 de golpe, qué guay.
+text bien, hay otra cosa de la cual tienes que encargarte.
+text a veces hay que ejecutar a un traidor y darle una muerte pública
+text hay que matar a esos traidores y que la gente se entere quién manda.
+text cuando diga soy el rey! tienes que esperar 3 tiempos. en el cuarto, le das al enter para que la gente anime y le corten la cabeza al traidor.
+text funciona así:
+play big1
+wait 600
+play big2
+wait 600
+play big3
+wait 600
+play biga
+say enter!
+wait 1300
+text bien! vamos a probar con la música.
+music hitler -6
+play big1 2000
+play big2 2600
+play big3 3120
+play biga 3640
+say enter!
+wait 1500
+fade
+text vale, estás preparado?
+text bueno, más te vale. porque si no, quizá te mate a ti también.
+text suerte!

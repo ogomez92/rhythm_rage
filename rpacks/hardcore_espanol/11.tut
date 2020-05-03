@@ -1,0 +1,64 @@
+text hola! soy el pingüino.
+text Bueno, ves todas estas aves que van volando por ahí? gallos, cuervos...
+text Están felices y contentos. ¡Pero no hay pingüinos!
+text Quiero contratarte para que te cargues a todas esas criaturas voladoras! Te voy a dar un bate de béisbol, una pistola y un cuchillaco de cocina. Pero no intentes matarme! Que si no, no sabrás qué tienes que hacer en el nivel!
+text Vale, los patos son muy fáciles. Solo tienes que esperar un tiempo, y matarlos con el bate pulsando énter. Aquí tienes un ejemplo.
+music bs -6 1930
+play bs_duck 2790
+play bs_duckm 3220
+say enter!
+play bs_duckhit
+play bs_duck 3640
+play bs_duckm 4070
+say enter!
+play bs_duckhit
+fade
+text bien, ahora puedes matar patos. wee!
+text vamos a hacer algo más difícil, los cuervos!
+text para los cuervos, esperas igual, un tiempo, pero tienes que disparar dos veces con el espacio, esperando un tiempo después de cada vez.
+text ahí va
+music bs -6 1930
+play bs_bird
+play bs_shoot 2360
+say espacio!
+play bs_birdhurt
+play bs_shoot 2790
+say espacio!
+play bs_birdgore
+wait 500
+fade
+text otra vez
+music bs -6 1930
+play bs_bird
+play bs_shoot 2360
+say espacio!
+play bs_birdhurt
+play bs_shoot 2790
+say espacio!
+play bs_birdgore
+wait 500
+fade
+text ya puedes matar cuervos!
+text la última cosa que tenemos que ver son los gallos.
+text son un poco más complicados. cuando empiezas a escucharlos, esperas dos tiempos, y luego mantienes enter pulsado 2 tiempos más.
+text mira
+music bs -6 48190
+play bs_rooster
+say espera...
+play bs_rooshold 49040
+say enter...
+play bs_roosok 49470
+say suelta!
+wait 600
+fade
+text otra vez
+music bs -6 48190
+play bs_rooster
+say espera...
+play bs_rooshold 49040
+say enter...
+play bs_roosok 49470
+say suelta!
+wait 600
+fade
+text Bien, ya estás preparado! Cuidado con los patos que aparecen seguidos, o cuando aparecen cuervos y patos uno después del otro!

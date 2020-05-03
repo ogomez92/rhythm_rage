@@ -1,0 +1,90 @@
+text hey! Ever wanted to punch jaws in the face?
+wait 600
+play g_3hit3
+play g_h2
+wait 600
+text take that, b***h!
+text anyway, time for eloquence to die! use the enter key to hit him, but learn the patterns first.
+text first pattern, I say 1! you wait one beat, and press enter.
+wait 800
+play g_1
+wait 350
+play g_1hit
+play g_h1
+wait 350
+play g_1
+wait 350
+play g_1hit
+play g_h1
+wait 800
+text let's try it!
+interactive g_2b -4 217 6544 4
+intersound g_1 100 0 813
+intersound g_1hit 100 0 1211 key_enter
+intersound g_1 100 0 1609
+intersound g_1hit 100 0 2007 key_enter
+intersound g_1 100 0 2405
+intersound g_1hit 100 0 2803 key_enter
+intersound g_1 100 0 3196
+intersound g_1hit 100 0 3594 key_enter
+
+interactive end
+
+text ok, next pattern.
+text when I say 2! in a weird german accent, you need to wait one beat like you did with 1, but press enter twice, once on the beat and again on the offbeat.
+wait 600
+play g_2
+wait 280
+play g_h3
+play g_2hit
+wait 150
+play g_2hit
+play g_h3
+wait 300
+play g_2
+wait 280
+play g_h3
+play g_2hit
+wait 150
+play g_2hit
+play g_h3
+wait 600
+
+text ok, try it!
+interactive g_2b -4 217 6544 8
+intersound g_1 100 0 813
+intersound g_1hit 100 0 1211 key_enter
+intersound g_1 100 0 1609
+intersound g_1hit 100 0 2007 key_enter
+intersound g_1 100 0 2405
+intersound g_1hit 100 0 2803 key_enter
+intersound g_1 100 0 3196
+intersound g_1hit 100 0 3594 key_enter
+
+intersound g_2 100 0 3968
+intersound g_2hit 100 0 4366 key_enter
+intersound g_2hit 100 0 4565 key_enter
+intersound g_2 100 0 4764
+intersound g_2hit 100 0 5162 key_enter
+intersound g_2hit 100 0 5333 key_enter
+interactive end
+text ok, last thing
+text when I say 3, you wait one beat, and press enter 3 times on next beats 1, 2, and 3. It's easy, just try it.
+
+interactive g_2b -4 217 6544 8
+intersound g_3 100 0 813
+intersound g_3hit1 100 0 1211 key_enter
+intersound g_3hit2 100 0 1609 key_enter
+intersound g_3hit3 100 0 2007 key_enter
+
+intersound g_3 100 0 3983
+intersound g_3hit1 100 0 4381 key_enter
+intersound g_3hit2 100 0 4779 key_enter
+intersound g_3hit3 100 0 5171 key_enter
+intersound g_2 100 0 5569
+intersound g_2hit 100 0 5967 key_enter
+intersound g_2hit 100 0 6166 key_enter
+
+interactive end
+
+text great! now you can play, good luck!

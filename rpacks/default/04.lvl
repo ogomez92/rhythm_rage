@@ -1,0 +1,49 @@
+copydog
+music name=dogbgm jingle=fs_jingle volume=-10
+play name=dogb1 pan=-10 time=246 alias=db1
+action pan=10 time=2090 key=space name=dogb2 fail=dogw alias=db2
+! db1,db2 1170 bark
+@ bark 3930
+@ bark 4150
+@ bark 4640
+@ bark 4868
+@ bark 7660
+play name=dogg1 pan=-10 time=8100 alias=dg1
+action pan=10 time=9970 key=enter name=dogg2 fail=dogw end=10436 ends=dogok alias=dg2
+@ bark 11365
+@ bark 11672
+@ bark 11979
+! dg1,dg2 12286 growl
+@ bark 15053
+@ bark 15406
+@ bark 15989
+@ bark 16342
+@ bark 18720
+@ bark 18950
+@ bark 19190
+@ growl 19660
+@ bark 22434
+@ bark 22784
+@ bark 23128
+@ growl 26120
+@ bark 27045
+play name=dogb1 pan=-10 time=31154 alias=da1
+action pan=10 time=32996 key=space name=dogb2 fail=dogw alias=da2 ach=woof woof! Barking to the silence!
+@ growl 33510
+@ growl 34440
+@ bark 37212
+@ bark 37519
+@ bark 37826
+@ growl 38133
+@ bark 40906
+@ bark 41136
+@ growl 41367
+@ bark 44611
+@ bark 48304
+@ bark 48765
+@ bark 49225
+@ bark 51986
+@ bark 52924
+@ bark 55682
+@ bark 55912
+@ bark 56025

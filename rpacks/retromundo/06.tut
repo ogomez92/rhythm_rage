@@ -1,0 +1,16 @@
+play mem_ins1
+wait 600
+play mem_ins2
+wait 600
+text hola! ya ahora que ya tienes buena memoria...
+text este nivel es muy similar a memorias 1
+text escuchemos otra vez los sonidos, pero ya deberías tenerlos memorizados!
+wait 600
+play mem_ins1
+wait 600
+text este sonido significa pulsa espacio!
+wait 600
+play mem_ins2
+wait 600
+text este sonido significa mantén enter pulsado durante medio tiempo y suelta!
+text preparado para jugar? sé que sí!

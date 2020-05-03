@@ -1,0 +1,83 @@
+the ball game
+music name=d_bgm jingle=fs_jingle volume=-7
+play name=d_b1 time=1425 alias=b1 pan=-10
+action name=d_b1h time=2160 key=enter alias=b1h pan=0
+! b1,b1h 3639 1
+play name=d_b2_1 time=5120 alias=b21 pan=-10
+play name=d_b2_2 alias=b22 time=5699 pan=-10
+action name=d_b2h time=5860 key=enter alias=b2h pan=0
+@ 1 6606
+! b21,b22,b2h 8087 2
+@ 1 9569
+play name=d_b3 time=10680 alias=b31 pan=-10
+play name=d_b3 alias=b32 time=11297 pan=-10
+action key=enter time=11791 alias=b3h name=d_b3h,good pan=0
+@ 1 12532
+@ 2 14013
+@ 1 15495
+! b31,b32,b3h 16606 3
+@ 1 18450
+@ 2 19935
+@ 2 21417
+@ 3 22528
+@ 1 26602
+@ 2 28084
+@ 3 30309
+@ 3 31790
+@ 2 33272
+@ 2 34753
+@ 1 36236
+@ 1 37717
+@ 1 39199
+@ 3 40310
+@ 1 42162
+@ 2 43643
+@ 1 45125
+@ 3 46236
+@ 1 48088
+@ 2 49569
+@ 3 50680
+@ 3 51791
+play pan=-10 name=d_b1 time=52532 alias=b1
+action pan=0 fail=bad name=d_b1h,good time=53273 key=enter alias=b1h ach=hard catch: You caught that sneaky ball! Yay!
+@ 1 54017
+@ 2 55498
+@ 2 57350
+@ 3 58461
+@ 2 60683
+@ 2 61424
+@ 2 62905
+@ 3 64017
+@ 1 65868
+@ 1 66980
+@ 1 67350
+@ 1 68831
+@ 1 69202
+@ 3 70683
+@ 2 73276
+@ 1 74757
+@ 1 76239
+@ 2 77350
+@ 1 78461
+@ 2 79202
+@ 1 82165
+@ 2 84017
+@ 2 85498
+@ 3 86980
+@ 2 88091
+@ 2 89570
+@ 1 91051
+@ 1 92533
+@ 3 92903
+@ 1 95490
+@ 2 95860
+@ 1 96971
+@ 1 98453
+@ 2 99934
+@ 1 101416
+@ 1 102897
+@ 2 104379
+@ 3 105490
+play name=d_b3 time=108453 alias=b31 pan=-10
+play name=d_b3 alias=b32 time=109030 pan=-10
+action key=enter time=109564 alias=b3h name=d_b3h,good,d_super pan=0 ach=great, great! You caught the last ball!

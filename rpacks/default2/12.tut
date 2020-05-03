@@ -1,0 +1,25 @@
+text hola! soy el fontanero
+text el trabajo se me hace aburrido después de tantas horas, ya ves
+text Así que he pensado que pediría un ayudate... te parece?
+text Para hacerlo más interesante, vamos a instalar las tuberías las tuberías con ritmo!
+text así es como funciona: Vamos a trabajar en una nueva parte del sistema de agua corriente
+text buscaré la tubería adecuada para ti y escucharás este sonido:
+play pipe_yes
+text y entonces, esperas un tiempo y le das con el martillo una vez cada medio tiempo hasta que esté bien puesta.
+text pero después tendrás que girar la bálbula de la tubería. Para hacer eso, tienes que pulsar una de las flechas al sentido de las agujas del reloj.
+text la flecha que debes pulsar será siempre la próxima a la última que pulsaste.
+text Por ejemplo, si pulsas la flecha izquierda, la siguiente siempre será la flecha arriba. luego derecha y abajo y otra vez izquierda.
+text Es mucho más fácil con la música. vamos a ver!
+music pipe_bgm -1
+play pipe_yes 1017
+play pipe_hammer 1525
+play pipe_hammer 1780
+play pipe_hmcs 2034
+play pipe_slide 2542
+say pulsa
+play pipe_slideok 3051
+say suelta!
+wait 1500
+fade
+text ves? No es tan difícil aún
+text bien, te toca empezar! Piensa que la primera bálbula que tendrás que girar es a la izquierda. Venga!

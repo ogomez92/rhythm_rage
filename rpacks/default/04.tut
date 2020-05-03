@@ -1,0 +1,37 @@
+play dogb1
+wait 350
+play dogb1
+wait 300
+play dogg1
+wait 500
+text woof woof!
+play dogb1
+text hey, are you ready to copy all my barks?
+play dogb1
+text in this level, you have to memorize 2 beats, and the next 2 beats will be the same, but you have to do it instead.
+play dogb1
+text You can bark by pressing the space bar. So if I bark twice, once per beat, you have to bark again the next two beats.
+play dogb1
+text this is the classic memorizing game found in many rhythm rage packs 
+play dogb1
+text let's go, are you ready? Just try barking for the next 2 beats.
+interactive dogbgm -4 7640 11310 4
+intersound dogb1 100 0 7650
+intersound dogb1 100 0 8540
+intersound dogb2 100 0 9514 key_space
+intersound dogb2 100 0 10435 key_space
+interactive end
+play dogb1
+text very good!
+play dogb1
+text when I growl, you have to hold down the enter key for one beat.
+play dogb1
+text the level combines both barks and growls, so you need to pay attention to what I do. let's try!
+interactive dogbgm -4 7640 11310 4
+intersound dogb1 100 0 7650
+intersound dogg1 100 0 8540
+intersound dogb2 100 0 9514 key_space
+intersound dogg2 100 0 10420 key_enter 10880
+interactive end
+play dogb1
+text you are ready to follow my lead now!

@@ -1,0 +1,58 @@
+epic battle2
+misc reaction=110
+music name=eb2 jingle=fs_jingle volume=-1
+play name=die time=1005 alias=die1
+action key=enter time=1810 name=diestab fail=painfail alias=die2
+! die1,die2 2622 die
+@ die 4260
+play pan=20 name=feel time=5870 alias=pain1
+play pan=20 name=pain alias=pain2 time=6270
+action name=painok key=right time=6688 alias=pain3 fail=painfail
+@ die 8307
+play pan=-20 name=feel time=9140 alias=pain4
+play pan=-20 name=pain alias=pain5 time=9540
+action name=painok key=left time=9945 alias=pain6 fail=painfail
+! pain1,pain2,pain3 11000 painr
+@ die 12400
+@ die 14050
+! pain4,pain5,pain6 14855 painl
+@ painr 16474
+@ painr 17688 
+@ die 19348
+@ painr 20573
+@ painl 20976
+@ die 22184
+@ painr 23002
+@ painl 25470
+@ painr 25870
+@ die 27120
+@ die 28732
+@ die 30343
+@ painr 31995
+@ painl 33622
+@ die 35252
+@ die 36890
+@ die 37292
+@ die 37695
+@ die 38925
+@ painl 40151
+@ die 41363
+@ die 41766
+@ painr 42179
+@ painl 43420
+@ painr 45252
+@ die 46696
+@ die 48312
+@ die 49996
+@ die 51615
+@ die 52807
+@ die 53225
+@ die 53628
+@ die 54232
+@ die 54836
+@ die 55267
+@ die 55690
+@ painl 58100
+@ painr 59752
+@ painl 61394
+@ die 62633

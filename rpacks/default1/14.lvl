@@ -1,0 +1,81 @@
+bombercats!
+misc ok=80
+music name=cat_bgm jingle=cat_jingle volume=-2
+play name=cat_good1 time=780 alias=cg1
+play name=cat_evil time=1660 alias=cb
+action name=cat_fail fail=cat_swing time=2100 alias=cba key=enter alias=cba
+play name=cat_good2 time=2540 alias=cg2
+! cg1 3445
+! cb,cba 4330 evil
+@ evil 5210
+! cg2 6100
+! cg1 6980
+@ evil 7860
+@ evil 8740
+@ evil 9630
+@ evil 10070
+@ evil 10510
+play name=cat_evil time=11385 alias=cb
+play name=cat_evil time=11530 alias=cb
+play name=cat_evil time=11680 alias=cb
+action name=cat_fail fail=cat_swing time=11830 alias=ach1 key=enter
+action name=cat_fail fail=cat_swing time=11975 alias=ach2 key=enter
+action name=cat_fail fail=cat_swing time=12120 alias=ach3 key=enter
+play name=biga require=ach1,ach2,ach3 time=12350 ach=fast bombercatter: wow, what a nice and fast row of bombercats!
+! cg1 13150
+! cg2 14040
+@ evil 14920
+@ evil 15365
+@ evil 15805
+! cg1 16690
+! cg2 17575
+@ evil 18455
+@ evil 18895
+@ evil 19330
+! cg1 20215
+! cg1 21100
+@ evil 21980
+@ evil 22425
+@ evil 23310
+@ evil 24190
+! cg2 25070
+@ evil 25955
+@ evil 27280
+@ evil 27720
+@ evil 28165
+! cg2 29030
+! cg2 29920
+@ evil 30800
+@ evil 31680
+@ evil 32565
+@ evil 33010
+@ evil 33450
+! cg2 34330
+! cg1 35220
+play name=bs_bird time=36100
+action name=bs_shoot,bs_birdhurt time=36540 alias=bac1 key=space fail=blate
+action name=bs_shoot,bs_birdgore time=36970 fail=blate key=space alias=bac2
+play name=biga require=bac1,bac2 time=37425 ach=escaped bird: Oh! Where did that bird come from!
+@ evil 37885
+@ evil 38760
+@ evil 40090
+@ evil 40960
+@ evil 41395
+@ evil 41835
+! cg1 43170
+! cg2 44050
+! cg1 44930
+@ evil 45805
+@ evil 46690
+! cg2 47550
+@ evil 48455
+@ evil 49340
+@ evil 50665
+! cg1 51990
+! cg1 53745
+@ evil 55505
+@ evil 55945
+@ evil 56385
+play name=cat_evil time=58140 alias=ac3
+action name=cat_fail fail=blate time=58590 alias=ac4 key=enter
+play name=biga time=58800 require=ac4 ach=expert bombercatter: Oh yes, you are an expert bombercat catcher!

@@ -1,0 +1,54 @@
+play w_myattack
+wait 150
+play w_myattack
+wait 200
+play w_myattack
+wait 280
+text die! die! die! die!
+text oops... Did that hurt?
+text ok, it's time for a fight to the death in our bases!
+text in this level, you need to defend your base against incoming enemy attacks.
+text this level is very easy. you only have 2 keys to remember, enter and space.
+text when you hear this sound
+wait 800
+play w_myattackgo
+wait 800
+text you wait one beat, and then press space to attack! here
+music w_bgm 0
+play w_myattackgo 1614
+play w_myattack 2140
+say space!
+play w_myattackgo 3194
+play w_myattack 3730
+say space!
+play w_myattackgo 4263
+play w_myattack 4793
+say space!
+wait 800
+fade
+text and so on.
+text but when I attack you need to defend your base. and this is slightly trickier
+text when you hear this sound coming from the left,
+wait 800
+play w_attack
+wait 800
+text you wait one beat, and then hold enter for 4 beats! 4 beats is a long time. and then you release the enter key.
+text let me show you and then we can fight fight fight!
+music w_bgm 0
+play w_attack 1632
+play w_shield 2134
+say hold enter...
+play w_shieldok 4263
+say let go!
+wait 800
+fade
+text let's hear it again
+music w_bgm 0
+play w_attack 1632
+play w_shield 2134
+say hold enter...
+play w_shieldok 4263
+say let go!
+wait 800
+fade
+text ok, now you are ready to fight  fight fight, fight till your base explodes into tiny 8bits! hehe hehe

@@ -1,0 +1,114 @@
+beat pong
+music name=beatpong jingle=fs_jingle volume=-2
+play name=pong1 time=8600 alias=p1 pan=-10
+play name=pong2 time=9080 alias=p2 pan=0
+action key=enter time=9590 name=pong3 fail=pong4 alias=p3 pan=10
+! p1,p2,p3 10600 po1
+play name=pong1 time=11620 alias=p4 pan=-10
+play name=pong2 time=11860 alias=p5 pan=0
+action key=enter time=12110 name=pong3 fail=pong4 alias=p6 pan=10
+! p4,p5,p6 12620 po2
+@ po2 13120
+@ po2 13620
+@ po1 14626
+@ po2 15640
+@ po1 16896
+@ po2 17646
+@ po1 18896
+@ po2 19653
+@ po1 20653
+@ po2 21653
+@ po2 22414
+@ po1 22914
+@ po2 23164
+@ po2 24164
+@ po1 24664
+@ po2 26164
+@ po1 26674
+@ po2 27693
+play name=pong1 pitch=90 time=28693 alias=ph1 pan=-10
+play name=ponghold time=29200 alias=ph2 pan=-10
+action key=enter time=29700 name=pongholdok end=30200 ends=ponglet fail=pong4 alias=ph3 pan=10
+@ po1 30700
+@ po2 31715
+@ po2 32215
+! ph1,ph2,ph3 32715 ph1
+play pitch=90 name=pong2 time=34726 alias=ph4 pan=-10
+play name=ponghold time=35226 alias=ph5 pan=-10
+action key=enter time=35726 name=pongholdok end=36726 ends=ponglet fail=pong4 alias=ph6 pan=10
+@ po2 36976
+@ po2 37726
+@ po1 38731
+@ po2 39731
+@ po2 41746
+! ph4,ph5,ph6 42263 ph2
+@ po2 45763
+@ ph1 46763
+@ po1 48763
+@ po2 49763
+@ ph1 50772
+@ po2 53810
+@ ph2 54310
+@ po2 56841
+@ po2 57831
+@ po1 58841
+@ po2 59845
+@ po1 60855
+@ po2 61865
+@ po2 62875
+@ po2 63872
+@ po2 64377
+@ po2 65135
+@ po2 66145
+@ po2 66902
+@ po2 68165
+@ po1 68900
+@ po2 69903
+@ ph1 70906
+@ ph2 72928
+@ po1 76944
+@ po1 78207
+@ po1 78711
+@ po1 78963
+@ po2 79970
+@ po1 82975
+@ po2 83965
+@ ph2 84485
+@ ph1 86505
+@ po2 87990
+@ po2 90248
+@ po2 92269
+@ po1 93021
+@ po1 94011
+@ po1 95007
+@ po2 96030
+@ po2 97272
+@ po2 98017
+@ po2 98540
+@ po1 99049
+@ ph1 101029
+@ ph1 103044
+@ po2 105031
+@ po2 106028
+@ po1 107320
+@ po2 108096
+@ ph2 109086
+@ po2 112340
+@ po1 113104
+@ po1 115109
+@ ph1 117092
+@ po2 119624
+@ po2 120125
+@ po1 121120
+@ po1 123133
+@ po2 124142
+@ po2 125390
+@ po2 126140
+@ po2 126892
+@ po1 127139
+@ po2 130420
+@ po2 132440
+@ po1 133698
+@ ph2 135206
+@ ph1 137205
+@ po2 139708

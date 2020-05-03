@@ -1,0 +1,67 @@
+text hi. I am a cruel and evil king!
+text I have found some traitors to my kingdom, and they need to die.
+text however, this weird new gun I found in some guy's corpse only works when matched to a certain rhythm.
+text OK, I need you to help me kill these traitors. When you hear my assistant say hai, hey! You need to press enter on the next beat and I will shoot the gun, and the traitor will die.
+text now my assistant will say hai, hey! and I will shoot in time to match. This is what you will need to do very soon!
+text normally it wouldn't work because my gun only shoots when it hears its music, but I cheated and I attached some headphones to it. yup yup
+text now, let's go!
+play 1heil
+wait 400
+play 1hey
+wait 400
+play 1shoot
+wait 1200
+text see? That was very simple
+text now, let's try with the music
+text the music will play, and my assistant will shout hai, hey! And I will shoot in time with the music.
+music hitler -6
+play 1heil 2064
+play 1hey 2590
+play 1shoot 3100
+play grunt3
+play fall1
+say enter!
+fade
+text death to the enemy!
+text let's try again.
+music hitler -6
+play 1heil 2064
+play 1hey 2590
+play 1shoot 3100
+say enter!
+play 1heil 3100
+play 1hey 3650
+play 1shoot 4170
+say enter boom!
+play 1heil 4170
+play 1hey 4680
+play 1shoot 5210
+say enter!
+fade
+text 3 in a row, nice
+text ok, there is also one thing you need to take care of
+text some traitors have done real bad things y'know, and they need a public execution.
+text We need to get those bastards killed and show everyone who's boss.
+text when I say cut his head! you need to wait 3 beats. on the 4th, you will have to press enter to get the crowd cheering.
+text here is how it works.
+play big1
+wait 600
+play big2
+wait 600
+play big3
+wait 600
+play biga
+say enter!
+wait 1300
+text awesome! let's try with the music
+music hitler -6
+play big1 2000
+play big2 2600
+play big3 3120
+play biga 3640
+say enter!
+wait 1500
+fade
+text great! Are you ready?
+text well, you better be. Because if you're not... I might end up killing you!
+text good luck!

@@ -1,0 +1,110 @@
+bird squish
+misc reaction=110
+music name=birds jingle=bsj volume=-6
+play name=bs_duck time=9580 alias=d1
+action key=enter name=bs_duckhit,bs_duckm time=10070 fail=bs_miss alias=d2
+! d1,d2 10580 duck
+@ duck 12538
+play name=bs_bird time=13524 alias=b1
+action name=bs_shoot,bs_birdhurt key=space fail=bs_fly miss=bs_shoot time=14017 early=bs_shoot late=bs_shoot alias=b2
+action name=bs_shoot,bs_birdgore key=space fail=bs_fly time=14510  early=bs_shoot late=bs_shoot miss=bs_shoot alias=b3
+@ duck 16474
+play name=bs_rooster time=17460 alias=r1
+action name=bs_rooshold time=18446 fail=bs_rooshurt key=enter ends=bs_roosok end=18939 alias=r2
+@ duck 20663
+@ duck 21649
+! b1,b2,b3 22388 bird
+! r1,r2 25315 r
+play name=b1g time=27290 alias=h1
+action name=bs_shoot,b1h,b1w1 key=enter fail=bs_fly miss=bs_shoot time=27783 early=bs_shoot late=bs_shoot alias=h2
+action name=bs_shoot,b1d,b1w2 key=enter fail=bs_fly time=28276  early=bs_shoot late=bs_shoot miss=bs_shoot alias=h3
+@ bird 29755
+play name=b2g time=31220 alias=k1
+action name=b2d time=31700 fail=bs_rooshurt key=enter ends=bs_roosok end=32675 alias=k2
+! k1,k2 33185 k
+play name=b3g time=35175 alias=t1
+action name=bs_shoot,b3h,b3hg key=space miss=bs_shoot time=35640 alias=t2
+action name=bs_shoot,b3h,b3hg key=space miss=bs_shoot time=35890 alias=t3
+action name=bs_shoot,b3d,b3dg key=space miss=bs_shoot time=36130 alias=t4
+@ duck 37115
+@ duck 38100
+! h1,h2,h3 39092 h
+! t1,t2,t3,t4 41064 t
+@ r 43025
+@ bird 45480
+@ duck 46964
+@ duck 48197
+@ t 49183
+@ bird 51141
+@ h 52860
+@ duck 53838
+@ r 54824
+@ h 56786
+@ duck 58754
+@ duck 59740
+@ bird 60726
+@ duck 62961
+@ duck 63935
+@ duck 64900
+@ duck 65649
+@ duck 66874
+@ duck 67860
+@ duck 68606
+@ duck 69588
+@ r 70560
+@ t 72534
+@ duck 73519
+@ duck 74738
+@ duck 75725
+@ bird 76470
+@ duck 77454
+@ duck 78440
+@ duck 79426
+@ h 80412
+@ duck 82372
+@ r 83358
+@ k 85324
+@ bird 88276
+@ k 89750
+@ bird 92215
+@ h 100069
+@ bird 102051
+@ k 104018
+@ r 105970
+@ t 109920
+@ t 110894
+@ t 111890
+@ t 112870
+@ t 113856
+@ t 114821
+@ t 115829
+<@ t 116800
+@ r 117792
+@ r 119758
+@ t 121730
+@ duck 122710
+@ duck 124565
+@ r 125667
+@ k 127635
+@ r 129590
+@ bird 131560
+@ duck 132540
+@ h 133528
+@ duck 134514
+@ bird 135500
+@ duck 136480
+@ h 137466
+@ bird 139920
+@ bird 141399
+@ duck 142385
+@ h 143368
+@ duck 144349
+@ t 145331
+@ duck 147303
+@ duck 148285
+@ bird 149271
+@ duck 150253
+@ h 151239
+@ duck 152216
+@ r 153202
+@ k 155164

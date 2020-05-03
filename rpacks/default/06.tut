@@ -1,0 +1,44 @@
+play moustique
+wait 900
+stopsounds
+play matarmosquito
+text die! You pest!
+
+text anyway, hello!
+text want to kill some mosquitos? I'm sure you do, cuz they're annoying as f... at night, when you are trying to sleep, and...
+play moustique
+wait 800
+stopsounds
+play matarmosquito
+text yes, yes! die you too!
+text anyway, I don't think I can kill all of these without your help.
+text these mosquitos seem to work in groups, and for some reason they have a rhythmical communication system.
+text whenever a mosquito buzzes and I kill it, the next one in its group comes exactly 4 beats later! Isn't that curious?
+text anyway, you will need to kill mosquitos by pressing the enter key in groups of 4 beats, which means you will have to memorize and pay close attention.
+text try it with me, come on.
+text remember, enter key kills mosquitos!
+wait 900
+interactive mosquitos -4 3377 10130 10
+intersound mosquito 100 0 3377
+intersound mosquito 100 0 3801
+intersound mosquito 100 0 4225
+intersound mosquito 100 0 4649
+
+intersound matarmosquito 100 0 5073 key_enter
+intersound matarmosquito 100 0 5497 key_enter
+intersound matarmosquito 100 0 5921 key_enter
+intersound matarmosquito 100 0 6345 key_enter
+
+intersound mosquito 100 0 6765
+intersound mosquito 100 0 7189
+intersound mosquito 100 0 7401
+intersound mosquito 100 0 7613
+
+intersound matarmosquito 100 0 8458 key_enter
+intersound matarmosquito 100 0 8882 key_enter
+intersound matarmosquito 100 0 9094 key_enter
+intersound matarmosquito 100 0 9306 key_enter
+
+interactive end
+text you did it! You are the best!
+text it's now time to play the game!

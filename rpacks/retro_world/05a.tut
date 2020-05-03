@@ -1,0 +1,11 @@
+text hi!
+text remember crazy beats?
+text this is the same, but in 8bits, hence the name!
+text I don't think I need to explain this level, as you have already played the default pack. Every time you hear an incoming sound, you press the space bar one beat later.
+text there is also a sound that indicates 3 in a row, I almost forgot!
+text here it is.
+wait 600
+play b_3
+wait 600
+text I hope you are ready!
+text good luck!

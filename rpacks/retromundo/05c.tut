@@ -1,0 +1,69 @@
+play evil1
+wait 600
+play evil2
+wait 600
+text hola! es hora de cazar monstruos malos!
+text prepárate porque los monstruos están por llegar! Necesitas bastante reflejos en este nivel, así que el porcentage de fallida es más permisivo
+text bien, hay 3 tipos de monstruos
+text el primero que escuchaste, este
+wait 600
+play evil1
+wait 600
+text este, cuando lo escuches, esperas 2 tiempos y pulsas espacio. fácil, no?
+text mira
+music evil_bgm -5
+play evil1 1277
+play evil1shoot 1915
+say espacio!
+play evil1 2553
+play evil1shoot 3191
+say espacio!
+play evil1 3830
+play evil1shoot 4468
+say espacio!
+wait 800
+fade
+text fácil, no?
+text aquí tienes otro tipo de monstruo
+wait 600
+play evil2
+wait 600
+text este monstruo terrorífico es bastante resistente y rápido así que tienes que sacar tu gran pistola de plasma.
+text esperas un tiempo, y luego mantienes enter pulsado 2 tiempos y luego sueltas!
+text mira
+music evil_bgm -5
+play evil2 1277
+play evil2hold 1596
+say enter...
+play evil2ok 2234
+say suelta!
+play evil2 3830
+play evil2hold 4149
+say enter...
+play evil2ok 4787
+say suelta!
+wait 800
+fade
+text hay un último monstruito
+text es algo resistente también, y tienes que ser rápido
+text este es como el anterior, pero en vez de esperar 2 tiempos y pulsar espacio, esperas un tiempo y pulsas espacio 3 veces, en los 3 tiempos que le siguen.
+text mira
+music evil_bgm -5
+play evil3 1277
+play evil3shoot 1596
+say espacio!
+play evil3shoot 1915
+say espacio!
+play evil3kill 2234
+say espacio!
+play evil3 3830
+play evil3shoot 4149
+say espacio!
+play evil3shoot 4468
+say espacio!
+play evil3kill 4787
+say espacio!
+wait 800
+fade
+text ahora ya sabes cómo matar a esos monstruitos.. así que buena suerte!
+text mátalos a todos!

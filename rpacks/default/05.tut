@@ -1,0 +1,63 @@
+text are you ready to play beat pong rhythm rage style?
+text well, this isn't really beat pong... It's just a name.
+text but hey, I'm the cool numbers guy! You might remember me from the jago level.
+play pong1
+wait 540
+play pong2
+wait 600
+play pong3
+wait 150
+text Ow! My head!
+text anyway, this level is simple but hard at the same time.
+text there are 3 important things to do in this level.
+text first one, is what you already heard. 1, wait one beat, 2, wait another beat, and enter key! Ow!
+text like this:
+play pong1
+wait 540
+play pong2
+wait 600
+play pong3
+wait 150
+text Ow! My head!
+text try now, with the music!
+interactive beatpong -4 6580 12600 4
+intersound pong1 100 -30 8580
+intersound pong2 100 0 9080
+intersound pong3 100 30 9590 key_enter
+
+intersound pong1 100 -30 10580
+intersound pong2 100 0 11070
+intersound pong3 100 30 11590 key_enter
+
+interactive end
+text ok great!
+text there are also faster pongs, which happen in the span of one beat.
+text so 1 is on the beat, 2 is on the half beat, and you need to hit enter on the next beat! quite fast!
+text here. Let's try this.
+interactive beatpong -4 6580 12600 4
+intersound pong1 100 -30 9080
+intersound pong2 100 0 9320
+intersound pong3 100 30 9590 key_enter
+
+intersound pong1 100 -30 11590
+intersound pong2 100 0 11842
+intersound pong3 100 30 12089 key_enter
+
+interactive end
+text the last thing you need to understand are the ball carriers.
+text these ball carriers are small transport pads which carry new balls for you to hit.
+text you will hear a lower pitched number, 1 or 2, and a gong sound. this:
+wait 600
+play ponghold
+wait 600
+text you will need to hold the enter key the number of beats I say. so if I say 2, then you hear the gong sound, you need to hold enter key for 2 beats and then let go.
+text ok, just try it. There's no better way to understand than pure practice right?
+interactive beatpong -4 6580 12600 4
+intersound pong1 85 -30 8580
+intersound ponghold 100 0 9080
+intersound pongholdok 100 30 9590 key_enter 10100
+
+intersound pong1 100 -30 11590
+intersound pong2 100 0 11842
+intersound pong3 100 30 12089 key_enter
+interactive end
