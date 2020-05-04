@@ -36,7 +36,7 @@
     "unique-random": "^2.1.0"
   },
   "devDependencies": {
-    "electron": "^8.1.1",
+    "electron": "^8.2.5",
     "parcel-bundler": "^1.12.4"
   }
 }

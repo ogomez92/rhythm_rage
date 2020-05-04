@@ -123,7 +123,7 @@ import { KeyboardInput } from './input.js';
 export var langs = ['', 'english', 'spanish'];
 export let pack = 'default';
 export var data = '';
-export var path = os.homedir() + '/rpacks/' + pack + '/';
+export var path = __dirname + '/rpacks/' + pack + '/';
 document.addEventListener('DOMContentLoaded', setup);
 async function fade2(sound) {
 	await new Promise(async (resolve, reject) => {
@@ -140,17 +140,17 @@ async function setup() {
 	document.getElementById("app").focus();
 	let snd = so.create("logo" + lang);
 	await snd.playSync();
-	if (!fs.existsSync(os.homedir() + '/rpacks')) {
-		fs.mkdirSync(os.homedir() + '/rpacks');
+	if (!fs.existsSync(__dirname + '/rpacks')) {
+		fs.mkdirSync(__dirname + '/rpacks');
 	}
 	checkPack();
 }
 export function save() {
-	if (!fs.existsSync(os.homedir() + '/rpacks')) {
-		fs.mkdirSync(os.homedir() + '/rpacks');
+	if (!fs.existsSync(__dirname + '/rpacks')) {
+		fs.mkdirSync(__dirname + '/rpacks');
 	}
 	let write = JSON.stringify(data);
-	fs.writeFileSync(os.homedir() + '/rpacks/save.dat', write);
+	localStorage.setItem("data",write)
 }
 export async function checkPack(changeBoot = true, debug = false) {
 	perfectjng = "perfect_jingle";
@@ -158,8 +158,8 @@ export async function checkPack(changeBoot = true, debug = false) {
 	failjng = "fail_jingle";
 	okjng = "ok_jingle";
 	try {
-		//data = JSON.parse(mangle.decode(fs.readFileSync(os.homedir() + '/rpacks/save.dat')));
-		data = JSON.parse(fs.readFileSync(os.homedir() + '/rpacks/save.dat'));
+		//data = JSON.parse(mangle.decode(fs.readFileSync(__dirname + '/rpacks/save.dat')));
+		data=JSON.parse(localStorage.getItem("data"))
 		if (typeof data.rate !== 'undefined') {
 			speech.rate = data.rate;
 		}
@@ -188,11 +188,11 @@ export async function checkPack(changeBoot = true, debug = false) {
 	pack = data.pack;
 	lang = data.lang;
 	if (typeof data.rate !== "undefined") speech.rate = data.rate;
-	path = os.homedir() + '/rpacks/' + pack + '/';
+	path = __dirname + '/rpacks/' + pack + '/';
 	save();
 	if (!fs.existsSync(path)) {
 		pack = 'default';
-		path = os.homedir() + '/rpacks/' + pack + '/';
+		path = __dirname + '/rpacks/' + pack + '/';
 	}//exists
 	if (!fs.existsSync(path)) {
 		await new ScrollingText(strings.get("packError"));
