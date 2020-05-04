@@ -353,7 +353,8 @@ async function startgame(md) {
 		levname = levfiles[i].substr(0, levfiles[i].length - 4);
 		if (get_level(levname) > 1 || i == 0 || creatingpack) {
 			levels++;
-			let line = await fs.readFileSync(path + levfiles[i]).split("\n")[0]
+			let line = await fs.readFileSync(path + levfiles[i])
+			line=line.split("\n")[0]
 			console.log(line)
 			items.push(new MenuItem(levname, line.toString('utf8')));
 		}
